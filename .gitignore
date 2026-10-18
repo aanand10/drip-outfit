@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# scraper raw cache (re-creatable)
+scripts/.cache/
+!.env.example

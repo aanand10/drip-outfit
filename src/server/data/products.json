@@ -1,0 +1,5902 @@
+[
+  {
+    "id": "powerlook-white-contrast-detail-kurta-shirt",
+    "slot": "top",
+    "brand": "Powerlook",
+    "name": "White Contrast Detail Kurta Shirt",
+    "price": 1199,
+    "image": "https://cdn.shopify.com/s/files/1/0750/2685/8234/files/5_63ad1f49-02b4-44ba-90ad-bef9c51efb54.jpg",
+    "sourceUrl": "https://powerlook.in/products/white-contrast-detail-kurta-shirt",
+    "tags": {
+      "occasions": [
+        "wedding"
+      ],
+      "colour": "white",
+      "colourHex": "#f5f5f2",
+      "colourFamily": "neutral",
+      "formality": 5,
+      "style": "ethnic"
+    },
+    "variants": [
+      {
+        "variantId": "49759380504826",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "variantId": "49759380537594",
+        "size": "M",
+        "stock": 1
+      },
+      {
+        "variantId": "49759380570362",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "variantId": "49759380603130",
+        "size": "XL",
+        "stock": 1
+      },
+      {
+        "variantId": "49759380635898",
+        "size": "XXL",
+        "stock": 1
+      },
+      {
+        "variantId": "49759380668666",
+        "size": "3XL",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": "powerlook-brown-embroidered-linen-blend-kurta-shirt",
+    "slot": "top",
+    "brand": "Powerlook",
+    "name": "Brown Embroidered Linen Blend Kurta Shirt",
+    "price": 1199,
+    "image": "https://cdn.shopify.com/s/files/1/0750/2685/8234/files/Artboard_3_3x_b5964c8d-2866-4881-a702-8f7b7e8ab9f9.jpg",
+    "sourceUrl": "https://powerlook.in/products/brown-embroidered-linen-blend-kurta-shirt",
+    "tags": {
+      "occasions": [
+        "wedding"
+      ],
+      "colour": "brown",
+      "colourHex": "#6b4a34",
+      "colourFamily": "earth",
+      "formality": 5,
+      "style": "ethnic"
+    },
+    "variants": [
+      {
+        "variantId": "49647420866810",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "variantId": "49647420899578",
+        "size": "M",
+        "stock": 0
+      },
+      {
+        "variantId": "49647420932346",
+        "size": "L",
+        "stock": 6
+      },
+      {
+        "variantId": "49647420965114",
+        "size": "XL",
+        "stock": 5
+      },
+      {
+        "variantId": "49647420997882",
+        "size": "XXL",
+        "stock": 1
+      },
+      {
+        "variantId": "49647421030650",
+        "size": "3XL",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "powerlook-natural-embroidered-kurta",
+    "slot": "top",
+    "brand": "Powerlook",
+    "name": "Natural Embroidered Kurta",
+    "price": 1299,
+    "image": "https://cdn.shopify.com/s/files/1/0750/2685/8234/files/3_3x_15b52f28-08ec-4e73-880e-973b2f082a41.jpg",
+    "sourceUrl": "https://powerlook.in/products/natural-embroidered-kurta",
+    "tags": {
+      "occasions": [
+        "wedding"
+      ],
+      "colour": "cream",
+      "colourHex": "#efe6d2",
+      "colourFamily": "neutral",
+      "formality": 5,
+      "style": "ethnic"
+    },
+    "variants": [
+      {
+        "variantId": "50262839853306",
+        "size": "S",
+        "stock": 2
+      },
+      {
+        "variantId": "50262839886074",
+        "size": "M",
+        "stock": 1
+      },
+      {
+        "variantId": "50262839918842",
+        "size": "L",
+        "stock": 1
+      },
+      {
+        "variantId": "50262839951610",
+        "size": "XL",
+        "stock": 6
+      },
+      {
+        "variantId": "50262839984378",
+        "size": "XXL",
+        "stock": 5
+      },
+      {
+        "variantId": "50262840017146",
+        "size": "3XL",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": "powerlook-butter-yellow-zipper-kurta-shirt",
+    "slot": "top",
+    "brand": "Powerlook",
+    "name": "Butter Yellow Zipper Kurta Shirt",
+    "price": 1299,
+    "image": "https://cdn.shopify.com/s/files/1/0750/2685/8234/files/2_3x_4e385627-4748-4477-88ae-5caf328a291b.jpg",
+    "sourceUrl": "https://powerlook.in/products/butter-yellow-zipper-kurta-shirt",
+    "tags": {
+      "occasions": [
+        "wedding"
+      ],
+      "colour": "yellow",
+      "colourHex": "#e6c84a",
+      "colourFamily": "bold",
+      "formality": 5,
+      "style": "ethnic"
+    },
+    "variants": [
+      {
+        "variantId": "50439976157434",
+        "size": "S",
+        "stock": 2
+      },
+      {
+        "variantId": "50439976190202",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "variantId": "50439976222970",
+        "size": "L",
+        "stock": 1
+      },
+      {
+        "variantId": "50439976255738",
+        "size": "XL",
+        "stock": 5
+      },
+      {
+        "variantId": "50439976288506",
+        "size": "XXL",
+        "stock": 5
+      },
+      {
+        "variantId": "50439976321274",
+        "size": "3XL",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "powerlook-blue-washed-denim-kurta-shirt",
+    "slot": "top",
+    "brand": "Powerlook",
+    "name": "Blue Washed Denim Kurta Shirt",
+    "price": 1199,
+    "image": "https://cdn.shopify.com/s/files/1/0750/2685/8234/files/2_3x_f471ed46-c354-4f11-b09d-4982a8f2ed4f.jpg",
+    "sourceUrl": "https://powerlook.in/products/blue-washed-denim-kurta-shirt",
+    "tags": {
+      "occasions": [
+        "wedding"
+      ],
+      "colour": "blue",
+      "colourHex": "#3b5b8c",
+      "colourFamily": "cool",
+      "formality": 5,
+      "style": "ethnic"
+    },
+    "variants": [
+      {
+        "variantId": "48949947564282",
+        "size": "S",
+        "stock": 5
+      },
+      {
+        "variantId": "48949947597050",
+        "size": "M",
+        "stock": 2
+      },
+      {
+        "variantId": "48949947629818",
+        "size": "L",
+        "stock": 6
+      },
+      {
+        "variantId": "48949947662586",
+        "size": "XL",
+        "stock": 5
+      },
+      {
+        "variantId": "48949947695354",
+        "size": "XXL",
+        "stock": 3
+      },
+      {
+        "variantId": "48949947728122",
+        "size": "3XL",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "powerlook-black-seersucker-kurta-shirt",
+    "slot": "top",
+    "brand": "Powerlook",
+    "name": "Black Seersucker Kurta Shirt",
+    "price": 1299,
+    "image": "https://cdn.shopify.com/s/files/1/0750/2685/8234/files/2_3x_09678d47-629e-46a7-aca3-d4de95ec596a.jpg",
+    "sourceUrl": "https://powerlook.in/products/black-seersucker-kurta-shirt",
+    "tags": {
+      "occasions": [
+        "wedding"
+      ],
+      "colour": "black",
+      "colourHex": "#1b1b1b",
+      "colourFamily": "neutral",
+      "formality": 5,
+      "style": "ethnic"
+    },
+    "variants": [
+      {
+        "variantId": "49707101356282",
+        "size": "S",
+        "stock": 5
+      },
+      {
+        "variantId": "49707101389050",
+        "size": "M",
+        "stock": 5
+      },
+      {
+        "variantId": "49707101421818",
+        "size": "L",
+        "stock": 4
+      },
+      {
+        "variantId": "49707101454586",
+        "size": "XL",
+        "stock": 3
+      },
+      {
+        "variantId": "49707101487354",
+        "size": "XXL",
+        "stock": 0
+      },
+      {
+        "variantId": "49707101520122",
+        "size": "3XL",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": "powerlook-pine-green-structured-kurta-shirt",
+    "slot": "top",
+    "brand": "Powerlook",
+    "name": "Pine Green Structured Kurta Shirt",
+    "price": 1199,
+    "image": "https://cdn.shopify.com/s/files/1/0750/2685/8234/files/6_d176bced-0f0a-425c-9420-eac8899d380b.jpg",
+    "sourceUrl": "https://powerlook.in/products/pine-green-structured-kurta-shirt",
+    "tags": {
+      "occasions": [
+        "wedding"
+      ],
+      "colour": "green",
+      "colourHex": "#3f6b4a",
+      "colourFamily": "cool",
+      "formality": 5,
+      "style": "ethnic"
+    },
+    "variants": [
+      {
+        "variantId": "50439977730298",
+        "size": "S",
+        "stock": 3
+      },
+      {
+        "variantId": "50439977763066",
+        "size": "M",
+        "stock": 2
+      },
+      {
+        "variantId": "50439977795834",
+        "size": "L",
+        "stock": 1
+      },
+      {
+        "variantId": "50439977828602",
+        "size": "XL",
+        "stock": 5
+      },
+      {
+        "variantId": "50439977861370",
+        "size": "XXL",
+        "stock": 4
+      },
+      {
+        "variantId": "50439977894138",
+        "size": "3XL",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": "snitch-slim-fit-100-cotton-satin-shirt-4sfs169-03",
+    "slot": "top",
+    "brand": "Snitch",
+    "name": "Slim Fit 100% Cotton Satin Shirt",
+    "price": 1499,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_236a1abf-99bb-44e6-b567-65b3056b738d.jpg",
+    "sourceUrl": "https://snitch.co.in/products/slim-fit-100-cotton-satin-shirt-4sfs169-03",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "maroon",
+      "colourHex": "#6b1f2a",
+      "colourFamily": "earth",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "47603082395810",
+        "size": "S",
+        "stock": 3
+      },
+      {
+        "variantId": "47603082428578",
+        "size": "M",
+        "stock": 4
+      },
+      {
+        "variantId": "47603082461346",
+        "size": "L",
+        "stock": 2
+      },
+      {
+        "variantId": "47603082494114",
+        "size": "XL",
+        "stock": 5
+      },
+      {
+        "variantId": "47603082526882",
+        "size": "XXL",
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "id": "powerlook-mint-linen-blend-kurta-shirt",
+    "slot": "top",
+    "brand": "Powerlook",
+    "name": "Mint Linen Blend Kurta Shirt",
+    "price": 1099,
+    "image": "https://cdn.shopify.com/s/files/1/0750/2685/8234/files/5_d33591bb-9255-4884-890a-bddf06882d71.jpg",
+    "sourceUrl": "https://powerlook.in/products/mint-linen-blend-kurta-shirt",
+    "tags": {
+      "occasions": [
+        "wedding"
+      ],
+      "colour": "olive",
+      "colourHex": "#5b5a3a",
+      "colourFamily": "earth",
+      "formality": 5,
+      "style": "ethnic"
+    },
+    "variants": [
+      {
+        "variantId": "50054288670970",
+        "size": "S",
+        "stock": 2
+      },
+      {
+        "variantId": "50054288703738",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "variantId": "50054288736506",
+        "size": "L",
+        "stock": 3
+      },
+      {
+        "variantId": "50054288769274",
+        "size": "XL",
+        "stock": 5
+      },
+      {
+        "variantId": "50054288802042",
+        "size": "XXL",
+        "stock": 0
+      },
+      {
+        "variantId": "50054288834810",
+        "size": "3XL",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "snitch-brown-slim-fit-shirt-4sfs169-06",
+    "slot": "top",
+    "brand": "Snitch",
+    "name": "Slim Fit 100% Cotton Satin Shirt",
+    "price": 1499,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_2bdbd9fa-afe4-4e9e-9d99-394968132821.jpg",
+    "sourceUrl": "https://snitch.co.in/products/brown-slim-fit-shirt-4sfs169-06",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "brown",
+      "colourHex": "#6b4a34",
+      "colourFamily": "earth",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "47603082231970",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "variantId": "47603082264738",
+        "size": "M",
+        "stock": 2
+      },
+      {
+        "variantId": "47603082297506",
+        "size": "L",
+        "stock": 4
+      },
+      {
+        "variantId": "47603082330274",
+        "size": "XL",
+        "stock": 5
+      },
+      {
+        "variantId": "47603082363042",
+        "size": "XXL",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "snitch-white-slim-fit-shirt-4sfs169-09",
+    "slot": "top",
+    "brand": "Snitch",
+    "name": "White Slim Fit 100% Cotton Shirt",
+    "price": 1499,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_5846da56-8ca9-49a9-8dbb-96c21d4d04fd.jpg",
+    "sourceUrl": "https://snitch.co.in/products/white-slim-fit-shirt-4sfs169-09",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "casual"
+      ],
+      "colour": "white",
+      "colourHex": "#f5f5f2",
+      "colourFamily": "neutral",
+      "formality": 3,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "47640196120738",
+        "size": "S",
+        "stock": 1
+      },
+      {
+        "variantId": "47640196153506",
+        "size": "M",
+        "stock": 5
+      },
+      {
+        "variantId": "47640196186274",
+        "size": "L",
+        "stock": 2
+      },
+      {
+        "variantId": "47640196219042",
+        "size": "XL",
+        "stock": 6
+      },
+      {
+        "variantId": "47640196251810",
+        "size": "XXL",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "id": "snitch-100-cotton-regular-fit-polo-ribbed-t-shirt-4pl120-01",
+    "slot": "top",
+    "brand": "Snitch",
+    "name": "Contrast Collar Flat Knit Polo T-Shirt",
+    "price": 1499,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_567d062a-0587-42d4-ad74-4c09c81ead85.jpg",
+    "sourceUrl": "https://snitch.co.in/products/100-cotton-regular-fit-polo-ribbed-t-shirt-4pl120-01",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "casual"
+      ],
+      "colour": "black",
+      "colourHex": "#1b1b1b",
+      "colourFamily": "neutral",
+      "formality": 3,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "47431724761250",
+        "size": "XS",
+        "stock": 4
+      },
+      {
+        "variantId": "47431724794018",
+        "size": "S",
+        "stock": 1
+      },
+      {
+        "variantId": "47431724826786",
+        "size": "M",
+        "stock": 2
+      },
+      {
+        "variantId": "47431724859554",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "variantId": "47431724892322",
+        "size": "XL",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "snitch-snitch-plus-linen-regular-fit-shirt-4mbgss1237-01",
+    "slot": "top",
+    "brand": "Snitch",
+    "name": "Linen Blend Regular Fit Plus Size Shirt",
+    "price": 1499,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_71e6de6a-adba-4d3b-bd18-659eddd11930.jpg",
+    "sourceUrl": "https://snitch.co.in/products/snitch-plus-linen-regular-fit-shirt-4mbgss1237-01",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "casual"
+      ],
+      "colour": "cream",
+      "colourHex": "#efe6d2",
+      "colourFamily": "neutral",
+      "formality": 3,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "50576246669474",
+        "size": "3XL",
+        "stock": 5
+      },
+      {
+        "variantId": "50576246702242",
+        "size": "4XL",
+        "stock": 1
+      },
+      {
+        "variantId": "50576246735010",
+        "size": "5XL",
+        "stock": 2
+      },
+      {
+        "variantId": "50576246767778",
+        "size": "6XL",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": "snitch-plaid-100-cotton-regular-fit-shirt-4sfs136-02",
+    "slot": "top",
+    "brand": "Snitch",
+    "name": "100% Cotton Checks Shirt",
+    "price": 1499,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_b47d98b9-36a9-4b31-865b-2f7da2893659.jpg",
+    "sourceUrl": "https://snitch.co.in/products/plaid-100-cotton-regular-fit-shirt-4sfs136-02",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "casual"
+      ],
+      "colour": "olive",
+      "colourHex": "#5b5a3a",
+      "colourFamily": "earth",
+      "formality": 3,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "50527958335650",
+        "size": "XS",
+        "stock": 4
+      },
+      {
+        "variantId": "50527958368418",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "variantId": "50527958401186",
+        "size": "M",
+        "stock": 2
+      },
+      {
+        "variantId": "50527958433954",
+        "size": "L",
+        "stock": 6
+      },
+      {
+        "variantId": "50527958466722",
+        "size": "XL",
+        "stock": 4
+      },
+      {
+        "variantId": "50527958499490",
+        "size": "XXL",
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "id": "snitch-regular-fit-textured-zipper-polo-t-shirt-4pl104-02",
+    "slot": "top",
+    "brand": "Snitch",
+    "name": "Contrast Collar Flat Knit Zipper Polo T-Shirt",
+    "price": 1499,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_8ea6ec6a-91dc-4e06-a04c-6e4d580ab056.jpg",
+    "sourceUrl": "https://snitch.co.in/products/regular-fit-textured-zipper-polo-t-shirt-4pl104-02",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "casual"
+      ],
+      "colour": "blue",
+      "colourHex": "#3b5b8c",
+      "colourFamily": "cool",
+      "formality": 3,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "50585625985186",
+        "size": "XS",
+        "stock": 6
+      },
+      {
+        "variantId": "50585626017954",
+        "size": "S",
+        "stock": 6
+      },
+      {
+        "variantId": "50585626050722",
+        "size": "M",
+        "stock": 1
+      },
+      {
+        "variantId": "50585626083490",
+        "size": "L",
+        "stock": 6
+      },
+      {
+        "variantId": "50585626116258",
+        "size": "XL",
+        "stock": 1
+      },
+      {
+        "variantId": "50585626149026",
+        "size": "XXL",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "id": "snitch-light-grey-technical-stitchless-polo-t-shirt-4mst2344-04",
+    "slot": "top",
+    "brand": "Snitch",
+    "name": "Light Grey Technical Stitchless Polo T-Shirt",
+    "price": 1499,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MST2344-04-M17.jpg",
+    "sourceUrl": "https://snitch.co.in/products/light-grey-technical-stitchless-polo-t-shirt-4mst2344-04",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "casual"
+      ],
+      "colour": "grey",
+      "colourHex": "#8f9092",
+      "colourFamily": "neutral",
+      "formality": 3,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "45154620244130",
+        "size": "S",
+        "stock": 1
+      },
+      {
+        "variantId": "45154620276898",
+        "size": "M",
+        "stock": 6
+      },
+      {
+        "variantId": "45154620309666",
+        "size": "L",
+        "stock": 6
+      },
+      {
+        "variantId": "45154620342434",
+        "size": "XL",
+        "stock": 3
+      },
+      {
+        "variantId": "45154620375202",
+        "size": "XXL",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "id": "snitch-100-cotton-regular-fit-polo-t-shirt-4pl202-05",
+    "slot": "top",
+    "brand": "Snitch",
+    "name": "Structured Flat Knit Polo T-Shirt",
+    "price": 1499,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_3eb63903-e741-4f05-9f84-640758486665.jpg",
+    "sourceUrl": "https://snitch.co.in/products/100-cotton-regular-fit-polo-t-shirt-4pl202-05",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "casual"
+      ],
+      "colour": "off white",
+      "colourHex": "#f1eee6",
+      "colourFamily": "neutral",
+      "formality": 3,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "47446104440994",
+        "size": "XS",
+        "stock": 6
+      },
+      {
+        "variantId": "47446104473762",
+        "size": "S",
+        "stock": 2
+      },
+      {
+        "variantId": "47446104506530",
+        "size": "M",
+        "stock": 2
+      },
+      {
+        "variantId": "47446104539298",
+        "size": "L",
+        "stock": 1
+      },
+      {
+        "variantId": "47446104572066",
+        "size": "XL",
+        "stock": 2
+      },
+      {
+        "variantId": "47446104604834",
+        "size": "XXL",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "id": "snitch-100-cotton-regular-fit-polo-t-shirt-4pl202-04",
+    "slot": "top",
+    "brand": "Snitch",
+    "name": "Structured Flat Knit Polo T-Shirt",
+    "price": 1499,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_1821adf3-b048-44bb-a17b-5f76d28e37c8.jpg",
+    "sourceUrl": "https://snitch.co.in/products/100-cotton-regular-fit-polo-t-shirt-4pl202-04",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "casual"
+      ],
+      "colour": "green",
+      "colourHex": "#3f6b4a",
+      "colourFamily": "cool",
+      "formality": 3,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "47434298753186",
+        "size": "XS",
+        "stock": 1
+      },
+      {
+        "variantId": "47434298785954",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "variantId": "47434298818722",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "variantId": "47434298851490",
+        "size": "L",
+        "stock": 6
+      },
+      {
+        "variantId": "47434298884258",
+        "size": "XL",
+        "stock": 4
+      },
+      {
+        "variantId": "47434298917026",
+        "size": "XXL",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "id": "snitch-stripes-box-fit-shirt-4shs047-11",
+    "slot": "top",
+    "brand": "Snitch",
+    "name": "Stripes Box Fit Shirt",
+    "price": 1499,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_fa528605-0c0b-4484-96d1-3a3e3de48502.jpg",
+    "sourceUrl": "https://snitch.co.in/products/stripes-box-fit-shirt-4shs047-11",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "casual"
+      ],
+      "colour": "navy",
+      "colourHex": "#1f2a44",
+      "colourFamily": "cool",
+      "formality": 3,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "47640202248354",
+        "size": "XS",
+        "stock": 0
+      },
+      {
+        "variantId": "47640202281122",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "variantId": "47640202313890",
+        "size": "M",
+        "stock": 5
+      },
+      {
+        "variantId": "47640202346658",
+        "size": "L",
+        "stock": 2
+      },
+      {
+        "variantId": "47640202379426",
+        "size": "XL",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "powerlook-wine-embroidered-zipper-shirt",
+    "slot": "top",
+    "brand": "Powerlook",
+    "name": "Wine Embroidered Zipper Shirt 100% Cotton",
+    "price": 1399,
+    "image": "https://cdn.shopify.com/s/files/1/0750/2685/8234/files/1_3x_3451999d-48a8-4a2c-91db-89b9500c7d47.jpg",
+    "sourceUrl": "https://powerlook.in/products/wine-embroidered-zipper-shirt",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "casual"
+      ],
+      "colour": "maroon",
+      "colourHex": "#6b1f2a",
+      "colourFamily": "earth",
+      "formality": 3,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "48949949399290",
+        "size": "S",
+        "stock": 5
+      },
+      {
+        "variantId": "48949949432058",
+        "size": "M",
+        "stock": 5
+      },
+      {
+        "variantId": "48949949464826",
+        "size": "L",
+        "stock": 1
+      },
+      {
+        "variantId": "48949949497594",
+        "size": "XL",
+        "stock": 1
+      },
+      {
+        "variantId": "48949949530362",
+        "size": "XXL",
+        "stock": 4
+      },
+      {
+        "variantId": "48949949563130",
+        "size": "3XL",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "powerlook-beige-structured-knit-stripe-t-shirt",
+    "slot": "top",
+    "brand": "Powerlook",
+    "name": "Beige Structured Knit Stripe T-Shirt 100% Cotton",
+    "price": 1399,
+    "image": "https://cdn.shopify.com/s/files/1/0750/2685/8234/files/1704211.jpg",
+    "sourceUrl": "https://powerlook.in/products/beige-structured-knit-stripe-t-shirt",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "beige",
+      "colourHex": "#d9c8a9",
+      "colourFamily": "neutral",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "49759384699130",
+        "size": "S",
+        "stock": 6
+      },
+      {
+        "variantId": "49759384731898",
+        "size": "M",
+        "stock": 6
+      },
+      {
+        "variantId": "49759384764666",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "variantId": "49759384797434",
+        "size": "XL",
+        "stock": 5
+      },
+      {
+        "variantId": "49759384830202",
+        "size": "XXL",
+        "stock": 5
+      },
+      {
+        "variantId": "49759384862970",
+        "size": "3XL",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "powerlook-grey-sky-contrast-collar-t-shirt",
+    "slot": "top",
+    "brand": "Powerlook",
+    "name": "Grey Sky Contrast Collar T-Shirt",
+    "price": 1399,
+    "image": "https://cdn.shopify.com/s/files/1/0750/2685/8234/files/5_ba4cf064-d316-4260-b475-cfb840745d16.jpg",
+    "sourceUrl": "https://powerlook.in/products/grey-sky-contrast-collar-t-shirt",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "grey",
+      "colourHex": "#8f9092",
+      "colourFamily": "neutral",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "49962614128890",
+        "size": "S",
+        "stock": 1
+      },
+      {
+        "variantId": "49962614161658",
+        "size": "M",
+        "stock": 1
+      },
+      {
+        "variantId": "49962614194426",
+        "size": "L",
+        "stock": 1
+      },
+      {
+        "variantId": "49962614227194",
+        "size": "XL",
+        "stock": 6
+      },
+      {
+        "variantId": "49962614259962",
+        "size": "XXL",
+        "stock": 1
+      },
+      {
+        "variantId": "49962614292730",
+        "size": "3XL",
+        "stock": 1
+      }
+    ]
+  },
+  {
+    "id": "snitch-regular-fit-stripes-shirt-4sfs050-02",
+    "slot": "top",
+    "brand": "Snitch",
+    "name": "100% Cotton Stripes Shirt",
+    "price": 1399,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_d7ab918b-eb93-4105-a571-cde802a47e08.jpg",
+    "sourceUrl": "https://snitch.co.in/products/regular-fit-stripes-shirt-4sfs050-02",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "pink",
+      "colourHex": "#e3a3b5",
+      "colourFamily": "bold",
+      "formality": 3,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "47466572808354",
+        "size": "XS",
+        "stock": 5
+      },
+      {
+        "variantId": "47466572841122",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "variantId": "47466572873890",
+        "size": "M",
+        "stock": 5
+      },
+      {
+        "variantId": "47466572906658",
+        "size": "L",
+        "stock": 2
+      },
+      {
+        "variantId": "47466572939426",
+        "size": "XL",
+        "stock": 6
+      },
+      {
+        "variantId": "47466572972194",
+        "size": "XXL",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "id": "snitch-regular-fit-stripes-shirt-4sfs050-03",
+    "slot": "top",
+    "brand": "Snitch",
+    "name": "100% Cotton Stripes Shirt",
+    "price": 1399,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_72397755-4112-468c-8621-f2af5782ed32.jpg",
+    "sourceUrl": "https://snitch.co.in/products/regular-fit-stripes-shirt-4sfs050-03",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "casual"
+      ],
+      "colour": "beige",
+      "colourHex": "#d9c8a9",
+      "colourFamily": "neutral",
+      "formality": 3,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "47466573004962",
+        "size": "XS",
+        "stock": 0
+      },
+      {
+        "variantId": "47466573037730",
+        "size": "S",
+        "stock": 2
+      },
+      {
+        "variantId": "47466573070498",
+        "size": "M",
+        "stock": 1
+      },
+      {
+        "variantId": "47466573103266",
+        "size": "L",
+        "stock": 1
+      },
+      {
+        "variantId": "47466573136034",
+        "size": "XL",
+        "stock": 3
+      },
+      {
+        "variantId": "47466573168802",
+        "size": "XXL",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "powerlook-roman-print-structured-t-shirt",
+    "slot": "top",
+    "brand": "Powerlook",
+    "name": "Roman Print Structured T-Shirt",
+    "price": 1399,
+    "image": "https://cdn.shopify.com/s/files/1/0750/2685/8234/files/1_1fd834f2-90ee-4b5c-8414-2a8ce84f4a0e.jpg",
+    "sourceUrl": "https://powerlook.in/products/roman-print-structured-t-shirt",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "pink",
+      "colourHex": "#e3a3b5",
+      "colourFamily": "bold",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "50128208298234",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "variantId": "50128208331002",
+        "size": "M",
+        "stock": 5
+      },
+      {
+        "variantId": "50128208363770",
+        "size": "L",
+        "stock": 1
+      },
+      {
+        "variantId": "50128208396538",
+        "size": "XL",
+        "stock": 5
+      },
+      {
+        "variantId": "50128208429306",
+        "size": "XXL",
+        "stock": 1
+      },
+      {
+        "variantId": "50128208462074",
+        "size": "3XL",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "snitch-purple-technical-stitchless-t-shirt-4mst2343-04",
+    "slot": "top",
+    "brand": "Snitch",
+    "name": "Purple Technical Stitchless Polo T-Shirt",
+    "price": 1399,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MST2343-04-M35.jpg",
+    "sourceUrl": "https://snitch.co.in/products/purple-technical-stitchless-t-shirt-4mst2343-04",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "purple",
+      "colourHex": "#6a4c93",
+      "colourFamily": "bold",
+      "formality": 3,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "45154622767266",
+        "size": "S",
+        "stock": 5
+      },
+      {
+        "variantId": "45154622800034",
+        "size": "M",
+        "stock": 5
+      },
+      {
+        "variantId": "45154622832802",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "variantId": "45154622865570",
+        "size": "XL",
+        "stock": 4
+      },
+      {
+        "variantId": "45154622898338",
+        "size": "XXL",
+        "stock": 1
+      }
+    ]
+  },
+  {
+    "id": "bonkers-corner-varsity-red-rugby-polo",
+    "slot": "top",
+    "brand": "Bonkers Corner",
+    "name": "Varsity Red Rugby Polo",
+    "price": 1399,
+    "image": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/VarsityRedRugbyPolo4.jpg",
+    "sourceUrl": "https://bonkerscorner.com/products/varsity-red-rugby-polo",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "red",
+      "colourHex": "#b8322b",
+      "colourFamily": "bold",
+      "formality": 3,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "53922906046828",
+        "size": "XS",
+        "stock": 2
+      },
+      {
+        "variantId": "53922906079596",
+        "size": "S",
+        "stock": 6
+      },
+      {
+        "variantId": "53922906112364",
+        "size": "M",
+        "stock": 5
+      },
+      {
+        "variantId": "53922906145132",
+        "size": "L",
+        "stock": 1
+      },
+      {
+        "variantId": "53922906177900",
+        "size": "XL",
+        "stock": 3
+      },
+      {
+        "variantId": "53922906210668",
+        "size": "XXL",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "id": "rare-rabbit-ject-s26-mens-t-shirt-black",
+    "slot": "top",
+    "brand": "Rare Rabbit",
+    "name": "Ject-S26 Black Cotton Fabric Half Sleeve Crew Neck Regular Fit Embroidered T-Shirt",
+    "price": 1424,
+    "image": "https://cdn.shopify.com/s/files/1/0752/6435/files/HARSHITH-SHOPIFY-19-08-26_ject-s26-mens-t-shirt-black_1_ad1e8f93-c5f3-4983-8457-32a1be1a1857.webp",
+    "sourceUrl": "https://thehouseofrare.com/products/ject-s26-mens-t-shirt-black",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "black",
+      "colourHex": "#1b1b1b",
+      "colourFamily": "neutral",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "42146784903239",
+        "size": "XS-36",
+        "stock": 0
+      },
+      {
+        "variantId": "42146784936007",
+        "size": "S-38",
+        "stock": 5
+      },
+      {
+        "variantId": "42146784968775",
+        "size": "M-40",
+        "stock": 4
+      },
+      {
+        "variantId": "42146785001543",
+        "size": "L-42",
+        "stock": 0
+      },
+      {
+        "variantId": "42146785034311",
+        "size": "XL-44",
+        "stock": 0
+      },
+      {
+        "variantId": "42146785067079",
+        "size": "XXL-46",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "rare-rabbit-antu-mens-t-shirt-blue",
+    "slot": "top",
+    "brand": "Rare Rabbit",
+    "name": "Antu Blue Cotton Graphic Print Regular Fit Half Sleeve Crew Neck T-Shirt",
+    "price": 1310,
+    "image": "https://cdn.shopify.com/s/files/1/0752/6435/files/ANTUBLUE__ANTUBLUE_04266.webp",
+    "sourceUrl": "https://thehouseofrare.com/products/antu-mens-t-shirt-blue",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "blue",
+      "colourHex": "#3b5b8c",
+      "colourFamily": "cool",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "41082143572039",
+        "size": "XS-36",
+        "stock": 0
+      },
+      {
+        "variantId": "41082143604807",
+        "size": "S-38",
+        "stock": 3
+      },
+      {
+        "variantId": "41082143637575",
+        "size": "M-40",
+        "stock": 0
+      },
+      {
+        "variantId": "41082143670343",
+        "size": "L-42",
+        "stock": 0
+      },
+      {
+        "variantId": "41082143703111",
+        "size": "XL-44",
+        "stock": 0
+      },
+      {
+        "variantId": "41082143735879",
+        "size": "XXL-46",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "id": "powerlook-wine-embroidered-micro-checks-shirt",
+    "slot": "top",
+    "brand": "Powerlook",
+    "name": "Wine Embroidered Micro Checks Shirt",
+    "price": 1299,
+    "image": "https://cdn.shopify.com/s/files/1/0750/2685/8234/files/6_c4e19705-8eff-45bc-a555-6b3477330ccf.jpg",
+    "sourceUrl": "https://powerlook.in/products/wine-embroidered-micro-checks-shirt",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "red",
+      "colourHex": "#b8322b",
+      "colourFamily": "bold",
+      "formality": 3,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "49026458681594",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "variantId": "49026458714362",
+        "size": "M",
+        "stock": 5
+      },
+      {
+        "variantId": "49026458747130",
+        "size": "L",
+        "stock": 2
+      },
+      {
+        "variantId": "49026458779898",
+        "size": "XL",
+        "stock": 3
+      },
+      {
+        "variantId": "49026458812666",
+        "size": "XXL",
+        "stock": 0
+      },
+      {
+        "variantId": "49026458845434",
+        "size": "3XL",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "powerlook-lavender-linen-blend-shirt",
+    "slot": "top",
+    "brand": "Powerlook",
+    "name": "Lavender Linen Blend Shirt",
+    "price": 1199,
+    "image": "https://cdn.shopify.com/s/files/1/0750/2685/8234/files/5_5e7f894f-0fe5-4c7c-8a39-840c06542016.jpg",
+    "sourceUrl": "https://powerlook.in/products/lavender-linen-blend-shirt",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "purple",
+      "colourHex": "#6a4c93",
+      "colourFamily": "bold",
+      "formality": 3,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "48137106227450",
+        "size": "S",
+        "stock": 2
+      },
+      {
+        "variantId": "48137106260218",
+        "size": "M",
+        "stock": 1
+      },
+      {
+        "variantId": "48137106292986",
+        "size": "L",
+        "stock": 6
+      },
+      {
+        "variantId": "48137106325754",
+        "size": "XL",
+        "stock": 3
+      },
+      {
+        "variantId": "48137106358522",
+        "size": "XXL",
+        "stock": 2
+      },
+      {
+        "variantId": "48137106391290",
+        "size": "3XL",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "rare-rabbit-cadex-mens-shirt-light-pink",
+    "slot": "top",
+    "brand": "Rare Rabbit",
+    "name": "Cadex Light Pink Cotton Fabric Full Sleeve Mandarin Collar Regular Fit Plain Shirt",
+    "price": 1599,
+    "image": "https://cdn.shopify.com/s/files/1/0752/6435/files/RR268978-hm.webp",
+    "sourceUrl": "https://thehouseofrare.com/products/cadex-mens-shirt-light-pink",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "pink",
+      "colourHex": "#e3a3b5",
+      "colourFamily": "bold",
+      "formality": 3,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "42200869666887",
+        "size": "XS-36",
+        "stock": 0
+      },
+      {
+        "variantId": "42200869699655",
+        "size": "S-38",
+        "stock": 2
+      },
+      {
+        "variantId": "42200869732423",
+        "size": "M-40",
+        "stock": 0
+      },
+      {
+        "variantId": "42200869765191",
+        "size": "L-42",
+        "stock": 1
+      },
+      {
+        "variantId": "42200869797959",
+        "size": "XL-44",
+        "stock": 4
+      },
+      {
+        "variantId": "42200869830727",
+        "size": "XXL-46",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "bonkers-corner-brick-grey-check-relaxed-fit-shirt",
+    "slot": "top",
+    "brand": "Bonkers Corner",
+    "name": "Brick Grey Check Relaxed Fit Shirt",
+    "price": 1599,
+    "image": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/Brick_Grey_Check_Relaxed_Fit_Shirt8.jpg",
+    "sourceUrl": "https://bonkerscorner.com/products/brick-grey-check-relaxed-fit-shirt",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "casual"
+      ],
+      "colour": "grey",
+      "colourHex": "#8f9092",
+      "colourFamily": "neutral",
+      "formality": 3,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "67738184286572",
+        "size": "XS",
+        "stock": 3
+      },
+      {
+        "variantId": "67738184319340",
+        "size": "S",
+        "stock": 2
+      },
+      {
+        "variantId": "67738184352108",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "variantId": "67738184384876",
+        "size": "L",
+        "stock": 3
+      },
+      {
+        "variantId": "67738184417644",
+        "size": "XL",
+        "stock": 2
+      },
+      {
+        "variantId": "67738184450412",
+        "size": "XXL",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "id": "bonkers-corner-red-green-check-relaxed-fit-shirt",
+    "slot": "top",
+    "brand": "Bonkers Corner",
+    "name": "Red Green Check Relaxed Fit Shirt",
+    "price": 1599,
+    "image": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/Red_Green_Check_Relaxed_Fit_Shirt7.jpg",
+    "sourceUrl": "https://bonkerscorner.com/products/red-green-check-relaxed-fit-shirt",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "casual"
+      ],
+      "colour": "green",
+      "colourHex": "#3f6b4a",
+      "colourFamily": "cool",
+      "formality": 3,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "67737416040812",
+        "size": "XS",
+        "stock": 5
+      },
+      {
+        "variantId": "67737416073580",
+        "size": "S",
+        "stock": 5
+      },
+      {
+        "variantId": "67737416106348",
+        "size": "M",
+        "stock": 2
+      },
+      {
+        "variantId": "67737416139116",
+        "size": "L",
+        "stock": 4
+      },
+      {
+        "variantId": "67737416171884",
+        "size": "XL",
+        "stock": 1
+      },
+      {
+        "variantId": "67737416204652",
+        "size": "XXL",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "bonkers-corner-blue-check-relaxed-fit-shirt",
+    "slot": "top",
+    "brand": "Bonkers Corner",
+    "name": "Blue Check Relaxed Fit Shirt",
+    "price": 1599,
+    "image": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/Blue_Check_Relaxed_Fit-Shirt6.jpg",
+    "sourceUrl": "https://bonkerscorner.com/products/blue-check-relaxed-fit-shirt",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "casual"
+      ],
+      "colour": "blue",
+      "colourHex": "#3b5b8c",
+      "colourFamily": "cool",
+      "formality": 3,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "67736481988972",
+        "size": "XS",
+        "stock": 5
+      },
+      {
+        "variantId": "67736482021740",
+        "size": "S",
+        "stock": 3
+      },
+      {
+        "variantId": "67736482054508",
+        "size": "M",
+        "stock": 4
+      },
+      {
+        "variantId": "67736482087276",
+        "size": "L",
+        "stock": 2
+      },
+      {
+        "variantId": "67736482120044",
+        "size": "XL",
+        "stock": 3
+      },
+      {
+        "variantId": "67736482152812",
+        "size": "XXL",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": "bonkers-corner-brown-check-relaxed-fit-shirt",
+    "slot": "top",
+    "brand": "Bonkers Corner",
+    "name": "Brown Check Relaxed Fit Shirt",
+    "price": 1599,
+    "image": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/Brown_Check_Relaxed_Fit_Shirt6.jpg",
+    "sourceUrl": "https://bonkerscorner.com/products/brown-check-relaxed-fit-shirt",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "casual"
+      ],
+      "colour": "brown",
+      "colourHex": "#6b4a34",
+      "colourFamily": "earth",
+      "formality": 3,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "67736226922860",
+        "size": "XS",
+        "stock": 1
+      },
+      {
+        "variantId": "67736226955628",
+        "size": "S",
+        "stock": 3
+      },
+      {
+        "variantId": "67736226988396",
+        "size": "M",
+        "stock": 6
+      },
+      {
+        "variantId": "67736227021164",
+        "size": "L",
+        "stock": 6
+      },
+      {
+        "variantId": "67736227053932",
+        "size": "XL",
+        "stock": 3
+      },
+      {
+        "variantId": "67736227086700",
+        "size": "XXL",
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "id": "rare-rabbit-nova-mens-shirt-dark-maroon",
+    "slot": "top",
+    "brand": "Rare Rabbit",
+    "name": "Nova Dark Maroon Cotton Fabric Full Sleeve Collared Neck Geometric Print Shirt",
+    "price": 1633,
+    "image": "https://cdn.shopify.com/s/files/1/0752/6435/files/NOVAMAROON_1_-hm.webp",
+    "sourceUrl": "https://thehouseofrare.com/products/nova-mens-shirt-dark-maroon",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "maroon",
+      "colourHex": "#6b1f2a",
+      "colourFamily": "earth",
+      "formality": 2,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "41790720081991",
+        "size": "XS-36",
+        "stock": 0
+      },
+      {
+        "variantId": "41790720114759",
+        "size": "S-38",
+        "stock": 4
+      },
+      {
+        "variantId": "41790720147527",
+        "size": "M-40",
+        "stock": 0
+      },
+      {
+        "variantId": "41790720180295",
+        "size": "L-42",
+        "stock": 0
+      },
+      {
+        "variantId": "41790720213063",
+        "size": "XL-44",
+        "stock": 5
+      },
+      {
+        "variantId": "41790720245831",
+        "size": "XXL-46",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "rare-rabbit-rezos-mens-shirt-dark-green",
+    "slot": "top",
+    "brand": "Rare Rabbit",
+    "name": "Rezos Dark Green Cotton Button-Down Collar Regular Fit Plain Shirt",
+    "price": 1639,
+    "image": "https://cdn.shopify.com/s/files/1/0752/6435/files/RR287740_1_-hm.webp",
+    "sourceUrl": "https://thehouseofrare.com/products/rezos-mens-shirt-dark-green",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "casual"
+      ],
+      "colour": "green",
+      "colourHex": "#3f6b4a",
+      "colourFamily": "cool",
+      "formality": 3,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "42713285230663",
+        "size": "XS-36",
+        "stock": 0
+      },
+      {
+        "variantId": "42713285263431",
+        "size": "S-38",
+        "stock": 5
+      },
+      {
+        "variantId": "42713285296199",
+        "size": "M-40",
+        "stock": 0
+      },
+      {
+        "variantId": "42713285328967",
+        "size": "L-42",
+        "stock": 6
+      },
+      {
+        "variantId": "42713285361735",
+        "size": "XL-44",
+        "stock": 0
+      },
+      {
+        "variantId": "42713285394503",
+        "size": "XXL-46",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "rare-rabbit-braido-mens-polo-dusky-olive",
+    "slot": "top",
+    "brand": "Rare Rabbit",
+    "name": "Braido Dusky Olive Cotton Blend Fabric Half Sleeve Spread Collar Plain Polo",
+    "price": 1649,
+    "image": "https://cdn.shopify.com/s/files/1/0752/6435/files/RR245654__1_-hm.webp",
+    "sourceUrl": "https://thehouseofrare.com/products/braido-mens-polo-dusky-olive",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "casual"
+      ],
+      "colour": "olive",
+      "colourHex": "#5b5a3a",
+      "colourFamily": "earth",
+      "formality": 3,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "41765314428999",
+        "size": "XS-36",
+        "stock": 0
+      },
+      {
+        "variantId": "41765314461767",
+        "size": "S-38",
+        "stock": 0
+      },
+      {
+        "variantId": "41765314494535",
+        "size": "M-40",
+        "stock": 5
+      },
+      {
+        "variantId": "41765314527303",
+        "size": "L-42",
+        "stock": 6
+      },
+      {
+        "variantId": "41765314560071",
+        "size": "XL-44",
+        "stock": 0
+      },
+      {
+        "variantId": "41765314592839",
+        "size": "XXL-46",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "rare-rabbit-arko-mens-polo-off-white",
+    "slot": "top",
+    "brand": "Rare Rabbit",
+    "name": "Arko Off White Cotton Blend Plain Regular Fit Half Sleeve Polo",
+    "price": 1651,
+    "image": "https://cdn.shopify.com/s/files/1/0752/6435/files/ARKOOFFWHITE04449.webp",
+    "sourceUrl": "https://thehouseofrare.com/products/arko-mens-polo-off-white",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "casual"
+      ],
+      "colour": "off white",
+      "colourHex": "#f1eee6",
+      "colourFamily": "neutral",
+      "formality": 3,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "41247952371783",
+        "size": "XS-36",
+        "stock": 0
+      },
+      {
+        "variantId": "41247952404551",
+        "size": "S-38",
+        "stock": 5
+      },
+      {
+        "variantId": "41247952437319",
+        "size": "M-40",
+        "stock": 0
+      },
+      {
+        "variantId": "41247952470087",
+        "size": "L-42",
+        "stock": 5
+      },
+      {
+        "variantId": "41247952502855",
+        "size": "XL-44",
+        "stock": 0
+      },
+      {
+        "variantId": "41247952535623",
+        "size": "XXL-46",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "snitch-textured-beige-trousers-4tr059-01",
+    "slot": "trousers",
+    "brand": "Snitch",
+    "name": "Slim Fit Pleated Trousers",
+    "price": 1799,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_a071185b-7656-4c6c-b73e-0d6ee7a46e66.jpg",
+    "sourceUrl": "https://snitch.co.in/products/textured-beige-trousers-4tr059-01",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "beige",
+      "colourHex": "#d9c8a9",
+      "colourFamily": "neutral",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "50577669587106",
+        "size": "30",
+        "stock": 4
+      },
+      {
+        "variantId": "50577669619874",
+        "size": "32",
+        "stock": 3
+      },
+      {
+        "variantId": "50577669652642",
+        "size": "34",
+        "stock": 5
+      },
+      {
+        "variantId": "50577669685410",
+        "size": "36",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "snitch-textured-olive-trousers-4tr059-02",
+    "slot": "trousers",
+    "brand": "Snitch",
+    "name": "Slim Fit Pleated Trousers",
+    "price": 1799,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_d51eef2c-8f21-4996-a3e9-10a35721b79f.jpg",
+    "sourceUrl": "https://snitch.co.in/products/textured-olive-trousers-4tr059-02",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "olive",
+      "colourHex": "#5b5a3a",
+      "colourFamily": "earth",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "50577669718178",
+        "size": "30",
+        "stock": 2
+      },
+      {
+        "variantId": "50577669750946",
+        "size": "32",
+        "stock": 5
+      },
+      {
+        "variantId": "50577669783714",
+        "size": "34",
+        "stock": 3
+      },
+      {
+        "variantId": "50577669816482",
+        "size": "36",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "id": "snitch-textured-black-trousers-4tr058-03",
+    "slot": "trousers",
+    "brand": "Snitch",
+    "name": "Slim Fit Stretch Trousers",
+    "price": 1799,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_b01fa8ae-775c-4019-96d8-898bccebdff3.jpg",
+    "sourceUrl": "https://snitch.co.in/products/textured-black-trousers-4tr058-03",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "black",
+      "colourHex": "#1b1b1b",
+      "colourFamily": "neutral",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "47675743142050",
+        "size": "30",
+        "stock": 4
+      },
+      {
+        "variantId": "47675743174818",
+        "size": "32",
+        "stock": 6
+      },
+      {
+        "variantId": "47675743207586",
+        "size": "34",
+        "stock": 1
+      },
+      {
+        "variantId": "47675743240354",
+        "size": "36",
+        "stock": 1
+      }
+    ]
+  },
+  {
+    "id": "snitch-stretch-regular-fit-washed-trousers-4msr5535-02",
+    "slot": "trousers",
+    "brand": "Snitch",
+    "name": "Regular Fit Stretch Trousers",
+    "price": 1799,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4msr5535-02_1.jpg",
+    "sourceUrl": "https://snitch.co.in/products/stretch-regular-fit-washed-trousers-4msr5535-02",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "green",
+      "colourHex": "#3f6b4a",
+      "colourFamily": "cool",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "46614114664610",
+        "size": "28",
+        "stock": 5
+      },
+      {
+        "variantId": "46614114697378",
+        "size": "30",
+        "stock": 3
+      },
+      {
+        "variantId": "46614114730146",
+        "size": "32",
+        "stock": 4
+      },
+      {
+        "variantId": "46614114762914",
+        "size": "34",
+        "stock": 2
+      },
+      {
+        "variantId": "46614114795682",
+        "size": "36",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "id": "snitch-textured-grey-trousers-4tr058-01",
+    "slot": "trousers",
+    "brand": "Snitch",
+    "name": "Slim Fit Stretch Trousers",
+    "price": 1799,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_26b2646c-e6e1-4c25-8d46-c711a6d51853.jpg",
+    "sourceUrl": "https://snitch.co.in/products/textured-grey-trousers-4tr058-01",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "grey",
+      "colourHex": "#8f9092",
+      "colourFamily": "neutral",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "47640205590690",
+        "size": "30",
+        "stock": 2
+      },
+      {
+        "variantId": "47640205623458",
+        "size": "32",
+        "stock": 6
+      },
+      {
+        "variantId": "47640205656226",
+        "size": "34",
+        "stock": 3
+      },
+      {
+        "variantId": "47640205688994",
+        "size": "36",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "id": "snitch-straight-fit-stripes-trousers-4tr039-03",
+    "slot": "trousers",
+    "brand": "Snitch",
+    "name": "Straight Fit Stripes Trousers",
+    "price": 1799,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_507f0f0d-f18c-4f74-b276-41d9b6984ff2.jpg",
+    "sourceUrl": "https://snitch.co.in/products/straight-fit-stripes-trousers-4tr039-03",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "cream",
+      "colourHex": "#efe6d2",
+      "colourFamily": "neutral",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "47348470513826",
+        "size": "28",
+        "stock": 2
+      },
+      {
+        "variantId": "47348470546594",
+        "size": "30",
+        "stock": 4
+      },
+      {
+        "variantId": "47348470579362",
+        "size": "32",
+        "stock": 1
+      },
+      {
+        "variantId": "47348470612130",
+        "size": "34",
+        "stock": 3
+      },
+      {
+        "variantId": "47348470644898",
+        "size": "36",
+        "stock": 1
+      },
+      {
+        "variantId": "47348470677666",
+        "size": "38",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": "powerlook-indigo-pleated-denim-gurkha-pants",
+    "slot": "trousers",
+    "brand": "Powerlook",
+    "name": "Indigo Pleated Denim Gurkha Pants",
+    "price": 1799,
+    "image": "https://cdn.shopify.com/s/files/1/0750/2685/8234/files/Artboard3_3x_08038405-4e0a-4583-9525-1e7bac53722a.jpg",
+    "sourceUrl": "https://powerlook.in/products/indigo-pleated-denim-gurkha-pants",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "blue",
+      "colourHex": "#3b5b8c",
+      "colourFamily": "cool",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "49086649630970",
+        "size": "28",
+        "stock": 1
+      },
+      {
+        "variantId": "49086649663738",
+        "size": "30",
+        "stock": 6
+      },
+      {
+        "variantId": "49086649696506",
+        "size": "32",
+        "stock": 2
+      },
+      {
+        "variantId": "49086649729274",
+        "size": "34",
+        "stock": 6
+      },
+      {
+        "variantId": "49086649762042",
+        "size": "36",
+        "stock": 3
+      },
+      {
+        "variantId": "49086649794810",
+        "size": "38",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "id": "powerlook-brown-pleated-trousers",
+    "slot": "trousers",
+    "brand": "Powerlook",
+    "name": "Brown Pleated Trousers",
+    "price": 1799,
+    "image": "https://cdn.shopify.com/s/files/1/0750/2685/8234/files/2_3566a0b7-6c4d-46eb-994d-ffb19069d935.jpg",
+    "sourceUrl": "https://powerlook.in/products/brown-pleated-trousers",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "brown",
+      "colourHex": "#6b4a34",
+      "colourFamily": "earth",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "48933665079546",
+        "size": "28",
+        "stock": 0
+      },
+      {
+        "variantId": "48933665112314",
+        "size": "30",
+        "stock": 4
+      },
+      {
+        "variantId": "48933665145082",
+        "size": "32",
+        "stock": 5
+      },
+      {
+        "variantId": "48933665177850",
+        "size": "34",
+        "stock": 1
+      },
+      {
+        "variantId": "48933665210618",
+        "size": "36",
+        "stock": 5
+      },
+      {
+        "variantId": "48933665243386",
+        "size": "38",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "id": "powerlook-black-pleated-gurkha-pants",
+    "slot": "trousers",
+    "brand": "Powerlook",
+    "name": "Black Pleated Gurkha Pants",
+    "price": 1799,
+    "image": "https://cdn.shopify.com/s/files/1/0750/2685/8234/files/6_5280e476-7b26-48ed-81f6-3277800f02d8.jpg",
+    "sourceUrl": "https://powerlook.in/products/black-pleated-gurkha-pants",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "black",
+      "colourHex": "#1b1b1b",
+      "colourFamily": "neutral",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "50054286573818",
+        "size": "28",
+        "stock": 0
+      },
+      {
+        "variantId": "50054286606586",
+        "size": "30",
+        "stock": 3
+      },
+      {
+        "variantId": "50054286639354",
+        "size": "32",
+        "stock": 6
+      },
+      {
+        "variantId": "50054286672122",
+        "size": "34",
+        "stock": 1
+      },
+      {
+        "variantId": "50054286704890",
+        "size": "36",
+        "stock": 3
+      },
+      {
+        "variantId": "50054286737658",
+        "size": "38",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "powerlook-dark-beige-pleated-trousers",
+    "slot": "trousers",
+    "brand": "Powerlook",
+    "name": "Dark Beige Pleated Trousers",
+    "price": 1799,
+    "image": "https://cdn.shopify.com/s/files/1/0750/2685/8234/files/6_0e9c27ed-a50b-4995-94cb-39094b16470d.jpg",
+    "sourceUrl": "https://powerlook.in/products/dark-beige-pleated-trousers",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "beige",
+      "colourHex": "#d9c8a9",
+      "colourFamily": "neutral",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "49086651465978",
+        "size": "28",
+        "stock": 6
+      },
+      {
+        "variantId": "49086651498746",
+        "size": "30",
+        "stock": 3
+      },
+      {
+        "variantId": "49086651531514",
+        "size": "32",
+        "stock": 4
+      },
+      {
+        "variantId": "49086651564282",
+        "size": "34",
+        "stock": 5
+      },
+      {
+        "variantId": "49086651597050",
+        "size": "36",
+        "stock": 3
+      },
+      {
+        "variantId": "49086651629818",
+        "size": "38",
+        "stock": 1
+      }
+    ]
+  },
+  {
+    "id": "snitch-navy-blue-stripes-trousers-4tr0001-03",
+    "slot": "trousers",
+    "brand": "Snitch",
+    "name": "Navy Relaxed Fit Drawstring Trousers",
+    "price": 1799,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_766c9b75-2308-4600-85af-a94d2aa5369c.jpg",
+    "sourceUrl": "https://snitch.co.in/products/navy-blue-stripes-trousers-4tr0001-03",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "navy",
+      "colourHex": "#1f2a44",
+      "colourFamily": "cool",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "47685974163618",
+        "size": "28",
+        "stock": 5
+      },
+      {
+        "variantId": "47685974196386",
+        "size": "30",
+        "stock": 1
+      },
+      {
+        "variantId": "47685974229154",
+        "size": "32",
+        "stock": 1
+      },
+      {
+        "variantId": "47685974261922",
+        "size": "34",
+        "stock": 3
+      },
+      {
+        "variantId": "47685974294690",
+        "size": "36",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": "powerlook-grey-melange-pleated-trousers",
+    "slot": "trousers",
+    "brand": "Powerlook",
+    "name": "Grey Melange Pleated Trousers",
+    "price": 1699,
+    "image": "https://cdn.shopify.com/s/files/1/0750/2685/8234/files/2_0a257894-6304-471c-89f3-bfd55b89d929.jpg",
+    "sourceUrl": "https://powerlook.in/products/grey-melange-pleated-trousers",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "grey",
+      "colourHex": "#8f9092",
+      "colourFamily": "neutral",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "48949950447866",
+        "size": "28",
+        "stock": 3
+      },
+      {
+        "variantId": "48949950480634",
+        "size": "30",
+        "stock": 5
+      },
+      {
+        "variantId": "48949950513402",
+        "size": "32",
+        "stock": 5
+      },
+      {
+        "variantId": "48949950546170",
+        "size": "34",
+        "stock": 5
+      },
+      {
+        "variantId": "48949950578938",
+        "size": "36",
+        "stock": 2
+      },
+      {
+        "variantId": "48949950611706",
+        "size": "38",
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "id": "powerlook-brown-pleated-tailored-trousers",
+    "slot": "trousers",
+    "brand": "Powerlook",
+    "name": "Brown Pleated Tailored Trousers",
+    "price": 1699,
+    "image": "https://cdn.shopify.com/s/files/1/0750/2685/8234/files/7_92a05b5c-3139-4d10-8e1e-da6c9a2ac927.jpg",
+    "sourceUrl": "https://powerlook.in/products/brown-pleated-tailored-trousers",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "coffee",
+      "colourHex": "#4b3426",
+      "colourFamily": "earth",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "48691154878714",
+        "size": "28",
+        "stock": 0
+      },
+      {
+        "variantId": "48691154911482",
+        "size": "30",
+        "stock": 4
+      },
+      {
+        "variantId": "48691154944250",
+        "size": "32",
+        "stock": 5
+      },
+      {
+        "variantId": "48691154977018",
+        "size": "34",
+        "stock": 1
+      },
+      {
+        "variantId": "48691155009786",
+        "size": "36",
+        "stock": 3
+      },
+      {
+        "variantId": "48691155042554",
+        "size": "38",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "id": "snitch-textured-off-white-trousers-4btr0001-04",
+    "slot": "trousers",
+    "brand": "Snitch",
+    "name": "Off-White Stretch Plus Size Trousers",
+    "price": 2099,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_6a0641e8-262f-49b8-85f1-1862b66db3a8.jpg",
+    "sourceUrl": "https://snitch.co.in/products/textured-off-white-trousers-4btr0001-04",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "off white",
+      "colourHex": "#f1eee6",
+      "colourFamily": "neutral",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "50576249553058",
+        "size": "40",
+        "stock": 2
+      },
+      {
+        "variantId": "50576249585826",
+        "size": "42",
+        "stock": 2
+      },
+      {
+        "variantId": "50576249618594",
+        "size": "44",
+        "stock": 0
+      },
+      {
+        "variantId": "50576249651362",
+        "size": "46",
+        "stock": 0
+      },
+      {
+        "variantId": "50576249684130",
+        "size": "48",
+        "stock": 4
+      },
+      {
+        "variantId": "50576249716898",
+        "size": "50",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "snitch-100-polyseter-textured-relaxed-fit-trousers-4tr029-02",
+    "slot": "trousers",
+    "brand": "Snitch",
+    "name": "Relaxed Fit Pleated Trousers",
+    "price": 1699,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_19cb3783-809f-406a-8adf-b200d81300f0.jpg",
+    "sourceUrl": "https://snitch.co.in/products/100-polyseter-textured-relaxed-fit-trousers-4tr029-02",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "brown",
+      "colourHex": "#6b4a34",
+      "colourFamily": "earth",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "47431723024546",
+        "size": "28",
+        "stock": 5
+      },
+      {
+        "variantId": "47431723057314",
+        "size": "30",
+        "stock": 2
+      },
+      {
+        "variantId": "47431723090082",
+        "size": "32",
+        "stock": 3
+      },
+      {
+        "variantId": "47431723122850",
+        "size": "34",
+        "stock": 4
+      },
+      {
+        "variantId": "47431723155618",
+        "size": "36",
+        "stock": 1
+      }
+    ]
+  },
+  {
+    "id": "snitch-textured-khaki-trousers-4btr0002-06",
+    "slot": "trousers",
+    "brand": "Snitch",
+    "name": "Regular Fit Stretch Plus Size Trousers",
+    "price": 2299,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_819f4d28-8d64-4b60-9be7-32045e7046b6.jpg",
+    "sourceUrl": "https://snitch.co.in/products/textured-khaki-trousers-4btr0002-06",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "khaki",
+      "colourHex": "#b5a47a",
+      "colourFamily": "earth",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "50576248635554",
+        "size": "40",
+        "stock": 3
+      },
+      {
+        "variantId": "50576248668322",
+        "size": "42",
+        "stock": 2
+      },
+      {
+        "variantId": "50576248701090",
+        "size": "44",
+        "stock": 4
+      },
+      {
+        "variantId": "50576248733858",
+        "size": "46",
+        "stock": 2
+      },
+      {
+        "variantId": "50576248766626",
+        "size": "48",
+        "stock": 5
+      },
+      {
+        "variantId": "50576248799394",
+        "size": "50",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "rare-rabbit-orany-mens-trouser-pastel-purple",
+    "slot": "trousers",
+    "brand": "Rare Rabbit",
+    "name": "Orany Pastel Purple Cotton Plain Regular Fit Trouser",
+    "price": 2379,
+    "image": "https://cdn.shopify.com/s/files/1/0752/6435/files/ORANYPASTELPURPLE_1.webp",
+    "sourceUrl": "https://thehouseofrare.com/products/orany-mens-trouser-pastel-purple",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "wedding"
+      ],
+      "colour": "purple",
+      "colourHex": "#6a4c93",
+      "colourFamily": "bold",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "40429930840135",
+        "size": "28",
+        "stock": 0
+      },
+      {
+        "variantId": "40429930872903",
+        "size": "30",
+        "stock": 0
+      },
+      {
+        "variantId": "40429930905671",
+        "size": "32",
+        "stock": 0
+      },
+      {
+        "variantId": "40429930938439",
+        "size": "34",
+        "stock": 4
+      },
+      {
+        "variantId": "40429930971207",
+        "size": "36",
+        "stock": 0
+      },
+      {
+        "variantId": "40429931003975",
+        "size": "38",
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "id": "powerlook-white-regular-fit-crinkled-trouser",
+    "slot": "trousers",
+    "brand": "Powerlook",
+    "name": "White Regular Fit Crinkled Trouser",
+    "price": 1399,
+    "image": "https://cdn.shopify.com/s/files/1/0750/2685/8234/files/6_4d531e6b-a7ce-4d38-83e0-2c8fb869ef19.jpg",
+    "sourceUrl": "https://powerlook.in/products/white-regular-fit-crinkled-trouser",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "white",
+      "colourHex": "#f5f5f2",
+      "colourFamily": "neutral",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "47880410726650",
+        "size": "28",
+        "stock": 0
+      },
+      {
+        "variantId": "47880410759418",
+        "size": "30",
+        "stock": 4
+      },
+      {
+        "variantId": "47880410792186",
+        "size": "32",
+        "stock": 1
+      },
+      {
+        "variantId": "47880410824954",
+        "size": "34",
+        "stock": 2
+      },
+      {
+        "variantId": "47880410857722",
+        "size": "36",
+        "stock": 5
+      },
+      {
+        "variantId": "47880410890490",
+        "size": "38",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "id": "rare-rabbit-bevon-mens-trouser-off-white",
+    "slot": "trousers",
+    "brand": "Rare Rabbit",
+    "name": "Bevon Off White Polyester Blend Regular Fit Plain Trouser",
+    "price": 3799,
+    "image": "https://cdn.shopify.com/s/files/1/0752/6435/files/RR289044_1__HM.webp",
+    "sourceUrl": "https://thehouseofrare.com/products/bevon-mens-trouser-off-white",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "off white",
+      "colourHex": "#f1eee6",
+      "colourFamily": "neutral",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "42713262817351",
+        "size": "28",
+        "stock": 2
+      },
+      {
+        "variantId": "42713262850119",
+        "size": "30",
+        "stock": 5
+      },
+      {
+        "variantId": "42713262882887",
+        "size": "32",
+        "stock": 5
+      },
+      {
+        "variantId": "42713262915655",
+        "size": "34",
+        "stock": 2
+      },
+      {
+        "variantId": "42713262948423",
+        "size": "36",
+        "stock": 6
+      },
+      {
+        "variantId": "42713262981191",
+        "size": "38",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": "rare-rabbit-state-mens-trouser-black",
+    "slot": "trousers",
+    "brand": "Rare Rabbit",
+    "name": "State Black Polyester Blend Regular Fit Plain Trouser",
+    "price": 3999,
+    "image": "https://cdn.shopify.com/s/files/1/0752/6435/files/rr288857-1-hm.webp",
+    "sourceUrl": "https://thehouseofrare.com/products/state-mens-trouser-black",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "black",
+      "colourHex": "#1b1b1b",
+      "colourFamily": "neutral",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "42713288572999",
+        "size": "28",
+        "stock": 5
+      },
+      {
+        "variantId": "42713288605767",
+        "size": "30",
+        "stock": 5
+      },
+      {
+        "variantId": "42713288638535",
+        "size": "32",
+        "stock": 2
+      },
+      {
+        "variantId": "42713288671303",
+        "size": "34",
+        "stock": 6
+      },
+      {
+        "variantId": "42713288704071",
+        "size": "36",
+        "stock": 1
+      },
+      {
+        "variantId": "42713288736839",
+        "size": "38",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "bonkers-corner-midnight-black-shadowline-jeans",
+    "slot": "trousers",
+    "brand": "Bonkers Corner",
+    "name": "Midnight Black Shadowline Jeans",
+    "price": 1799,
+    "image": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/MidnightBlackShadowlineJeans_9.jpg",
+    "sourceUrl": "https://bonkerscorner.com/products/midnight-black-shadowline-jeans",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "black",
+      "colourHex": "#1b1b1b",
+      "colourFamily": "neutral",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "54031321399660",
+        "size": "XS",
+        "stock": 0
+      },
+      {
+        "variantId": "54031321432428",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "variantId": "54031321465196",
+        "size": "M",
+        "stock": 0
+      },
+      {
+        "variantId": "54031321497964",
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "variantId": "54031321530732",
+        "size": "XL",
+        "stock": 5
+      },
+      {
+        "variantId": "54031321563500",
+        "size": "XXL",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "id": "snitch-light-distressed-baggy-jeans-4je048-01",
+    "slot": "trousers",
+    "brand": "Snitch",
+    "name": "Distressed Baggy Jeans",
+    "price": 1899,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_975922c8-ae67-4c03-8482-2352a7af863e.jpg",
+    "sourceUrl": "https://snitch.co.in/products/light-distressed-baggy-jeans-4je048-01",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "blue",
+      "colourHex": "#3b5b8c",
+      "colourFamily": "cool",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "50539656839330",
+        "size": "28",
+        "stock": 0
+      },
+      {
+        "variantId": "50539656872098",
+        "size": "30",
+        "stock": 0
+      },
+      {
+        "variantId": "50539656904866",
+        "size": "32",
+        "stock": 4
+      },
+      {
+        "variantId": "50539656937634",
+        "size": "34",
+        "stock": 5
+      },
+      {
+        "variantId": "50539656970402",
+        "size": "36",
+        "stock": 4
+      },
+      {
+        "variantId": "50539657003170",
+        "size": "38",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "powerlook-white-linen-blend-barrel-fit-pants",
+    "slot": "trousers",
+    "brand": "Powerlook",
+    "name": "Cream Linen Blend Barrel Fit Pants",
+    "price": 1799,
+    "image": "https://cdn.shopify.com/s/files/1/0750/2685/8234/files/2_52b52698-def8-47f9-b444-048d51a644a1.jpg",
+    "sourceUrl": "https://powerlook.in/products/white-linen-blend-barrel-fit-pants",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "casual"
+      ],
+      "colour": "cream",
+      "colourHex": "#efe6d2",
+      "colourFamily": "neutral",
+      "formality": 3,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "48949945991418",
+        "size": "28",
+        "stock": 0
+      },
+      {
+        "variantId": "48949946024186",
+        "size": "30",
+        "stock": 4
+      },
+      {
+        "variantId": "48949946056954",
+        "size": "32",
+        "stock": 2
+      },
+      {
+        "variantId": "48949946089722",
+        "size": "34",
+        "stock": 3
+      },
+      {
+        "variantId": "48949946122490",
+        "size": "36",
+        "stock": 0
+      },
+      {
+        "variantId": "48949946155258",
+        "size": "38",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": "powerlook-olive-washed-baggy-jeans",
+    "slot": "trousers",
+    "brand": "Powerlook",
+    "name": "Olive Washed Baggy Jeans",
+    "price": 1799,
+    "image": "https://cdn.shopify.com/s/files/1/0750/2685/8234/files/2_f0178a1a-a0d1-4fc9-9c1a-f819bc1470b9.jpg",
+    "sourceUrl": "https://powerlook.in/products/olive-washed-baggy-jeans",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "olive",
+      "colourHex": "#5b5a3a",
+      "colourFamily": "earth",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "49086659068154",
+        "size": "28",
+        "stock": 2
+      },
+      {
+        "variantId": "49086659100922",
+        "size": "30",
+        "stock": 2
+      },
+      {
+        "variantId": "49086659133690",
+        "size": "32",
+        "stock": 1
+      },
+      {
+        "variantId": "49086659166458",
+        "size": "34",
+        "stock": 1
+      },
+      {
+        "variantId": "49086659199226",
+        "size": "36",
+        "stock": 6
+      },
+      {
+        "variantId": "49086659231994",
+        "size": "38",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "id": "bonkers-corner-edge-line-baggy-fit-jeans",
+    "slot": "trousers",
+    "brand": "Bonkers Corner",
+    "name": "Edge Line Baggy Fit Jeans",
+    "price": 1899,
+    "image": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/EdgeLineBaggyFitJeans_2.jpg",
+    "sourceUrl": "https://bonkerscorner.com/products/edge-line-baggy-fit-jeans",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "denim",
+      "colourHex": "#4a6a8f",
+      "colourFamily": "cool",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "54240302236012",
+        "size": "XS",
+        "stock": 0
+      },
+      {
+        "variantId": "54240302268780",
+        "size": "S",
+        "stock": 3
+      },
+      {
+        "variantId": "54240302301548",
+        "size": "M",
+        "stock": 2
+      },
+      {
+        "variantId": "54240302334316",
+        "size": "L",
+        "stock": 0
+      },
+      {
+        "variantId": "54240302367084",
+        "size": "XL",
+        "stock": 0
+      },
+      {
+        "variantId": "54240302399852",
+        "size": "XXL",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "snitch-denim-straight-fit-jeans-4je055-01",
+    "slot": "trousers",
+    "brand": "Snitch",
+    "name": "Straight Fit Stretch Jeans",
+    "price": 1999,
+    "image": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_f61d3873-3bfa-4b5a-874a-2636b15c2f39.jpg",
+    "sourceUrl": "https://snitch.co.in/products/denim-straight-fit-jeans-4je055-01",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "white",
+      "colourHex": "#f5f5f2",
+      "colourFamily": "neutral",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "50539657527458",
+        "size": "28",
+        "stock": 0
+      },
+      {
+        "variantId": "50539657560226",
+        "size": "30",
+        "stock": 0
+      },
+      {
+        "variantId": "50539657592994",
+        "size": "32",
+        "stock": 0
+      },
+      {
+        "variantId": "50539657625762",
+        "size": "34",
+        "stock": 5
+      },
+      {
+        "variantId": "50539657658530",
+        "size": "36",
+        "stock": 0
+      },
+      {
+        "variantId": "50539657691298",
+        "size": "38",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": "bonkers-corner-the-untammed-red-joggers",
+    "slot": "trousers",
+    "brand": "Bonkers Corner",
+    "name": "Hustle The Untammed Red Joggers",
+    "price": 1599,
+    "image": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/TheUntammedRedJoggers_3.jpg",
+    "sourceUrl": "https://bonkerscorner.com/products/the-untammed-red-joggers",
+    "tags": {
+      "occasions": [
+        "casual"
+      ],
+      "colour": "red",
+      "colourHex": "#b8322b",
+      "colourFamily": "bold",
+      "formality": 1,
+      "style": "sport"
+    },
+    "variants": [
+      {
+        "variantId": "54361796608364",
+        "size": "XS",
+        "stock": 5
+      },
+      {
+        "variantId": "54361796641132",
+        "size": "S",
+        "stock": 3
+      },
+      {
+        "variantId": "54361796673900",
+        "size": "M",
+        "stock": 6
+      },
+      {
+        "variantId": "54361796706668",
+        "size": "L",
+        "stock": 1
+      },
+      {
+        "variantId": "54361796739436",
+        "size": "XL",
+        "stock": 6
+      },
+      {
+        "variantId": "54361796772204",
+        "size": "XXL",
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "id": "powerlook-maroon-sprayed-baggy-trackpants",
+    "slot": "trousers",
+    "brand": "Powerlook",
+    "name": "Maroon Sprayed Baggy Trackpants",
+    "price": 1599,
+    "image": "https://cdn.shopify.com/s/files/1/0750/2685/8234/files/3_fa3736bc-3935-433c-889c-efcb5a62c202.jpg",
+    "sourceUrl": "https://powerlook.in/products/maroon-sprayed-baggy-trackpants",
+    "tags": {
+      "occasions": [
+        "casual"
+      ],
+      "colour": "maroon",
+      "colourHex": "#6b1f2a",
+      "colourFamily": "earth",
+      "formality": 1,
+      "style": "sport"
+    },
+    "variants": [
+      {
+        "variantId": "48988827877626",
+        "size": "28",
+        "stock": 2
+      },
+      {
+        "variantId": "48988827910394",
+        "size": "30",
+        "stock": 0
+      },
+      {
+        "variantId": "48988827943162",
+        "size": "32",
+        "stock": 1
+      },
+      {
+        "variantId": "48988827975930",
+        "size": "34",
+        "stock": 1
+      },
+      {
+        "variantId": "48988828008698",
+        "size": "36",
+        "stock": 2
+      },
+      {
+        "variantId": "48988828041466",
+        "size": "38",
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "id": "bonkers-corner-flushing-pink-trackline-joggers",
+    "slot": "trousers",
+    "brand": "Bonkers Corner",
+    "name": "Flushing Pink Trackline Joggers",
+    "price": 1499,
+    "image": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/FlushingPinktracklinejoggers_7.jpg",
+    "sourceUrl": "https://bonkerscorner.com/products/flushing-pink-trackline-joggers",
+    "tags": {
+      "occasions": [
+        "casual"
+      ],
+      "colour": "pink",
+      "colourHex": "#e3a3b5",
+      "colourFamily": "bold",
+      "formality": 1,
+      "style": "sport"
+    },
+    "variants": [
+      {
+        "variantId": "54228933738860",
+        "size": "XS",
+        "stock": 2
+      },
+      {
+        "variantId": "54228933771628",
+        "size": "S",
+        "stock": 0
+      },
+      {
+        "variantId": "54228933804396",
+        "size": "M",
+        "stock": 0
+      },
+      {
+        "variantId": "54228933837164",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "variantId": "54228933869932",
+        "size": "XL",
+        "stock": 0
+      },
+      {
+        "variantId": "54228933902700",
+        "size": "XXL",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "bonkers-corner-battle-grey-6-pockets-cargo-pant-1",
+    "slot": "trousers",
+    "brand": "Bonkers Corner",
+    "name": "Battle Grey 6 Pockets Cargo Pant",
+    "price": 1399,
+    "image": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/BattleGrey6PocketsCargoPant_2.png",
+    "sourceUrl": "https://bonkerscorner.com/products/battle-grey-6-pockets-cargo-pant-1",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "grey",
+      "colourHex": "#8f9092",
+      "colourFamily": "neutral",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "53997022249324",
+        "size": "XS",
+        "stock": 1
+      },
+      {
+        "variantId": "53997022282092",
+        "size": "S",
+        "stock": 4
+      },
+      {
+        "variantId": "53997022314860",
+        "size": "M",
+        "stock": 2
+      },
+      {
+        "variantId": "53997022347628",
+        "size": "L",
+        "stock": 5
+      },
+      {
+        "variantId": "53997022380396",
+        "size": "XL",
+        "stock": 3
+      },
+      {
+        "variantId": "53997022413164",
+        "size": "XXL",
+        "stock": 1
+      }
+    ]
+  },
+  {
+    "id": "rare-rabbit-sain-mens-jeans-navy",
+    "slot": "trousers",
+    "brand": "Rare Rabbit",
+    "name": "Sain Navy Cotton Plain Hawk Slim Fit Jeans",
+    "price": 2999,
+    "image": "https://cdn.shopify.com/s/files/1/0752/6435/files/8907279656032_1__HM.webp",
+    "sourceUrl": "https://thehouseofrare.com/products/sain-mens-jeans-navy",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "navy",
+      "colourHex": "#1f2a44",
+      "colourFamily": "cool",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "40129842905159",
+        "size": "28",
+        "stock": 0
+      },
+      {
+        "variantId": "40129842937927",
+        "size": "30",
+        "stock": 1
+      },
+      {
+        "variantId": "40129842970695",
+        "size": "32",
+        "stock": 0
+      },
+      {
+        "variantId": "40129843003463",
+        "size": "34",
+        "stock": 0
+      },
+      {
+        "variantId": "40129843036231",
+        "size": "36",
+        "stock": 4
+      },
+      {
+        "variantId": "40129843068999",
+        "size": "38",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "bonkers-corner-mint-ease-loose-fit-joggers",
+    "slot": "trousers",
+    "brand": "Bonkers Corner",
+    "name": "Mint Ease Loose Fit Joggers",
+    "price": 1299,
+    "image": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/MintEaseLooseFitJoggers.jpg",
+    "sourceUrl": "https://bonkerscorner.com/products/mint-ease-loose-fit-joggers",
+    "tags": {
+      "occasions": [
+        "casual"
+      ],
+      "colour": "mint",
+      "colourHex": "#b6dcc6",
+      "colourFamily": "cool",
+      "formality": 1,
+      "style": "sport"
+    },
+    "variants": [
+      {
+        "variantId": "54095136883052",
+        "size": "XS",
+        "stock": 0
+      },
+      {
+        "variantId": "54095136915820",
+        "size": "S",
+        "stock": 1
+      },
+      {
+        "variantId": "54095136948588",
+        "size": "M",
+        "stock": 3
+      },
+      {
+        "variantId": "54095136981356",
+        "size": "L",
+        "stock": 4
+      },
+      {
+        "variantId": "54095137014124",
+        "size": "XL",
+        "stock": 1
+      },
+      {
+        "variantId": "54095137046892",
+        "size": "XXL",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "bonkers-corner-hyper-blue-loose-fit-joggers",
+    "slot": "trousers",
+    "brand": "Bonkers Corner",
+    "name": "Hyper Blue Loose Fit Joggers",
+    "price": 1299,
+    "image": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/HyperBlueLooseFitJoggers_3.jpg",
+    "sourceUrl": "https://bonkerscorner.com/products/hyper-blue-loose-fit-joggers",
+    "tags": {
+      "occasions": [
+        "casual"
+      ],
+      "colour": "blue",
+      "colourHex": "#3b5b8c",
+      "colourFamily": "cool",
+      "formality": 1,
+      "style": "sport"
+    },
+    "variants": [
+      {
+        "variantId": "54080552239468",
+        "size": "XS",
+        "stock": 2
+      },
+      {
+        "variantId": "54080552272236",
+        "size": "S",
+        "stock": 4
+      },
+      {
+        "variantId": "54080552305004",
+        "size": "M",
+        "stock": 1
+      },
+      {
+        "variantId": "54080552337772",
+        "size": "L",
+        "stock": 2
+      },
+      {
+        "variantId": "54080552370540",
+        "size": "XL",
+        "stock": 6
+      },
+      {
+        "variantId": "54080552403308",
+        "size": "XXL",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": "rare-rabbit-dali-mens-trackpant-dark-beige",
+    "slot": "trousers",
+    "brand": "Rare Rabbit",
+    "name": "Dali Dark Beige Cotton Blend Regular Plain Track Pant",
+    "price": 3799,
+    "image": "https://cdn.shopify.com/s/files/1/0752/6435/files/rr290781-1-hm.webp",
+    "sourceUrl": "https://thehouseofrare.com/products/dali-mens-trackpant-dark-beige",
+    "tags": {
+      "occasions": [
+        "casual"
+      ],
+      "colour": "beige",
+      "colourHex": "#d9c8a9",
+      "colourFamily": "neutral",
+      "formality": 1,
+      "style": "sport"
+    },
+    "variants": [
+      {
+        "variantId": "42896090497095",
+        "size": "30",
+        "stock": 3
+      },
+      {
+        "variantId": "42896090529863",
+        "size": "32",
+        "stock": 1
+      },
+      {
+        "variantId": "42896090562631",
+        "size": "34",
+        "stock": 6
+      },
+      {
+        "variantId": "42896090595399",
+        "size": "36",
+        "stock": 6
+      },
+      {
+        "variantId": "42896090628167",
+        "size": "38",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "id": "rare-rabbit-rr-corp-harry-t-mens-track-pant-olive-1",
+    "slot": "trousers",
+    "brand": "Rare Rabbit",
+    "name": "Rr-Corp-Harry-T Olive Cotton Blend Regular Plain Track Pant",
+    "price": 3999,
+    "image": "https://cdn.shopify.com/s/files/1/0752/6435/files/RR-CORP-HARRY-TOLIVE_2.webp",
+    "sourceUrl": "https://thehouseofrare.com/products/rr-corp-harry-t-mens-track-pant-olive-1",
+    "tags": {
+      "occasions": [
+        "casual"
+      ],
+      "colour": "olive",
+      "colourHex": "#5b5a3a",
+      "colourFamily": "earth",
+      "formality": 1,
+      "style": "sport"
+    },
+    "variants": [
+      {
+        "variantId": "43184962273351",
+        "size": "28",
+        "stock": 6
+      },
+      {
+        "variantId": "43184962306119",
+        "size": "30",
+        "stock": 1
+      },
+      {
+        "variantId": "43184962338887",
+        "size": "32",
+        "stock": 3
+      },
+      {
+        "variantId": "43184962371655",
+        "size": "34",
+        "stock": 2
+      },
+      {
+        "variantId": "43184962404423",
+        "size": "36",
+        "stock": 4
+      },
+      {
+        "variantId": "43184962437191",
+        "size": "38",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "id": "rare-rabbit-rr-corp-harry-t-mens-track-pant-maroon-1",
+    "slot": "trousers",
+    "brand": "Rare Rabbit",
+    "name": "Rr-Corp-Harry-T Maroon Cotton Blend Regular Plain Track Pant",
+    "price": 3999,
+    "image": "https://cdn.shopify.com/s/files/1/0752/6435/files/RR-CORP-HARRY-TMAROON_2.webp",
+    "sourceUrl": "https://thehouseofrare.com/products/rr-corp-harry-t-mens-track-pant-maroon-1",
+    "tags": {
+      "occasions": [
+        "casual"
+      ],
+      "colour": "maroon",
+      "colourHex": "#6b1f2a",
+      "colourFamily": "earth",
+      "formality": 1,
+      "style": "sport"
+    },
+    "variants": [
+      {
+        "variantId": "43184961552455",
+        "size": "28",
+        "stock": 5
+      },
+      {
+        "variantId": "43184961585223",
+        "size": "30",
+        "stock": 3
+      },
+      {
+        "variantId": "43184961617991",
+        "size": "32",
+        "stock": 3
+      },
+      {
+        "variantId": "43184961650759",
+        "size": "34",
+        "stock": 0
+      },
+      {
+        "variantId": "43184961683527",
+        "size": "36",
+        "stock": 2
+      },
+      {
+        "variantId": "43184961716295",
+        "size": "38",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "id": "neeman-s-the-luxe-loafers",
+    "slot": "shoes",
+    "brand": "Neeman's",
+    "name": "The Luxe Loafers, Black",
+    "price": 1999,
+    "image": "https://cdn.shopify.com/s/files/1/2428/5565/files/ND-TLL-Black_WebCatalog_i.jpg",
+    "sourceUrl": "https://neemans.com/products/the-luxe-loafers",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "black",
+      "colourHex": "#1b1b1b",
+      "colourFamily": "neutral",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "41367004971051",
+        "size": "UK 6",
+        "stock": 4
+      },
+      {
+        "variantId": "41367005003819",
+        "size": "UK 7",
+        "stock": 6
+      },
+      {
+        "variantId": "41367005036587",
+        "size": "UK 8",
+        "stock": 3
+      },
+      {
+        "variantId": "41367005069355",
+        "size": "UK 9",
+        "stock": 5
+      },
+      {
+        "variantId": "41367005102123",
+        "size": "UK 10",
+        "stock": 1
+      },
+      {
+        "variantId": "41367005134891",
+        "size": "UK 11",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "neeman-s-the-luxe-loafers-tan",
+    "slot": "shoes",
+    "brand": "Neeman's",
+    "name": "The Luxe Loafers, Tan",
+    "price": 1999,
+    "image": "https://cdn.shopify.com/s/files/1/2428/5565/files/ND_-_TLL_-_Tan_Web_Catalog_i.jpg",
+    "sourceUrl": "https://neemans.com/products/the-luxe-loafers-tan",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "tan",
+      "colourHex": "#a87a4f",
+      "colourFamily": "earth",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "41367201447979",
+        "size": "UK 6",
+        "stock": 4
+      },
+      {
+        "variantId": "41367201480747",
+        "size": "UK 7",
+        "stock": 2
+      },
+      {
+        "variantId": "41367201513515",
+        "size": "UK 8",
+        "stock": 1
+      },
+      {
+        "variantId": "41367201546283",
+        "size": "UK 9",
+        "stock": 3
+      },
+      {
+        "variantId": "41367201579051",
+        "size": "UK 10",
+        "stock": 4
+      },
+      {
+        "variantId": "41367201611819",
+        "size": "UK 11",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "id": "bacca-bucci-bacca-bucci-leather-office-lace-ups-formal-shoes-uk-06-to-13",
+    "slot": "shoes",
+    "brand": "Bacca Bucci",
+    "name": "Leather Office Lace-ups Formal Shoes",
+    "price": 1699,
+    "image": "https://cdn.shopify.com/s/files/1/0279/5133/3450/files/Leather_Office_Lace-ups_Formal_Shoes_01.jpg",
+    "sourceUrl": "https://baccabucci.com/products/bacca-bucci-leather-office-lace-ups-formal-shoes-uk-06-to-13",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "brown",
+      "colourHex": "#6b4a34",
+      "colourFamily": "earth",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "44876068061430",
+        "size": "UK 6",
+        "stock": 1
+      },
+      {
+        "variantId": "44876068094198",
+        "size": "UK 7",
+        "stock": 2
+      },
+      {
+        "variantId": "44876068126966",
+        "size": "UK 8",
+        "stock": 3
+      },
+      {
+        "variantId": "44876068159734",
+        "size": "UK 9",
+        "stock": 2
+      },
+      {
+        "variantId": "44876068192502",
+        "size": "UK 10",
+        "stock": 3
+      },
+      {
+        "variantId": "44876068225270",
+        "size": "UK 11",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "id": "neeman-s-flexy-brogues-brown",
+    "slot": "shoes",
+    "brand": "Neeman's",
+    "name": "Flexy Brogues, Brown",
+    "price": 2399,
+    "image": "https://cdn.shopify.com/s/files/1/2428/5565/files/ND_-_FB_-_Brown_Web_Catalog_i.jpg",
+    "sourceUrl": "https://neemans.com/products/flexy-brogues-brown",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "brown",
+      "colourHex": "#6b4a34",
+      "colourFamily": "earth",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "41544587313195",
+        "size": "UK 6",
+        "stock": 5
+      },
+      {
+        "variantId": "41544587345963",
+        "size": "UK 7",
+        "stock": 6
+      },
+      {
+        "variantId": "41544587378731",
+        "size": "UK 8",
+        "stock": 3
+      },
+      {
+        "variantId": "41544587411499",
+        "size": "UK 9",
+        "stock": 5
+      },
+      {
+        "variantId": "41544587444267",
+        "size": "UK 10",
+        "stock": 2
+      },
+      {
+        "variantId": "41544587477035",
+        "size": "UK 11",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "id": "bacca-bucci-bacca-bucci-leather-laceups-formal-office-shoes",
+    "slot": "shoes",
+    "brand": "Bacca Bucci",
+    "name": "Leather Office Lace-ups Formal Shoes",
+    "price": 1699,
+    "image": "https://cdn.shopify.com/s/files/1/0279/5133/3450/files/Leather_Office_Lace-ups_Formal_Shoes_02.jpg",
+    "sourceUrl": "https://baccabucci.com/products/bacca-bucci-leather-laceups-formal-office-shoes",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "black",
+      "colourHex": "#1b1b1b",
+      "colourFamily": "neutral",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "44751399452918",
+        "size": "UK 6",
+        "stock": 6
+      },
+      {
+        "variantId": "44751399485686",
+        "size": "UK 7",
+        "stock": 5
+      },
+      {
+        "variantId": "44751399518454",
+        "size": "UK 8",
+        "stock": 1
+      },
+      {
+        "variantId": "44751399551222",
+        "size": "UK 9",
+        "stock": 1
+      },
+      {
+        "variantId": "44751399583990",
+        "size": "UK 10",
+        "stock": 6
+      },
+      {
+        "variantId": "44751405908214",
+        "size": "UK 11",
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "id": "neeman-s-crossover-brogues",
+    "slot": "shoes",
+    "brand": "Neeman's",
+    "name": "Crossover Brogues, Beige",
+    "price": 2499,
+    "image": "https://cdn.shopify.com/s/files/1/2428/5565/files/Concept_Image_-_NeuroPixel_0039_Generative_Fill_2.jpg",
+    "sourceUrl": "https://neemans.com/products/crossover-brogues",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "beige",
+      "colourHex": "#d9c8a9",
+      "colourFamily": "neutral",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "41167516074027",
+        "size": "UK 6",
+        "stock": 1
+      },
+      {
+        "variantId": "41167516106795",
+        "size": "UK 7",
+        "stock": 6
+      },
+      {
+        "variantId": "41167516139563",
+        "size": "UK 8",
+        "stock": 6
+      },
+      {
+        "variantId": "41167516172331",
+        "size": "UK 9",
+        "stock": 1
+      },
+      {
+        "variantId": "41167516205099",
+        "size": "UK 10",
+        "stock": 4
+      },
+      {
+        "variantId": "41167516237867",
+        "size": "UK 11",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": "neeman-s-transition-loafers-olive",
+    "slot": "shoes",
+    "brand": "Neeman's",
+    "name": "Transition Loafers, Olive",
+    "price": 2599,
+    "image": "https://cdn.shopify.com/s/files/1/2428/5565/files/Transition_Loafers_Men_D.Olive-Beige_24.jpg",
+    "sourceUrl": "https://neemans.com/products/transition-loafers-olive",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "olive",
+      "colourHex": "#5b5a3a",
+      "colourFamily": "earth",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "45297861689387",
+        "size": "UK 7",
+        "stock": 0
+      },
+      {
+        "variantId": "45297861722155",
+        "size": "UK 8",
+        "stock": 3
+      },
+      {
+        "variantId": "45297861754923",
+        "size": "UK 9",
+        "stock": 2
+      },
+      {
+        "variantId": "45297861787691",
+        "size": "UK 10",
+        "stock": 1
+      },
+      {
+        "variantId": "45297861820459",
+        "size": "UK 11",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "rare-rabbit-havana-mens-loafer-light-mustard-yellow",
+    "slot": "shoes",
+    "brand": "Rare Rabbit",
+    "name": "Havana Mustard Yellow Suede Leather Slip-On Closure Shoes",
+    "price": 2997,
+    "image": "https://cdn.shopify.com/s/files/1/0752/6435/files/harshit20.havana-mens-loafer-light-mustardyellow_4_4d80b352-21c3-413e-9438-0e467a5d46c2.webp",
+    "sourceUrl": "https://thehouseofrare.com/products/havana-mens-loafer-light-mustard-yellow",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "mustard",
+      "colourHex": "#c9a13b",
+      "colourFamily": "earth",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "41584305373255",
+        "size": "UK 7",
+        "stock": 1
+      },
+      {
+        "variantId": "41584305406023",
+        "size": "UK 8",
+        "stock": 4
+      },
+      {
+        "variantId": "41584305438791",
+        "size": "UK 9",
+        "stock": 0
+      },
+      {
+        "variantId": "41584305471559",
+        "size": "UK 10",
+        "stock": 0
+      },
+      {
+        "variantId": "41584305504327",
+        "size": "UK 11",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "neeman-s-brunch-loafers-ivory-and-tan",
+    "slot": "shoes",
+    "brand": "Neeman's",
+    "name": "Brunch Loafers, Ivory/Tan",
+    "price": 1499,
+    "image": "https://cdn.shopify.com/s/files/1/2428/5565/files/ND_-_TBL_-_Ivory_Tan_-_Web_Optimized_i.jpg",
+    "sourceUrl": "https://neemans.com/products/brunch-loafers-ivory-and-tan",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "ivory",
+      "colourHex": "#ece3cf",
+      "colourFamily": "neutral",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "41167501000747",
+        "size": "UK 6",
+        "stock": 1
+      },
+      {
+        "variantId": "41167501033515",
+        "size": "UK 7",
+        "stock": 1
+      },
+      {
+        "variantId": "41167501066283",
+        "size": "UK 8",
+        "stock": 3
+      },
+      {
+        "variantId": "41167501099051",
+        "size": "UK 9",
+        "stock": 3
+      },
+      {
+        "variantId": "41167501131819",
+        "size": "UK 10",
+        "stock": 4
+      },
+      {
+        "variantId": "41167501164587",
+        "size": "UK 11",
+        "stock": 1
+      }
+    ]
+  },
+  {
+    "id": "neeman-s-crossover-brogues-2-0-blue",
+    "slot": "shoes",
+    "brand": "Neeman's",
+    "name": "Crossover Brogues 2.0, Blue",
+    "price": 3999,
+    "image": "https://cdn.shopify.com/s/files/1/2428/5565/files/Crossover_Brogues_2.0_Men_Navy-Sand_24.jpg",
+    "sourceUrl": "https://neemans.com/products/crossover-brogues-2-0-blue",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "blue",
+      "colourHex": "#3b5b8c",
+      "colourFamily": "cool",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "45369478873131",
+        "size": "UK 6",
+        "stock": 5
+      },
+      {
+        "variantId": "45369478905899",
+        "size": "UK 7",
+        "stock": 5
+      },
+      {
+        "variantId": "45369478938667",
+        "size": "UK 8",
+        "stock": 3
+      },
+      {
+        "variantId": "45369478971435",
+        "size": "UK 9",
+        "stock": 4
+      },
+      {
+        "variantId": "45369479004203",
+        "size": "UK 10",
+        "stock": 5
+      },
+      {
+        "variantId": "45369479036971",
+        "size": "UK 11",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "neeman-s-color-block-loafers",
+    "slot": "shoes",
+    "brand": "Neeman's",
+    "name": "Color Block Loafers, White-Black",
+    "price": 949,
+    "image": "https://cdn.shopify.com/s/files/1/2428/5565/files/ND-CBL-BlackWhite-_WebOptimized_i.jpg",
+    "sourceUrl": "https://neemans.com/products/color-block-loafers",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "office",
+        "wedding"
+      ],
+      "colour": "white",
+      "colourHex": "#f5f5f2",
+      "colourFamily": "neutral",
+      "formality": 4,
+      "style": "classic"
+    },
+    "variants": [
+      {
+        "variantId": "41177815416875",
+        "size": "UK 6",
+        "stock": 2
+      },
+      {
+        "variantId": "41177815449643",
+        "size": "UK 7",
+        "stock": 6
+      },
+      {
+        "variantId": "41177815482411",
+        "size": "UK 8",
+        "stock": 0
+      },
+      {
+        "variantId": "41177815515179",
+        "size": "UK 9",
+        "stock": 4
+      },
+      {
+        "variantId": "41177815547947",
+        "size": "UK 10",
+        "stock": 0
+      },
+      {
+        "variantId": "41177815580715",
+        "size": "UK 11",
+        "stock": 1
+      }
+    ]
+  },
+  {
+    "id": "neeman-s-flex-rib-slip-ons-taupe",
+    "slot": "shoes",
+    "brand": "Neeman's",
+    "name": "Flex Rib Slip Ons, Taupe",
+    "price": 2299,
+    "image": "https://cdn.shopify.com/s/files/1/2428/5565/files/ND-FRSO-Taupe_WebCatalog_g.jpg",
+    "sourceUrl": "https://neemans.com/products/flex-rib-slip-ons-taupe",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "taupe",
+      "colourHex": "#8b7d6b",
+      "colourFamily": "earth",
+      "formality": 2,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "42604190531627",
+        "size": "UK 6",
+        "stock": 5
+      },
+      {
+        "variantId": "42604190564395",
+        "size": "UK 7",
+        "stock": 4
+      },
+      {
+        "variantId": "42604190597163",
+        "size": "UK 8",
+        "stock": 6
+      },
+      {
+        "variantId": "42604190629931",
+        "size": "UK 9",
+        "stock": 4
+      },
+      {
+        "variantId": "42604190662699",
+        "size": "UK 10",
+        "stock": 4
+      },
+      {
+        "variantId": "42604190695467",
+        "size": "UK 11",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "neeman-s-begin-walk-trek-for-men-grey",
+    "slot": "shoes",
+    "brand": "Neeman's",
+    "name": "Begin Walk Trek Grey",
+    "price": 2299,
+    "image": "https://cdn.shopify.com/s/files/1/2428/5565/files/ND-BWT-Grey_WebCatalog_i.jpg",
+    "sourceUrl": "https://neemans.com/products/begin-walk-trek-for-men-grey",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "grey",
+      "colourHex": "#8f9092",
+      "colourFamily": "neutral",
+      "formality": 2,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "41866486546475",
+        "size": "UK 6",
+        "stock": 3
+      },
+      {
+        "variantId": "41866486579243",
+        "size": "UK 7",
+        "stock": 2
+      },
+      {
+        "variantId": "41866486612011",
+        "size": "UK 8",
+        "stock": 6
+      },
+      {
+        "variantId": "41866486644779",
+        "size": "UK 9",
+        "stock": 2
+      },
+      {
+        "variantId": "41866486677547",
+        "size": "UK 10",
+        "stock": 4
+      },
+      {
+        "variantId": "41866486710315",
+        "size": "UK 11",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "id": "neeman-s-begin-walk-trek-for-men-ecru",
+    "slot": "shoes",
+    "brand": "Neeman's",
+    "name": "Begin Walk Trek Ecru",
+    "price": 2299,
+    "image": "https://cdn.shopify.com/s/files/1/2428/5565/files/BWT_-_GoatEcruBrown_15.jpg",
+    "sourceUrl": "https://neemans.com/products/begin-walk-trek-for-men-ecru",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "ecru",
+      "colourHex": "#e6dcc6",
+      "colourFamily": "neutral",
+      "formality": 2,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "43999895978027",
+        "size": "UK 6",
+        "stock": 1
+      },
+      {
+        "variantId": "43999896010795",
+        "size": "UK 7",
+        "stock": 4
+      },
+      {
+        "variantId": "43999896043563",
+        "size": "UK 8",
+        "stock": 6
+      },
+      {
+        "variantId": "43999896076331",
+        "size": "UK 9",
+        "stock": 6
+      },
+      {
+        "variantId": "43999896109099",
+        "size": "UK 10",
+        "stock": 3
+      },
+      {
+        "variantId": "43999896141867",
+        "size": "UK 11",
+        "stock": 1
+      }
+    ]
+  },
+  {
+    "id": "bacca-bucci-bacca-bucci-torque-rugged-edge-activewear-sneaks-1",
+    "slot": "shoes",
+    "brand": "Bacca Bucci",
+    "name": "TORQUE",
+    "price": 2199,
+    "image": "https://cdn.shopify.com/s/files/1/0279/5133/3450/files/TORQUE_TITAN_BLUE.png",
+    "sourceUrl": "https://baccabucci.com/products/bacca-bucci-torque-rugged-edge-activewear-sneaks-1",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "blue",
+      "colourHex": "#3b5b8c",
+      "colourFamily": "cool",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "47378181816566",
+        "size": "UK 6",
+        "stock": 0
+      },
+      {
+        "variantId": "47378181849334",
+        "size": "UK 7",
+        "stock": 0
+      },
+      {
+        "variantId": "47378181882102",
+        "size": "UK 8",
+        "stock": 0
+      },
+      {
+        "variantId": "47378181914870",
+        "size": "UK 9",
+        "stock": 0
+      },
+      {
+        "variantId": "47378181947638",
+        "size": "UK 10",
+        "stock": 4
+      },
+      {
+        "variantId": "47378181980406",
+        "size": "UK 11",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "bacca-bucci-bacca-bucci-balance-men-s-sports-sneakers-ultra-light-jacqua",
+    "slot": "shoes",
+    "brand": "Bacca Bucci",
+    "name": "BALANCE",
+    "price": 2399,
+    "image": "https://cdn.shopify.com/s/files/1/0279/5133/3450/files/BALANCE_GREEN.png",
+    "sourceUrl": "https://baccabucci.com/products/bacca-bucci-balance-men-s-sports-sneakers-ultra-light-jacquard-running-shoes-with-cushioned-rebound-sole-eva-rubber-heavy-duty-outsole-all-day-comfort-breathable-daily-trainers",
+    "tags": {
+      "occasions": [
+        "casual"
+      ],
+      "colour": "green",
+      "colourHex": "#3f6b4a",
+      "colourFamily": "cool",
+      "formality": 1,
+      "style": "sport"
+    },
+    "variants": [
+      {
+        "variantId": "51649164411126",
+        "size": "UK 6",
+        "stock": 4
+      },
+      {
+        "variantId": "51649164443894",
+        "size": "UK 7",
+        "stock": 2
+      },
+      {
+        "variantId": "51649164476662",
+        "size": "UK 8",
+        "stock": 6
+      },
+      {
+        "variantId": "51649164509430",
+        "size": "UK 9",
+        "stock": 1
+      },
+      {
+        "variantId": "51649164542198",
+        "size": "UK 10",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "id": "bacca-bucci-bacca-bucci-balance-ultra-light-rebound-sports-sneakers-1",
+    "slot": "shoes",
+    "brand": "Bacca Bucci",
+    "name": "BALANCE",
+    "price": 2399,
+    "image": "https://cdn.shopify.com/s/files/1/0279/5133/3450/files/BALANCE_BROWN.png",
+    "sourceUrl": "https://baccabucci.com/products/bacca-bucci-balance-ultra-light-rebound-sports-sneakers-1",
+    "tags": {
+      "occasions": [
+        "casual"
+      ],
+      "colour": "cream",
+      "colourHex": "#efe6d2",
+      "colourFamily": "neutral",
+      "formality": 1,
+      "style": "sport"
+    },
+    "variants": [
+      {
+        "variantId": "51649164017910",
+        "size": "UK 6",
+        "stock": 4
+      },
+      {
+        "variantId": "51649164050678",
+        "size": "UK 7",
+        "stock": 1
+      },
+      {
+        "variantId": "51649164083446",
+        "size": "UK 8",
+        "stock": 6
+      },
+      {
+        "variantId": "51649164116214",
+        "size": "UK 9",
+        "stock": 2
+      },
+      {
+        "variantId": "51649164148982",
+        "size": "UK 10",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "rare-rabbit-rocco-mens-sneaker-blue",
+    "slot": "shoes",
+    "brand": "Rare Rabbit",
+    "name": "Rocco Blue Round Toe Low Top Perforated Lace-Up Sneaker Shoes",
+    "price": 2499,
+    "image": "https://cdn.shopify.com/s/files/1/0752/6435/files/harshit20.rocco-mens-sneaker-blue_1_7fb40b6f-d77c-4ecc-8262-01886bd07e14.webp",
+    "sourceUrl": "https://thehouseofrare.com/products/rocco-mens-sneaker-blue",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "blue",
+      "colourHex": "#3b5b8c",
+      "colourFamily": "cool",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "41100735086663",
+        "size": "UK 7",
+        "stock": 5
+      },
+      {
+        "variantId": "41100735119431",
+        "size": "UK 8",
+        "stock": 3
+      },
+      {
+        "variantId": "41100735152199",
+        "size": "UK 9",
+        "stock": 6
+      },
+      {
+        "variantId": "41100735184967",
+        "size": "UK 10",
+        "stock": 4
+      },
+      {
+        "variantId": "41100735217735",
+        "size": "UK 11",
+        "stock": 1
+      }
+    ]
+  },
+  {
+    "id": "neeman-s-the-urban-riffs-for-men-yellow",
+    "slot": "shoes",
+    "brand": "Neeman's",
+    "name": "The Urban Riffs Yellow",
+    "price": 2199,
+    "image": "https://cdn.shopify.com/s/files/1/2428/5565/files/The_Urban_Riffs_Incaberry_3.jpg",
+    "sourceUrl": "https://neemans.com/products/the-urban-riffs-for-men-yellow",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "yellow",
+      "colourHex": "#e6c84a",
+      "colourFamily": "bold",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "44177510694955",
+        "size": "UK 6",
+        "stock": 5
+      },
+      {
+        "variantId": "44177510727723",
+        "size": "UK 7",
+        "stock": 6
+      },
+      {
+        "variantId": "44177510760491",
+        "size": "UK 8",
+        "stock": 4
+      },
+      {
+        "variantId": "44177510793259",
+        "size": "UK 9",
+        "stock": 1
+      },
+      {
+        "variantId": "44177510826027",
+        "size": "UK 10",
+        "stock": 3
+      },
+      {
+        "variantId": "44177510858795",
+        "size": "UK 11",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": "neeman-s-embroidered-sneakers-for-men",
+    "slot": "shoes",
+    "brand": "Neeman's",
+    "name": "Embroidered Sneakers Maroon",
+    "price": 2199,
+    "image": "https://cdn.shopify.com/s/files/1/2428/5565/files/ND-EMSN-Maroon_WebCatalog_g.jpg",
+    "sourceUrl": "https://neemans.com/products/embroidered-sneakers-for-men",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "maroon",
+      "colourHex": "#6b1f2a",
+      "colourFamily": "earth",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "42372505206827",
+        "size": "UK 6",
+        "stock": 4
+      },
+      {
+        "variantId": "42372505239595",
+        "size": "UK 7",
+        "stock": 3
+      },
+      {
+        "variantId": "42372505272363",
+        "size": "UK 8",
+        "stock": 5
+      },
+      {
+        "variantId": "42372505305131",
+        "size": "UK 9",
+        "stock": 5
+      },
+      {
+        "variantId": "42372505337899",
+        "size": "UK 10",
+        "stock": 2
+      },
+      {
+        "variantId": "42372505370667",
+        "size": "UK 11",
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "id": "neeman-s-the-retro-collectible-for-men-green",
+    "slot": "shoes",
+    "brand": "Neeman's",
+    "name": "The Retro Collectible Green",
+    "price": 2499,
+    "image": "https://cdn.shopify.com/s/files/1/2428/5565/files/TheRetroCollectibleUnisex_Green-Team_Gold-Honey_15.jpg",
+    "sourceUrl": "https://neemans.com/products/the-retro-collectible-for-men-green",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "green",
+      "colourHex": "#3f6b4a",
+      "colourFamily": "cool",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "45243497840683",
+        "size": "UK 6",
+        "stock": 1
+      },
+      {
+        "variantId": "45243497873451",
+        "size": "UK 7",
+        "stock": 4
+      },
+      {
+        "variantId": "45243497906219",
+        "size": "UK 8",
+        "stock": 1
+      },
+      {
+        "variantId": "45243497938987",
+        "size": "UK 9",
+        "stock": 3
+      },
+      {
+        "variantId": "45243497971755",
+        "size": "UK 10",
+        "stock": 3
+      },
+      {
+        "variantId": "45243498004523",
+        "size": "UK 11",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "id": "rare-rabbit-garen-mens-sneaker-dark-green",
+    "slot": "shoes",
+    "brand": "Rare Rabbit",
+    "name": "Garen Dark Green Micro Fiber Causal Sneaker",
+    "price": 2749,
+    "image": "https://cdn.shopify.com/s/files/1/0752/6435/files/GARENDARKGREEN_5.webp",
+    "sourceUrl": "https://thehouseofrare.com/products/garen-mens-sneaker-dark-green",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "green",
+      "colourHex": "#3f6b4a",
+      "colourFamily": "cool",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "41885458038855",
+        "size": "UK 7",
+        "stock": 0
+      },
+      {
+        "variantId": "41885458071623",
+        "size": "UK 8",
+        "stock": 4
+      },
+      {
+        "variantId": "41885458104391",
+        "size": "UK 9",
+        "stock": 0
+      },
+      {
+        "variantId": "41885458137159",
+        "size": "UK 10",
+        "stock": 4
+      },
+      {
+        "variantId": "41885458169927",
+        "size": "UK 11",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "bacca-bucci-bacca-bucci-hi-top-skyline-soarer-mens-sneakers-gen-z-style-",
+    "slot": "shoes",
+    "brand": "Bacca Bucci",
+    "name": "SKYLINE SOARER",
+    "price": 1799,
+    "image": "https://cdn.shopify.com/s/files/1/0279/5133/3450/files/High-top_SKYLINE_SOARER_Men_s_Sneakers_-_Gen_Z_Style_Elevation_WHITE_BLUE.png",
+    "sourceUrl": "https://baccabucci.com/products/bacca-bucci-hi-top-skyline-soarer-mens-sneakers-gen-z-style-elevation",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "white",
+      "colourHex": "#f5f5f2",
+      "colourFamily": "neutral",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "47005153722614",
+        "size": "UK 6",
+        "stock": 5
+      },
+      {
+        "variantId": "47005153755382",
+        "size": "UK 7",
+        "stock": 4
+      },
+      {
+        "variantId": "47005153788150",
+        "size": "UK 8",
+        "stock": 0
+      },
+      {
+        "variantId": "47005153820918",
+        "size": "UK 9",
+        "stock": 6
+      },
+      {
+        "variantId": "47005153853686",
+        "size": "UK 10",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "bacca-bucci-bacca-bucci-weave-x-basketball-all-court-high-top-basketball",
+    "slot": "shoes",
+    "brand": "Bacca Bucci",
+    "name": "Weave X",
+    "price": 1799,
+    "image": "https://cdn.shopify.com/s/files/1/0279/5133/3450/files/Weave_X_RED.png",
+    "sourceUrl": "https://baccabucci.com/products/bacca-bucci-weave-x-basketball-all-court-high-top-basketball-shoes-sneaker",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "red",
+      "colourHex": "#b8322b",
+      "colourFamily": "bold",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "45397218132214",
+        "size": "UK 6",
+        "stock": 0
+      },
+      {
+        "variantId": "45397218164982",
+        "size": "UK 7",
+        "stock": 0
+      },
+      {
+        "variantId": "45397218197750",
+        "size": "UK 8",
+        "stock": 3
+      },
+      {
+        "variantId": "45397218230518",
+        "size": "UK 9",
+        "stock": 6
+      },
+      {
+        "variantId": "45397218263286",
+        "size": "UK 10",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "bacca-bucci-bacca-bucci-pinnacle-swiftstrike-high-performance-court-shoe",
+    "slot": "shoes",
+    "brand": "Bacca Bucci",
+    "name": "Pinnacle Swift Strike",
+    "price": 1699,
+    "image": "https://cdn.shopify.com/s/files/1/0279/5133/3450/files/01_75f16f8c-a1c9-40d2-8729-dc14cb9d6485.png",
+    "sourceUrl": "https://baccabucci.com/products/bacca-bucci-pinnacle-swiftstrike-high-performance-court-shoe-with-non-marking-outsole-1",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "grey",
+      "colourHex": "#8f9092",
+      "colourFamily": "neutral",
+      "formality": 2,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "45987605217526",
+        "size": "UK 6",
+        "stock": 6
+      },
+      {
+        "variantId": "45987605250294",
+        "size": "UK 7",
+        "stock": 0
+      },
+      {
+        "variantId": "45987605283062",
+        "size": "UK 8",
+        "stock": 0
+      },
+      {
+        "variantId": "45987605315830",
+        "size": "UK 9",
+        "stock": 0
+      },
+      {
+        "variantId": "45987605348598",
+        "size": "UK 10",
+        "stock": 0
+      },
+      {
+        "variantId": "45987605381366",
+        "size": "UK 11",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": "bacca-bucci-genuine-suede-boots-brewster-chelsea-slip-on-boots-bacca-buc",
+    "slot": "shoes",
+    "brand": "Bacca Bucci",
+    "name": "Brewster",
+    "price": 1699,
+    "image": "https://cdn.shopify.com/s/files/1/0279/5133/3450/files/Bacca_Bucci_Brewster_OLIVE_jpg.jpg",
+    "sourceUrl": "https://baccabucci.com/products/genuine-suede-boots-brewster-chelsea-slip-on-boots-bacca-bucci",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "olive",
+      "colourHex": "#5b5a3a",
+      "colourFamily": "earth",
+      "formality": 2,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "43569602003190",
+        "size": "UK 6",
+        "stock": 5
+      },
+      {
+        "variantId": "43569602035958",
+        "size": "UK 7",
+        "stock": 1
+      },
+      {
+        "variantId": "43569602068726",
+        "size": "UK 8",
+        "stock": 5
+      },
+      {
+        "variantId": "43569602101494",
+        "size": "UK 9",
+        "stock": 4
+      },
+      {
+        "variantId": "43569602134262",
+        "size": "UK 10",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "id": "bacca-bucci-chelsea-slip-on-boots-brewster-genuine-leather-boots-bacca-b",
+    "slot": "shoes",
+    "brand": "Bacca Bucci",
+    "name": "Brewster",
+    "price": 1699,
+    "image": "https://cdn.shopify.com/s/files/1/0279/5133/3450/files/Bacca_Bucci_Brewster_TAN_jpg.jpg",
+    "sourceUrl": "https://baccabucci.com/products/chelsea-slip-on-boots-brewster-genuine-leather-boots-bacca-bucci",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "tan",
+      "colourHex": "#a87a4f",
+      "colourFamily": "earth",
+      "formality": 2,
+      "style": "smart-casual"
+    },
+    "variants": [
+      {
+        "variantId": "43569483481334",
+        "size": "UK 6",
+        "stock": 4
+      },
+      {
+        "variantId": "43569483514102",
+        "size": "UK 7",
+        "stock": 5
+      },
+      {
+        "variantId": "43569483546870",
+        "size": "UK 8",
+        "stock": 4
+      },
+      {
+        "variantId": "43569483579638",
+        "size": "UK 9",
+        "stock": 3
+      },
+      {
+        "variantId": "43569483612406",
+        "size": "UK 10",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "id": "bacca-bucci-bacca-bucci-urban-genesis-1-0",
+    "slot": "shoes",
+    "brand": "Bacca Bucci",
+    "name": "Urban Genesis 1.0",
+    "price": 1499,
+    "image": "https://cdn.shopify.com/s/files/1/0279/5133/3450/files/Urban_Genisis_WY_jpg.jpg",
+    "sourceUrl": "https://baccabucci.com/products/bacca-bucci-urban-genesis-1-0",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "yellow",
+      "colourHex": "#e6c84a",
+      "colourFamily": "bold",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "47008230801654",
+        "size": "UK 6",
+        "stock": 5
+      },
+      {
+        "variantId": "47008230834422",
+        "size": "UK 7",
+        "stock": 0
+      },
+      {
+        "variantId": "47008230867190",
+        "size": "UK 8",
+        "stock": 0
+      },
+      {
+        "variantId": "47008230899958",
+        "size": "UK 9",
+        "stock": 6
+      },
+      {
+        "variantId": "47008230932726",
+        "size": "UK 10",
+        "stock": 3
+      },
+      {
+        "variantId": "47008230965494",
+        "size": "UK 11",
+        "stock": 6
+      }
+    ]
+  },
+  {
+    "id": "comet-aeon-sundrop",
+    "slot": "shoes",
+    "brand": "Comet",
+    "name": "Aeon Sundrop",
+    "price": 4199,
+    "image": "https://cdn.shopify.com/s/files/1/0738/5559/8899/files/lateral-view_935fe4e8-0608-4822-a47c-6c5876e62480.jpg",
+    "sourceUrl": "https://wearcomet.com/products/aeon-sundrop",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "yellow",
+      "colourHex": "#e6c84a",
+      "colourFamily": "bold",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "47745335820595",
+        "size": "UK 6",
+        "stock": 0
+      },
+      {
+        "variantId": "47745335853363",
+        "size": "UK 7",
+        "stock": 0
+      },
+      {
+        "variantId": "47745335886131",
+        "size": "UK 8",
+        "stock": 2
+      },
+      {
+        "variantId": "47745335918899",
+        "size": "UK 9",
+        "stock": 0
+      },
+      {
+        "variantId": "47745335951667",
+        "size": "UK 10",
+        "stock": 0
+      },
+      {
+        "variantId": "47745335984435",
+        "size": "UK 11",
+        "stock": 4
+      }
+    ]
+  },
+  {
+    "id": "comet-aeon-butternut",
+    "slot": "shoes",
+    "brand": "Comet",
+    "name": "Aeon Butternut",
+    "price": 4199,
+    "image": "https://cdn.shopify.com/s/files/1/0738/5559/8899/files/lateral-view-min_795a6c11-4cbb-464e-941e-d4622ca67ed0.jpg",
+    "sourceUrl": "https://wearcomet.com/products/aeon-butternut",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "white",
+      "colourHex": "#f5f5f2",
+      "colourFamily": "neutral",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "47745327857971",
+        "size": "UK 4",
+        "stock": 5
+      },
+      {
+        "variantId": "47745327890739",
+        "size": "UK 5",
+        "stock": 0
+      },
+      {
+        "variantId": "47745327923507",
+        "size": "UK 6",
+        "stock": 0
+      },
+      {
+        "variantId": "47745327956275",
+        "size": "UK 7",
+        "stock": 1
+      },
+      {
+        "variantId": "47745327989043",
+        "size": "UK 8",
+        "stock": 5
+      },
+      {
+        "variantId": "47745328021811",
+        "size": "UK 9",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "id": "bacca-bucci-basketball-shoes-for-men-shoes-with-rubber-sole-bacca-bucci",
+    "slot": "shoes",
+    "brand": "Bacca Bucci",
+    "name": "WAGER",
+    "price": 1499,
+    "image": "https://cdn.shopify.com/s/files/1/0279/5133/3450/files/Bacca_Bucci_Wager_Orange.jpg",
+    "sourceUrl": "https://baccabucci.com/products/basketball-shoes-for-men-shoes-with-rubber-sole-bacca-bucci",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "orange",
+      "colourHex": "#e07a2e",
+      "colourFamily": "bold",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "41038921302208",
+        "size": "UK 6",
+        "stock": 0
+      },
+      {
+        "variantId": "41038921334976",
+        "size": "UK 7",
+        "stock": 0
+      },
+      {
+        "variantId": "41038921367744",
+        "size": "UK 8",
+        "stock": 6
+      },
+      {
+        "variantId": "41038921400512",
+        "size": "UK 9",
+        "stock": 1
+      },
+      {
+        "variantId": "41038921433280",
+        "size": "UK 10",
+        "stock": 0
+      },
+      {
+        "variantId": "44624478241014",
+        "size": "UK 11",
+        "stock": 3
+      }
+    ]
+  },
+  {
+    "id": "bacca-bucci-bacca-bucci-ultraforce-mid-top-athletic-fashion-casual-shoes",
+    "slot": "shoes",
+    "brand": "Bacca Bucci",
+    "name": "Ultraforce",
+    "price": 1199,
+    "image": "https://cdn.shopify.com/s/files/1/0279/5133/3450/files/ULTRAFORCE_MAROON.png",
+    "sourceUrl": "https://baccabucci.com/products/bacca-bucci-ultraforce-mid-top-athletic-fashion-casual-shoes",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "maroon",
+      "colourHex": "#6b1f2a",
+      "colourFamily": "earth",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "41101470695616",
+        "size": "UK 6",
+        "stock": 3
+      },
+      {
+        "variantId": "41101470728384",
+        "size": "UK 7",
+        "stock": 4
+      },
+      {
+        "variantId": "41101470761152",
+        "size": "UK 8",
+        "stock": 4
+      },
+      {
+        "variantId": "41101470793920",
+        "size": "UK 9",
+        "stock": 6
+      },
+      {
+        "variantId": "41101470826688",
+        "size": "UK 10",
+        "stock": 5
+      }
+    ]
+  },
+  {
+    "id": "comet-x-lows-mr-claus",
+    "slot": "shoes",
+    "brand": "Comet",
+    "name": "X Lows MR CLAUS",
+    "price": 4299,
+    "image": "https://cdn.shopify.com/s/files/1/0738/5559/8899/files/santa-min.jpg",
+    "sourceUrl": "https://wearcomet.com/products/x-lows-mr-claus",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "multi",
+      "colourHex": "#999999",
+      "colourFamily": "bold",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "52526280868147",
+        "size": "UK 3",
+        "stock": 0
+      },
+      {
+        "variantId": "50793850765619",
+        "size": "UK 4",
+        "stock": 0
+      },
+      {
+        "variantId": "50793850798387",
+        "size": "UK 5",
+        "stock": 2
+      },
+      {
+        "variantId": "50793850831155",
+        "size": "UK 6",
+        "stock": 4
+      },
+      {
+        "variantId": "50793850863923",
+        "size": "UK 7",
+        "stock": 3
+      },
+      {
+        "variantId": "50793850896691",
+        "size": "UK 8",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "id": "comet-x-lows-moonshadow",
+    "slot": "shoes",
+    "brand": "Comet",
+    "name": "X Lows MOONSHADOW",
+    "price": 4299,
+    "image": "https://cdn.shopify.com/s/files/1/0738/5559/8899/files/Lateral_1_025ad1d5-97db-47ac-b0ad-23975a922a19.jpg",
+    "sourceUrl": "https://wearcomet.com/products/x-lows-moonshadow",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "black",
+      "colourHex": "#1b1b1b",
+      "colourFamily": "neutral",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "53790540267827",
+        "size": "UK 4",
+        "stock": 6
+      },
+      {
+        "variantId": "53790540300595",
+        "size": "UK 5",
+        "stock": 6
+      },
+      {
+        "variantId": "53790540333363",
+        "size": "UK 6",
+        "stock": 1
+      },
+      {
+        "variantId": "53790540366131",
+        "size": "UK 7",
+        "stock": 6
+      },
+      {
+        "variantId": "53790540398899",
+        "size": "UK 8",
+        "stock": 4
+      },
+      {
+        "variantId": "53790540431667",
+        "size": "UK 9",
+        "stock": 2
+      }
+    ]
+  },
+  {
+    "id": "comet-x-lows-viper",
+    "slot": "shoes",
+    "brand": "Comet",
+    "name": "X Lows VIPER",
+    "price": 4299,
+    "image": "https://cdn.shopify.com/s/files/1/0738/5559/8899/files/NewLateral_3_e4e8ae15-5489-40b1-9807-dccc89cf3935.jpg",
+    "sourceUrl": "https://wearcomet.com/products/x-lows-viper",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "beige",
+      "colourHex": "#d9c8a9",
+      "colourFamily": "neutral",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "53539564290355",
+        "size": "UK 3",
+        "stock": 6
+      },
+      {
+        "variantId": "53539564323123",
+        "size": "UK 4",
+        "stock": 6
+      },
+      {
+        "variantId": "53539564355891",
+        "size": "UK 5",
+        "stock": 1
+      },
+      {
+        "variantId": "53539564388659",
+        "size": "UK 6",
+        "stock": 5
+      },
+      {
+        "variantId": "53539564421427",
+        "size": "UK 7",
+        "stock": 0
+      },
+      {
+        "variantId": "53539564454195",
+        "size": "UK 8",
+        "stock": 1
+      }
+    ]
+  },
+  {
+    "id": "comet-x-lows-malibu",
+    "slot": "shoes",
+    "brand": "Comet",
+    "name": "X Lows MALIBU",
+    "price": 4299,
+    "image": "https://cdn.shopify.com/s/files/1/0738/5559/8899/files/Lateralnew.jpg",
+    "sourceUrl": "https://wearcomet.com/products/x-lows-malibu",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "green",
+      "colourHex": "#3f6b4a",
+      "colourFamily": "cool",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "53341993238835",
+        "size": "UK 3",
+        "stock": 2
+      },
+      {
+        "variantId": "53341993271603",
+        "size": "UK 4",
+        "stock": 3
+      },
+      {
+        "variantId": "53341993304371",
+        "size": "UK 5",
+        "stock": 3
+      },
+      {
+        "variantId": "53341993337139",
+        "size": "UK 6",
+        "stock": 2
+      },
+      {
+        "variantId": "53341993369907",
+        "size": "UK 7",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "comet-x-lows-cosmo",
+    "slot": "shoes",
+    "brand": "Comet",
+    "name": "X Lows COSMO",
+    "price": 4299,
+    "image": "https://cdn.shopify.com/s/files/1/0738/5559/8899/files/designer_special_placement.jpg",
+    "sourceUrl": "https://wearcomet.com/products/x-lows-cosmo",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "pink",
+      "colourHex": "#e3a3b5",
+      "colourFamily": "bold",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "53205482668339",
+        "size": "UK 3",
+        "stock": 4
+      },
+      {
+        "variantId": "53205482701107",
+        "size": "UK 4",
+        "stock": 5
+      },
+      {
+        "variantId": "53205482733875",
+        "size": "UK 5",
+        "stock": 0
+      },
+      {
+        "variantId": "53205482766643",
+        "size": "UK 6",
+        "stock": 1
+      },
+      {
+        "variantId": "53205482799411",
+        "size": "UK 7",
+        "stock": 0
+      },
+      {
+        "variantId": "53205482832179",
+        "size": "UK 8",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "comet-x-lows-rewind",
+    "slot": "shoes",
+    "brand": "Comet",
+    "name": "X Lows REWIND",
+    "price": 4299,
+    "image": "https://cdn.shopify.com/s/files/1/0738/5559/8899/files/Lateral_4_1_da4a0672-4105-402c-8c09-79e65b7b668a.jpg",
+    "sourceUrl": "https://wearcomet.com/products/x-lows-rewind",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "cream",
+      "colourHex": "#efe6d2",
+      "colourFamily": "neutral",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "53091955736883",
+        "size": "UK 4",
+        "stock": 6
+      },
+      {
+        "variantId": "53091955769651",
+        "size": "UK 5",
+        "stock": 1
+      },
+      {
+        "variantId": "53091955802419",
+        "size": "UK 6",
+        "stock": 1
+      },
+      {
+        "variantId": "53091955835187",
+        "size": "UK 7",
+        "stock": 1
+      },
+      {
+        "variantId": "53091955867955",
+        "size": "UK 8",
+        "stock": 1
+      },
+      {
+        "variantId": "53091955900723",
+        "size": "UK 9",
+        "stock": 1
+      }
+    ]
+  },
+  {
+    "id": "comet-x-lows-pumpkin",
+    "slot": "shoes",
+    "brand": "Comet",
+    "name": "X Lows PUMPKIN",
+    "price": 4299,
+    "image": "https://cdn.shopify.com/s/files/1/0738/5559/8899/files/re-edit_1.jpg",
+    "sourceUrl": "https://wearcomet.com/products/x-lows-pumpkin",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "orange",
+      "colourHex": "#e07a2e",
+      "colourFamily": "bold",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "50968164270387",
+        "size": "UK 3",
+        "stock": 0
+      },
+      {
+        "variantId": "50968164303155",
+        "size": "UK 4",
+        "stock": 2
+      },
+      {
+        "variantId": "50968164335923",
+        "size": "UK 5",
+        "stock": 6
+      },
+      {
+        "variantId": "49852878750003",
+        "size": "UK 6",
+        "stock": 1
+      },
+      {
+        "variantId": "49852878782771",
+        "size": "UK 7",
+        "stock": 3
+      },
+      {
+        "variantId": "49852878815539",
+        "size": "UK 8",
+        "stock": 1
+      }
+    ]
+  },
+  {
+    "id": "comet-x-lows-twister",
+    "slot": "shoes",
+    "brand": "Comet",
+    "name": "X Lows TWISTER",
+    "price": 4299,
+    "image": "https://cdn.shopify.com/s/files/1/0738/5559/8899/files/Lateral-min_cded1911-9e35-4454-a4f0-22ef9f587e10.jpg",
+    "sourceUrl": "https://wearcomet.com/products/x-lows-twister",
+    "tags": {
+      "occasions": [
+        "date-night",
+        "casual"
+      ],
+      "colour": "purple",
+      "colourHex": "#6a4c93",
+      "colourFamily": "bold",
+      "formality": 2,
+      "style": "street"
+    },
+    "variants": [
+      {
+        "variantId": "50628775838003",
+        "size": "UK 3",
+        "stock": 6
+      },
+      {
+        "variantId": "50627626893619",
+        "size": "UK 4",
+        "stock": 1
+      },
+      {
+        "variantId": "50627626926387",
+        "size": "UK 5",
+        "stock": 0
+      },
+      {
+        "variantId": "50622920917299",
+        "size": "UK 6",
+        "stock": 0
+      },
+      {
+        "variantId": "50622920950067",
+        "size": "UK 7",
+        "stock": 0
+      },
+      {
+        "variantId": "50622920982835",
+        "size": "UK 8",
+        "stock": 3
+      }
+    ]
+  }
+]
