@@ -56,7 +56,7 @@ Legend: ✅ done · 🟡 partial · ⬜ pending
 ### Deliverables (brief p.5)
 | Item | Status |
 |---|---|
-| Repo/ZIP with lockfile + install/run commands | 🟡 Lockfile + README commands ✅; work is uncommitted |
+| Repo/ZIP with lockfile + install/run commands | ✅ github.com/aanand10/drip-outfit (private) |
 | README: assumptions, decisions, pairing rules, one look right + one wrong | ✅ |
 | Product write-up: each widget's why/what/design + competitor comparison | ⬜ |
 | Case notes: C1/C2 status, steps from Reset, where to see it | ⬜ Unblocked |
@@ -78,11 +78,11 @@ Legend: ✅ done · 🟡 partial · ⬜ pending
 - [x] Auto-tags: colour + family, formality 1–5, style, occasions
 - [x] Name clean-up, shoe-size normalisation, balanced selection (brand cap, scarcest occasion first)
 
-### Phase 2: Recommendation logic 🟡
+### Phase 2: Recommendation logic ✅
 - [x] Compatibility rules, occasion profiles, budget split, scoring, reasons
 - [x] `recommend`, `swapOptions`, `cheapestLook` (true floor), no-fit suggestions
 - [x] `clashLook` + `explainClash` for "this, not that"
-- [ ] **Vitest tests**: date night within ₹5,000; clash outfit rejected; date night ≠ office; swaps within budget and kept pieces untouched; C2 returns `no_fit` with the right floor
+- [x] Vitest: `domain/recommend.test.ts` (C1 look, date night ≠ office, clash rejected, swaps, C2 no-fit) and `lib/mock-service.test.ts` (no double add, sold-out retry, stock reserve + Reset)
 
 ### Phase 3: Server, API and state ⬜
 - [ ] Route handlers: `GET /api/occasions`, `POST /api/looks/recommend`, `POST /api/looks/swap-options`, `POST /api/looks/contrast`, `GET /api/availability`, `GET/POST/DELETE /api/cart`, `DELETE /api/cart/items/:variantId`, `POST /api/scenarios/reset`
@@ -105,18 +105,17 @@ Legend: ✅ done · 🟡 partial · ⬜ pending
 - [x] C2 screen and next steps
 - [x] Layout-shift and accessibility basics (labels, focus, `aria-live`, reduced motion)
 - [x] C1/C2 from the selector; Reset empties bag (12 → 0) and restores stock; live stock counts down to sold out
-- [ ] `pnpm lint && pnpm test && pnpm build` with tests in place
+- [x] `pnpm lint && pnpm test && pnpm build` with tests in place
 
 ### Phase 6: Docs and submission ⬜
 - [x] README
 - [ ] Product write-up · Case notes · AI tools note
-- [ ] Commit history and push / ZIP
+- [x] Commit history and push / ZIP
 - [ ] Video (author)
 
 ---
 
 ## Pending, in priority order
-1. **Tests** for pairing logic, no-fit, swaps and the double-add guard.
-2. **Product write-up, case notes, AI tools note.**
-3. **Commit**, then record the video.
-4. Optional: real `/api/*` route handlers (backend is "good to have").
+1. **Product write-up, case notes, AI tools note.**
+2. Record the video.
+3. Optional: real `/api/*` route handlers (backend is "good to have").
