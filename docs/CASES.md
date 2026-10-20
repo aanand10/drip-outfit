@@ -1,103 +1,104 @@
 # Case notes
 
-Both cases open from the **Cases** pill in the header, which is on every screen. Each case also has a link you can paste into the address bar. Start each run with **Reset** (in the same sheet) so the bag is empty and stock is back to its seeded values.
+Both cases open from the **Cases** button at the top of every screen. Press **Reset** in the same menu before each run. It empties the bag and puts all stock back.
 
-| Case | Status | Opens | Automated checks |
+| Case | Works? | What it opens | Link |
 |---|---|---|---|
-| C1 · Complete a look | ✅ Works | Date night · ₹5,000 · `/look?occasion=date-night&budget=5000` | `domain/recommend.test.ts`, `lib/mock-service.test.ts`, `look/useLookSelection.test.ts` |
-| C2 · Nothing fits | ✅ Works | Wedding · ₹3,000 · `/look?occasion=wedding&budget=3000` | `domain/recommend.test.ts` |
+| C1 · Complete a look | ✅ Yes | Date night, ₹5,000 | `/look?occasion=date-night&budget=5000` |
+| C2 · Nothing fits | ✅ Yes | Wedding, ₹3,000 | `/look?occasion=wedding&budget=3000` |
 
-`pnpm test` runs all 34 tests.
+Both cases are also covered by tests. Run them with `pnpm test`.
 
 ---
 
 ## C1 · Date night at ₹5,000
 
-**Expected:** an outfit that suits date night and still looks right after a swap. Prices and total are correct at every step and stay within ₹5,000. The bag shows exactly the three chosen items in the chosen sizes. Tapping add-to-cart again while it saves doesn't add twice.
+**What should happen:**
+- You get an outfit that suits a date night.
+- It still looks right after you swap a piece.
+- The total is always correct and never goes over ₹5,000.
+- The bag shows the exact three items and sizes you picked.
+- Tapping "Add look to bag" many times only adds the look once.
 
-### Steps from Reset
+### Steps
 
-1. **Cases → Reset.** The button shows "Bag emptied, stock restored".
-2. **Cases → C1.** The pill now reads `C1`.
-3. **The look:**
+1. Open **Cases** and press **Reset**. It says "Bag emptied, stock restored".
+2. Open **Cases** and pick **C1**. The button now says `C1`.
+3. You see this look:
    - Snitch 100% Cotton Checks Shirt (olive), ₹1,499
    - Powerlook Cream Linen Blend Barrel Fit Pants, ₹1,799
    - Bacca Bucci Brewster (tan), ₹1,699
-   - The sticky bar shows **₹4,997** and "₹3 under".
-   - The reasons under the look explain why the pieces go together.
-4. **Swap the shoes.** Tap *Swap shoes*.
-   - Each option shows its price difference ("−₹500") and the new look total.
-   - Every option keeps the total within ₹5,000 and goes with the top and trousers you keep.
-   - Pick a pair.
-5. **Check the swap:**
-   - Only the shoes changed.
-   - The top and trousers are marked *Kept* and keep any sizes you picked.
-   - The new shoes say "New piece. Pick your size".
-   - The total updates straight away. For example, a ₹1,199 pair gives ₹4,497 and "₹503 under".
-6. **Pick a size for each piece.**
-   - Sold-out sizes can't be selected.
-   - "Only N left" appears when 1 or 2 are left.
-   - Stock is read live from the service, not from the recommendation.
-7. **Tap *Add look to bag* three times quickly.**
-   - The button shows one saving state.
+   - The bar at the bottom says **₹4,997** and "₹3 under".
+4. Tap **Swap shoes**.
+   - Every option shows how much more or less it costs, and the new total.
+   - Every option goes with the shirt and pants, and keeps you within ₹5,000.
+   - Pick any pair.
+5. Check what changed:
+   - Only the shoes changed. The shirt and pants are marked *Kept*.
+   - The new shoes ask you to pick a size.
+   - The total changes right away. For example, a ₹1,199 pair makes it ₹4,497, "₹503 under".
+6. Pick a size for each piece.
+   - Sold-out sizes can't be tapped.
+   - If only 1 or 2 are left, it says "Only 1 left" or "Only 2 left".
+7. Tap **Add look to bag** three times, fast.
    - The bag icon shows **3**, not 6 or 9.
-8. **Open the bag:**
-   - It shows exactly the three items, in the chosen sizes.
-   - It shows the same total as the sticky bar, marked *Confirmed*.
+8. Open the bag.
+   - It has the same three items in the sizes you picked.
+   - The total matches, and it says *Confirmed*.
 
-### What makes it work
+### How it stops double adds
 
-- **No double add:**
-  - **Client:** a ref set on the first tap ignores taps that land before React disables the button.
-  - **Service:** every add carries an idempotency key, and the service stores the in-flight request under that key. Repeats with the same key get the same result instead of a second write.
-  - **Tests:** checked in `lib/mock-service.test.ts` by firing three adds at once. Turning off the service guard makes that test fail.
-- **Sold out while saving:**
-  - If a size runs out between picking and saving, the service rejects the whole add with `OUT_OF_STOCK`.
-  - Only that size is cleared, with the message "A size you picked just sold out. Choose another."
-  - Nothing reaches the bag.
-- **Bag:** it renders only what the service returns. Nothing is added optimistically.
+There are two checks:
+1. **In the app:** the button ignores every tap after the first one, even taps that come before the screen updates.
+2. **In the service:** each add sends a request ID. If the same ID comes in again, the service gives back the first result instead of adding again.
 
-### Also worth seeing
+A test fires three adds at the same time and checks that only one goes through. If I turn off the second check, the test fails.
 
-- Adding the look reserves stock. Add the same sizes again (a separate add, after the first one finished) and "Only 2 left" counts down to sold out.
-- Reset puts every count back.
+### If a size sells out while you add
 
----
+The service refuses the whole look and nothing goes into the bag. The app clears only that size and says "A size you picked just sold out. Choose another."
 
-## C2 · Wedding at ₹3,000 (no fit)
+### Also try
 
-**Expected:** a fixed input that always triggers the no-fit case. The app tells the user nothing fits and offers a useful next step. It never goes over budget quietly and never shows a partial outfit as complete.
-
-### Why this input
-
-The cheapest wedding look that passes the pairing rules costs **₹3,447**:
-- Powerlook Natural Embroidered Kurta (₹1,299)
-- the cheapest classic trousers and shoes that go with it
-
-At ₹3,000 nothing fits. This doesn't depend on stock: Reset restores the seed, and selling out can only make the cheapest look more expensive. ₹3,447 is also the lowest floor of any occasion, so no other occasion fits ₹3,000 either. The screen has to rely on its other next steps.
-
-### Steps from Reset
-
-1. **Cases → Reset.**
-2. **Cases → C2.** The pill now reads `C2`.
-3. **The no-fit screen:**
-   - The heading reads "₹3,000 doesn't cover a full wedding look yet". It goes on: "We won't show you half an outfit", then the cheapest look's total (₹3,447) and the ₹447 gap.
-   - The **closest complete look** is shown with its real total and an "**₹447 over budget**" tag.
-   - There's no add-to-bag button and no size picker, so it can't be mistaken for a result.
-   - **"See it at ₹3,500"** reruns the look at the floor, rounded up to the next ₹100.
-   - Other occasions that fit the budget appear as "*Occasion* look within ₹X" links. For C2 there are none, because every occasion's cheapest look costs more than ₹3,000.
-   - "Change occasion or budget" goes back to the form with the inputs filled in.
-4. **Tap "See it at ₹3,500".** You get a full wedding look under ₹3,500 that you can add to the bag.
-
-### Also worth seeing
-
-- On the home page, choose Wedding and set the budget below ₹3,447. The live preview shows "Needs ₹3,447+" before you even open the look.
-- **Date night at ₹3,500** is a no-fit where another occasion does fit. The screen offers a "Wedding look within ₹3,500" link as a next step.
-- The budget picker shows "Looks from ₹X" for the chosen occasion, so most users never reach this screen.
+Add the same look again (after the first add has finished). Low stock counts down: "Only 2 left", then "Only 1 left", then sold out. Reset puts everything back.
 
 ---
 
-## Known limits
+## C2 · Wedding at ₹3,000 (nothing fits)
 
-- **State lives in the browser tab.** A full page reload empties the bag and restores stock, the same as Reset.
-- **The Cases pill is visible to everyone.** It's a reviewer control the brief asks for, so I kept it small and placed it next to the bag icon rather than hiding it.
+**What should happen:**
+- The app clearly says no full outfit fits the budget.
+- It gives a useful next step.
+- It never goes over budget without saying so.
+- It never shows half an outfit as if it were complete.
+
+### Why ₹3,000 always fails
+
+The cheapest wedding outfit where all three pieces go together costs **₹3,447**. ₹3,000 is below that, so nothing can fit.
+- Reset always brings stock back to the same starting point.
+- Items selling out can only make outfits cost more, never less.
+- No other occasion has an outfit under ₹3,000 either.
+
+### Steps
+
+1. Open **Cases** and press **Reset**.
+2. Open **Cases** and pick **C2**. The button now says `C2`.
+3. You see the "nothing fits" screen:
+   - **Heading:** "₹3,000 doesn't cover a full wedding look yet."
+   - **The message:** "We won't show you half an outfit." It also says what the cheapest outfit costs (₹3,447) and how much more that is (₹447).
+   - **Closest outfit:** shown with a "**₹447 over budget**" tag. There's no size picker or add button on it.
+   - **"See it at ₹3,500":** opens the look at a budget that works.
+   - **"Change occasion or budget":** goes back to the start with your choices filled in.
+4. Tap **See it at ₹3,500**. You get a full wedding outfit that you can add to the bag.
+
+### Also try
+
+- **Home page warning:** pick Wedding and set the budget under ₹3,447. The preview says "Needs ₹3,447+" before you go any further.
+- **Another occasion fits:** try Date night at ₹3,500. Nothing fits there, but a wedding outfit does, so the screen shows a "Wedding look within ₹3,500" link.
+
+---
+
+## Limits
+
+- Everything is stored in the browser tab. Reloading the page empties the bag and resets stock, just like Reset.
+- The Cases button is visible to everyone, because the brief asks for it. It's kept small, next to the bag icon.

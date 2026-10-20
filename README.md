@@ -1,32 +1,32 @@
 # DRIP · Complete the Look
 
-A mobile shopping flow: pick an occasion and a total budget in INR, get a top, trousers and shoes that go together, swap any one piece, choose in-stock sizes and add the whole look to the bag. The bag shows only what the service confirmed.
+A mobile shopping app. You pick an occasion and a budget in rupees. The app gives you a top, trousers and shoes that go together. You can swap any one piece, pick sizes that are in stock, and add the whole outfit to your bag. The bag only shows what the service actually saved.
 
 More docs: [product write-up](docs/PRODUCT.md) · [case notes](docs/CASES.md)
 
-Built on 116 real products from 7 Indian brands (Snitch, Powerlook, Rare Rabbit, Bonkers Corner, Neeman's, Bacca Bucci, Comet).
+It uses 116 real products from 7 Indian brands: Snitch, Powerlook, Rare Rabbit, Bonkers Corner, Neeman's, Bacca Bucci and Comet.
 
 ---
 
 ## Run it
 
-Requires Node 20+ and pnpm 10 (pinned in `package.json`; `corepack enable` picks it up).
+You need Node 20+ and pnpm 10. The pnpm version is set in `package.json`, and `corepack enable` will pick it up.
 
 ```bash
 pnpm install
 pnpm dev          # http://localhost:3000
 ```
 
-Open it on a phone on the same Wi-Fi: `pnpm dev`, then visit `http://<your-LAN-IP>:3000`. `next.config.ts` already allows `192.168.*.*` dev origins.
+To try it on your phone, connect to the same Wi-Fi, run `pnpm dev`, and open `http://<your-computer's-IP>:3000`. Addresses starting with `192.168.` are already allowed in `next.config.ts`.
 
 ```bash
-pnpm lint         # ESLint
-pnpm test         # Vitest
-pnpm build        # production build
-pnpm start        # serve the build
+pnpm lint         # check code style
+pnpm test         # run the tests
+pnpm build        # make a production build
+pnpm start        # run that build
 ```
 
-Re-scrape the catalogue (optional; the result is checked in):
+To download the product list again (optional, it's already included):
 
 ```bash
 python3 scripts/scrape_products.py          # writes src/server/data/products.json
@@ -34,115 +34,125 @@ python3 scripts/scrape_products.py          # writes src/server/data/products.js
 
 ---
 
-## Reviewer controls: C1, C2 and Reset
+## Testing C1, C2 and Reset
 
-The **Cases** pill in the header (every screen) opens a sheet with:
+Every screen has a **Cases** button at the top. It opens a menu with:
 
-| Control | What it does |
+| Button | What it does |
 |---|---|
 | **C1 · Complete a look** | Opens Date night at ₹5,000 |
-| **C2 · Nothing fits** | Opens Wedding at ₹3,000 (always below the cheapest complete wedding look, ₹3,447) |
-| **Reset** | Empties the bag, restores every size's original stock, clears idempotency keys and refetches everything |
+| **C2 · Nothing fits** | Opens Wedding at ₹3,000. The cheapest wedding outfit is ₹3,447, so this never fits |
+| **Reset** | Empties the bag, puts all stock back, and reloads everything |
 
-The pill shows `C1` or `C2` while you're on that case. Stock is seeded deterministically from the variant ID, so every Reset returns the same starting state.
+While you're on a case, the button shows `C1` or `C2`. Stock always starts at the same numbers, so Reset always gives you the same starting point.
+
+Step-by-step instructions are in [docs/CASES.md](docs/CASES.md).
 
 ---
 
-## How it's built
+## How the code is organised
 
 ```
 src/
-  domain/          Pure logic, no React, no I/O
-    types.ts       The API contract: every request/response shape
-    rules.ts       Pairing rules, occasion profiles, scoring, reasons
+  domain/          The matching logic. No React, no network.
+    types.ts       The shape of every request and response
+    rules.ts       Matching rules, occasion settings, scoring, reasons
     recommend.ts   recommend, swapOptions, cheapestLook, clashLook
-    scenarios.ts   C1 / C2 fixed inputs
+    scenarios.ts   The C1 and C2 inputs
   lib/
-    mock-service.ts  The "server": runs the domain logic over the catalogue, owns stock + cart
-    api.ts           The only thing screens import to talk to the service, plus query keys
+    mock-service.ts  Acts as the server: runs the logic, keeps stock and the bag
+    api.ts           The only thing the screens use to talk to the service
   features/
     home/          Intro, occasion, budget, live preview, "this, not that"
-    look/          Outfit, sizes, swap sheet, add to bag, no-fit screen
-    cart/          Confirmed bag, remove, clear
+    look/          Outfit, sizes, swap menu, add to bag, "nothing fits" screen
+    cart/          The bag: remove items, clear bag
   components/
-    ui/            Header, buttons, chips, case switcher
-    outfit/        Gallery, illustrated figure
-  server/data/products.json   Scraped, tagged catalogue
-scripts/scrape_products.py    Shopify scraper + auto-tagger
+    ui/            Header, buttons, Cases menu
+    outfit/        Photo gallery, outfit illustration
+  server/data/products.json   The product list, with tags
+scripts/scrape_products.py    Downloads products and adds tags
 ```
 
-UI components never filter products or do price math. They call `api.*` through TanStack Query and render what comes back.
+Screens never filter products or work out prices. They ask `api` for data and show what comes back.
 
-### Service contract
+### The service
 
-There's no separate backend; the brief allows a mock data source. `mock-service.ts` keeps the shape of one, though: every method takes and returns the types in `domain/types.ts`, adds latency, and holds stock and cart state the UI can't touch. Moving it behind route handlers means changing `lib/api.ts` only.
+There's no separate server; the brief allows a mock. But `mock-service.ts` works like a real one. It uses the request and response types in `domain/types.ts`, adds a small delay, and keeps the stock and bag to itself. Moving it to a real server would only mean changing `lib/api.ts`.
 
-| Method | Would be | Notes |
+| Function | Real API equivalent | Notes |
 |---|---|---|
-| `getOccasions()` | `GET /api/occasions` | Includes the cheapest complete look per occasion (for the budget picker's "looks from" marker) |
-| `recommend({occasion, budget})` | `POST /api/looks/recommend` | `{status:"ok", look}` or `{status:"no_fit", cheapestTotal, shortBy, cheapestLook, suggestions}` |
-| `swapOptions({occasion, budget, slot, currentProductId, kept})` | `POST /api/looks/swap-options` | Only pieces that go with the two kept pieces and keep the total within budget |
-| `availability({variantIds})` | `POST /api/availability` | Live stock per size. The size pickers read this, not the stock baked into the recommendation |
-| `addToCart({items}, idempotencyKey)` | `POST /api/cart/items` + `Idempotency-Key` | Rejects with `OUT_OF_STOCK` and the variant IDs if any size ran out. Reserves stock |
-| `removeFromCart(variantId)` / `clearCart()` | `DELETE /api/cart/items/:id` / `DELETE /api/cart` | Returns stock |
+| `getOccasions()` | `GET /api/occasions` | Also returns the cheapest outfit for each occasion (for "Looks from ₹X") |
+| `recommend({occasion, budget})` | `POST /api/looks/recommend` | Returns an outfit, or a "nothing fits" answer with the cheapest outfit, how much short you are, and suggestions |
+| `swapOptions({occasion, budget, slot, currentProductId, kept})` | `POST /api/looks/swap-options` | Only pieces that go with the two you're keeping and stay within budget |
+| `availability({variantIds})` | `POST /api/availability` | Current stock for each size. The size buttons use this |
+| `addToCart({items}, idempotencyKey)` | `POST /api/cart/items` + `Idempotency-Key` | Fails with `OUT_OF_STOCK` and the sold-out sizes if any size ran out. Takes the items out of stock |
+| `removeFromCart(variantId)` / `clearCart()` | `DELETE /api/cart/items/:id` / `DELETE /api/cart` | Puts the stock back |
 | `getCart()` | `GET /api/cart` | |
 | `reset()` | `POST /api/scenarios/reset` | |
-| `contrast({occasion, budget})` | `POST /api/looks/contrast` | A real in-budget clashing look for the home page comparison |
+| `contrast({occasion, budget})` | `POST /api/looks/contrast` | A real bad outfit within budget, for the "this, not that" section |
 
-### No double add (C1)
+### Stopping double adds (C1)
 
-Two layers, because either alone has a gap:
+There are two checks, because each one alone can miss a case:
 
-1. **Client:** the button sets a ref synchronously on the first tap, so taps that land before React re-renders (and before `disabled` applies) are ignored.
-2. **Service:** each attempt carries an idempotency key. The service stores the *in-flight promise* under that key, so a duplicate request with the same key gets the same result instead of a second write. A failed attempt releases its key so the user can retry.
+1. **In the app:** the first tap sets a flag straight away, so taps that come before the screen updates are ignored.
+2. **In the service:** every add has a request ID (the idempotency key). The service remembers the request while it's running. If the same ID comes in again, it gets the same result instead of adding again. If the add fails, the ID is freed so you can try again.
 
-Tested: a triple tap adds exactly 3 lines, ₹4,997.
+A test fires three adds at once and checks that only one goes through.
 
 ---
 
-## Pairing rules
+## How pieces are matched
 
-Every product carries tags generated from its title, product type and store tags: `occasions`, `colour` + `colourFamily` (neutral / earth / cool / bold), `formality` 1–5 and `style` (classic, smart-casual, street, ethnic, sport).
+Every product has tags, made from its name, type and the brand's own tags:
+- **occasions** it suits;
+- **colour**, plus a colour group: neutral, earth, cool or bold;
+- **formality**, from 1 (very casual) to 5 (very dressy);
+- **style**: classic, smart-casual, street, ethnic or sport.
 
-**1. Eligibility (hard rules).** A product is a candidate only if it's tagged for the occasion and has at least one size in stock. Two pieces can share a look only if:
+**1. Must-have rules.** A product can be used only if it suits the occasion and has at least one size in stock. Two pieces can be in the same outfit only if:
 
-- their formality differs by at most 1 (no blazer-weight shirt with joggers);
-- their styles don't clash: sport + classic, sport + ethnic and street + ethnic are out;
-- they aren't both bold colours (one statement piece per look).
+- their formality is at most 1 apart (no dressy shirt with joggers);
+- their styles don't clash (sport with classic, sport with ethnic, and street with ethnic aren't allowed);
+- they aren't both bold colours (only one loud piece per outfit).
 
-All three pairs (top–trousers, top–shoes, trousers–shoes) must pass.
+Every pair in the outfit must pass: top with trousers, top with shoes, and trousers with shoes.
 
-**2. Budget (hard rule).** The total is never above the budget. If no compatible look fits, the response is `no_fit`; the app never drops a piece to squeeze under.
+**2. Budget.** The total never goes over the budget. If no outfit fits, the app says "nothing fits". It never drops a piece to get under.
 
-**3. Preference (score, 0–1).** Every valid in-budget combination is scored and the best one wins:
+**3. Scoring.** Every outfit that passes is given a score from 0 to 1, and the highest wins:
 
-| Weight | Factor | Why |
+| Weight | What it checks | Why |
 |---|---|---|
-| 25% | **Occasion fit:** distance from the occasion's target formality, preferred styles, preferred colour families | So date night and office don't land on the same safe outfit |
-| 20% | **Cohesion:** spread of formality across the three pieces | Same dressiness reads as one outfit |
-| 20% | **Colour:** 1–2 neutrals anchoring is best; all neutral is safe but flat; no neutral is loud; repeating the exact colour is penalised | |
-| 15% | **Budget split:** closeness to top 32% / trousers 33% / shoes 35% | A ₹4,000 shoe with a ₹300 top fits the budget but looks wrong |
-| 10% | **Budget use:** total / budget | People set a budget expecting to use most of it |
-| 10% | **Style unity:** one style beats two beats three | |
+| 25% | **Occasion fit:** how close the formality, style and colours are to what suits the occasion | So date night and office don't get the same safe outfit |
+| 20% | **Same dressiness:** how close the three pieces are in formality | Pieces at the same level look like one outfit |
+| 20% | **Colour:** 1–2 neutral pieces is best; all neutral is safe but boring; no neutral is too loud; the same colour twice loses points | |
+| 15% | **Budget split:** how close it is to 32% top, 33% trousers, 35% shoes | A ₹4,000 shoe with a ₹300 top fits the budget but looks wrong |
+| 10% | **Budget used:** total ÷ budget | If you set ₹5,000, you probably expect to spend most of it |
+| 10% | **Same style:** one style is better than two, two is better than three | |
 
-Occasion profiles:
+What each occasion looks for:
 
-| Occasion | Target formality | Preferred styles | Preferred colours |
+| Occasion | Formality | Styles | Colours |
 |---|---|---|---|
 | Date night | 3 | smart-casual | earth, cool |
 | Office | 3.6 | classic | neutral, cool |
-| Wedding | 4.6 | ethnic, classic (one ethnic piece is a strong bonus) | earth, bold, neutral |
+| Wedding | 4.6 | ethnic, classic (one ethnic piece gets a big bonus) | earth, bold, neutral |
 | Weekend | 2 | street, smart-casual | neutral, cool, bold |
 
-**4. Swaps.** Options for a slot are re-scored as part of the whole look with the two kept pieces, must pass the eligibility rules against both, and must keep `kept total + new price ≤ budget`. The kept pieces never change. The swapped-in piece starts without a size.
+**4. Swaps.** A replacement must pass the must-have rules with both pieces you're keeping, and the new total must stay within budget. Options are scored as part of the full outfit. The pieces you keep never change, and the new piece starts with no size picked.
 
-**5. Reasons.** The chips under each look ("Matched smart-casual level", "Neutral base, olive accent", "Balanced spend") are generated from the same tags the score uses, so the explanation can't drift from the logic.
+**5. Reasons.** The labels under each outfit ("Matched smart-casual level", "Neutral base, olive accent", "Balanced spend") come from the same tags used for scoring. So the explanation always matches the decision.
 
-**6. No fit.** The floor is the cheapest look that *passes the pairing rules*, not the sum of the cheapest piece in each slot (those usually don't go together). The no-fit screen shows that look clearly marked as over budget, the exact shortfall, a "See it at ₹X" link (floor rounded up to ₹100), and the other occasions that do fit the budget.
+**6. Nothing fits.** The app compares your budget with the cheapest outfit where the pieces *actually go together*, not just the three cheapest items (those usually don't match). The "nothing fits" screen shows:
+- that outfit, marked as over budget;
+- exactly how much you're short;
+- a "See it at ₹X" button, with the price rounded up to the next ₹100;
+- other occasions that do fit your budget.
 
 ---
 
-## One look it gets right
+## An outfit it gets right
 
 **C1: Date night, ₹5,000 → ₹4,997**
 
@@ -152,11 +162,20 @@ Occasion profiles:
 | Trousers | Powerlook · Cream Linen Blend Barrel Fit Pants | ₹1,799 | cream · neutral · 3 · smart-casual |
 | Shoes | Bacca Bucci · Brewster | ₹1,699 | tan · earth · 2 · smart-casual |
 
-Why it's right: one style throughout, dressed up enough for dinner but not office-stiff, a warm earth palette anchored by cream trousers, and the spend split 30/36/34, close to the target. Compare the office look at the same budget: maroon satin shirt, beige pleated trousers and black leather lace-ups, all formality 4 and classic. Same budget, clearly a different occasion.
+**Why it works:**
+- **Style:** the same style throughout.
+- **Dressiness:** smart enough for dinner, but not office-stiff.
+- **Colours:** warm earthy colours, balanced by cream trousers.
+- **Budget split:** about 30/36/34, close to the target.
 
-The home page "this, not that" shows the opposite: the worst in-budget pieces for date night (yellow kurta-shirt, pink track joggers, yellow sneakers, ₹4,297). It fits the budget, but the rules reject it for mixed dressiness, sportswear and competing bold colours.
+**Compare the office outfit at the same budget:** a maroon satin shirt, beige pleated trousers and black leather lace-ups, all dressier and classic. Same budget, clearly a different occasion.
 
-## One look it gets wrong
+**The "this, not that" section shows the opposite:** the worst outfit within budget for date night, a yellow kurta-shirt, pink track pants and yellow sneakers (₹4,297). It fits the budget, but the rules reject it because:
+- the pieces are at different dressiness levels;
+- one piece is sportswear;
+- it has too many loud colours.
+
+## An outfit it gets wrong
 
 **Wedding, ₹6,000 → ₹5,997**
 
@@ -166,36 +185,44 @@ The home page "this, not that" shows the opposite: the worst in-budget pieces fo
 | Trousers | Snitch · Off-White Stretch **Plus Size** Trousers | ₹2,099 | off white · neutral · 4 · classic |
 | Shoes | Neeman's · Transition Loafers, Olive | ₹2,599 | olive · earth · 4 · classic |
 
-What's wrong:
+**What's wrong:**
 
-1. **Plus-size trousers recommended to everyone.** The tags describe how a piece *looks*, not who it's *cut for*. The scorer liked it (right formality, neutral, good price share), but it's the wrong product for most users. Fix: tag fit range in the scraper (`fit: "plus"`) and only show those when the user picks that range.
-2. **Kurta with western trousers and loafers.** It passes every rule (formality 5/4/4, ethnic + classic is allowed), but at an Indian wedding it reads as office-ethnic. The catalogue has no churidars or juttis, so the "one ethnic piece" bonus anchors the look but can't complete it. Fix: scrape ethnic bottoms and footwear, and when the top is ethnic, require ethnic or ethnic-friendly bottoms.
-3. **The reason says "Matched sharp level"**, an office word on a wedding look. Fix: word the formality reason per occasion ("festive" at 5).
-4. Off-white trousers under a cream kurta are near-identical shades. The "repeated colour" penalty compares colour *names*, so it misses close shades. Fix: compare `colourHex` distance.
+1. **Plus-size trousers are suggested to everyone.**
+   - **Why:** the tags describe how a piece *looks*, not who it's *made for*. The score liked these trousers: the right formality, a neutral colour and a good price. But most people need a different fit.
+   - **Fix:** add a fit tag (like `fit: "plus"`) when downloading products, and only show these items to people who choose that fit.
+2. **A kurta with western trousers and loafers.**
+   - **Why:** it passes every rule, but at an Indian wedding it looks like office wear. The product list has no churidars or juttis, so the app can't complete a traditional outfit.
+   - **Fix:** add ethnic bottoms and footwear. When the top is ethnic, require bottoms that go with ethnic wear.
+3. **The reason says "Matched sharp level".**
+   - **Why:** "sharp" is an office word, not a wedding one.
+   - **Fix:** use different words for each occasion, like "festive" for weddings.
+4. **Off-white trousers under a cream kurta are almost the same colour.**
+   - **Why:** the "same colour" check compares colour *names*, so it misses shades that are very close.
+   - **Fix:** compare the actual colour values instead.
 
 ---
 
 ## Assumptions and decisions
 
-| Assumption / decision | Why |
+| Decision | Why |
 |---|---|
-| **One budget for the whole outfit**, not per piece | That's how people think about "an outfit for ₹5,000"; the split is the app's job |
-| **Spend most of the budget** (10% of score) | Someone who sets ₹5,000 expects a ₹4,900 look, not ₹2,000 |
-| **No size is preselected** | We don't know the user's size, and a wrong guess that goes into the bag is worse than one extra tap |
-| **"Add look" adds all three or nothing** | The flow sells a look; a partial add would show an incomplete outfit as done |
-| **The add button stays tappable with sizes missing** and scrolls to the first piece that needs one | A disabled button gives no hint why; this tells you |
-| **Stock is reserved on add**, returned on remove, clear or Reset | So C1's "only 1 left" is honest and Reset is meaningful |
-| **The bag renders only the service's response** | The brief says "as confirmed by the service"; nothing is optimistic |
-| **Mock service in the browser**, not route handlers | The brief allows it; it keeps the contract and keeps the 8-hour budget for the flow. State resets on reload |
-| **Exhaustive search** over valid combinations | ~40 × 36 × 40 per occasion, pruned by compatibility first; runs in milliseconds and always finds the true best and true floor |
-| **Real scraped products**, auto-tagged | The brief asks for real products; tagging 116 by hand isn't repeatable. Rules match title and type first, then store tags |
-| **Stock seeded from the variant ID** (1–6 if Shopify says available, else 0) | Shopify only exposes in/out of stock; seeding keeps Reset reproducible |
-| **C2 = Wedding at ₹3,000** | ₹447 below the cheapest valid wedding look, so it always triggers no-fit, and other occasions don't fit either, which tests the "useful next step" honestly |
-| **Next.js App Router**, client-rendered screens | Every screen is interactive state over one service; URLs (`/look?occasion=…&budget=…`) make cases shareable and the back button work |
+| **One budget for the whole outfit**, not one per piece | People think "an outfit for ₹5,000". Splitting it is the app's job |
+| **Try to use most of the budget** (10% of the score) | If you set ₹5,000, you probably expect around ₹4,900, not ₹2,000 |
+| **No size is picked for you** | The app doesn't know your size. A wrong size in the bag is worse than one extra tap |
+| **"Add look" adds all three or nothing** | The app sells a full outfit. Adding only part of it would be confusing |
+| **The add button works even when sizes are missing** and scrolls to the piece that needs one | A greyed-out button doesn't tell you what's wrong. This does |
+| **Adding to the bag takes items out of stock**; removing, clearing or Reset puts them back | So "Only 1 left" is true, and Reset actually resets |
+| **The bag only shows what the service returned** | The brief says "as confirmed by the service". Nothing is shown before it's saved |
+| **The service runs in the browser**, not on a real server | The brief allows it. It keeps the same shape as a real API and leaves more time for the app itself. Reloading the page resets it |
+| **Every outfit is checked** to find the best one | About 40 × 36 × 40 combinations per occasion, and non-matching pairs are skipped early. It takes milliseconds and always finds the true best and cheapest outfit |
+| **Real products, tagged automatically** | The brief asks for real products. Tagging 116 by hand isn't easy to repeat. The rules check the name and type first, then the brand's tags |
+| **Stock numbers come from each size's ID** (1–6 if the brand says it's in stock, 0 if not) | The brand sites only say "in stock" or "out of stock". This way Reset always gives the same numbers |
+| **C2 is Wedding at ₹3,000** | That's ₹447 below the cheapest wedding outfit, so nothing ever fits. No other occasion fits either, which tests the next-step options properly |
+| **Next.js App Router**, with screens built in the browser | Every screen is interactive. The links (`/look?occasion=…&budget=…`) make cases easy to share and let the back button work |
 
-## Known limitations
+## Limits
 
-- State lives in the browser tab: a full reload resets the bag (as if you pressed Reset).
-- Tags are keyword-based, so a few products are mis-tagged (see the wedding example).
-- No user size profile; sizes are chosen per look.
-- The illustrated figure is a stylised SVG, not a try-on.
+- **No real server:** everything is stored in the browser tab, so reloading the page empties the bag (like pressing Reset).
+- **Tags can be wrong:** they're based on keywords, so a few products get the wrong tags (see the wedding example above).
+- **No saved sizes:** you pick sizes for each outfit.
+- **No photo try-on:** the outfit drawing is a simple illustration.
