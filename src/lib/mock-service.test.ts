@@ -50,4 +50,34 @@ describe("addToCart", () => {
     expect((await api.availability({ variantIds: ids })).stock).toEqual(before);
     expect((await api.getCart()).itemCount).toBe(0);
   });
+
+  it("a new key is a new add", async () => {
+    const items = await c1Items();
+    await api.addToCart({ items }, "a");
+    const cart = await api.addToCart({ items }, "b");
+    expect(cart.itemCount).toBe(6);
+    expect(cart.items).toHaveLength(3);
+  });
+
+  it("remove and clear give stock back", async () => {
+    const items = await c1Items();
+    const ids = items.map((i) => i.variantId);
+    const before = (await api.availability({ variantIds: ids })).stock;
+    await api.addToCart({ items }, "k");
+
+    const afterRemove = await api.removeFromCart(ids[0]);
+    expect(afterRemove.itemCount).toBe(2);
+    expect((await api.availability({ variantIds: [ids[0]] })).stock[ids[0]]).toBe(before[ids[0]]);
+
+    expect((await api.clearCart()).itemCount).toBe(0);
+    expect((await api.availability({ variantIds: ids })).stock).toEqual(before);
+  });
+});
+
+describe("availability", () => {
+  it("omits unknown variant ids", async () => {
+    const [{ variantId }] = await c1Items();
+    const { stock } = await api.availability({ variantIds: [variantId, "nope"] });
+    expect(Object.keys(stock)).toEqual([variantId]);
+  });
 });

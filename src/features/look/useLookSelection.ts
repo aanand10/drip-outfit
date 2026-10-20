@@ -7,14 +7,14 @@ export interface SelectedPiece {
   swapped: boolean;
 }
 
-type State = Record<Slot, SelectedPiece>;
+export type SelectionState = Record<Slot, SelectedPiece>;
 
-type Action =
+type SelectionAction =
   | { type: "swap"; slot: Slot; product: Product }
   | { type: "size"; slot: Slot; variantId: string }
   | { type: "clearSizes"; variantIds: string[] };
 
-function reducer(state: State, action: Action): State {
+export function selectionReducer(state: SelectionState, action: SelectionAction): SelectionState {
   switch (action.type) {
     case "swap":
       // Only the swapped slot changes; a new product never inherits the old size.
@@ -28,19 +28,19 @@ function reducer(state: State, action: Action): State {
           const p = state[slot];
           return [slot, p.variantId && action.variantIds.includes(p.variantId) ? { ...p, variantId: null } : p];
         }),
-      ) as State;
+      ) as SelectionState;
   }
 }
 
-function init(look: Look): State {
+function init(look: Look): SelectionState {
   // No size is preselected: we don't know the user's size.
   return Object.fromEntries(
     look.items.map((i) => [i.slot, { product: i.product, variantId: null, swapped: false }]),
-  ) as State;
+  ) as SelectionState;
 }
 
 export function useLookSelection(look: Look) {
-  const [pieces, dispatch] = useReducer(reducer, look, init);
+  const [pieces, dispatch] = useReducer(selectionReducer, look, init);
 
   const total = SLOTS.reduce((sum, slot) => sum + pieces[slot].product.price, 0);
   const missingSize = SLOTS.filter((slot) => pieces[slot].variantId === null);

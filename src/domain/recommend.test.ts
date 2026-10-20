@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 import catalogue from "@/server/data/products.json";
 import { SCENARIOS } from "./scenarios";
-import { clashLook, recommend, swapOptions } from "./recommend";
+import { cheapestLook, clashLook, recommend, swapOptions } from "./recommend";
 import { compatible } from "./rules";
-import type { OccasionId, Product } from "./types";
+import { OCCASION_IDS, type OccasionId, type Product } from "./types";
 
 const PRODUCTS = catalogue as Product[];
 const LABELS: Record<OccasionId, string> = {
@@ -53,6 +53,41 @@ describe("recommend", () => {
   });
 });
 
+describe("recommend at any budget", () => {
+  const budgets = Array.from({ length: 15 }, (_, i) => 3000 + i * 500);
+
+  it.each(OCCASION_IDS)("%s: a full look within budget, or no-fit exactly below the floor", (occasion) => {
+    const floor = cheapestLook(PRODUCTS, occasion)!.reduce((s, p) => s + p.price, 0);
+    for (const budget of budgets) {
+      const res = recommend(PRODUCTS, occasion, budget, LABELS);
+      expect(res.status).toBe(budget >= floor ? "ok" : "no_fit");
+      if (res.status === "ok") {
+        expect(res.look.items).toHaveLength(3);
+        expect(res.look.total).toBeLessThanOrEqual(budget);
+        expect(res.look.remaining).toBe(budget - res.look.total);
+      }
+    }
+  });
+
+  it("skips a product once every size is sold out", () => {
+    const top = okLook("date-night", 5000).items[0].product;
+    const soldOut = PRODUCTS.map((p) =>
+      p.id === top.id ? { ...p, variants: p.variants.map((v) => ({ ...v, stock: 0 })) } : p,
+    );
+    const res = recommend(soldOut, "date-night", 5000, LABELS);
+    if (res.status !== "ok") throw new Error("expected a look");
+    expect(res.look.items[0].product.id).not.toBe(top.id);
+  });
+
+  it("only suggests other occasions that fit the budget", () => {
+    const res = recommend(PRODUCTS, "date-night", 3500, LABELS);
+    if (res.status !== "no_fit") throw new Error("expected no_fit");
+    const others = res.suggestions.filter((s) => s.type === "other_occasion");
+    expect(others.map((s) => s.occasion)).toEqual(["wedding"]);
+    expect(others[0].minLookPrice).toBeLessThanOrEqual(3500);
+  });
+});
+
 describe("clashLook", () => {
   it("is a look the pairing rules reject", () => {
     const clash = clashLook(PRODUCTS, "date-night", 5000)!;
@@ -76,5 +111,10 @@ describe("swapOptions", () => {
       expect(priceDelta).toBe(product.price - shoes.price);
       expect(goTogether([top, trousers, product])).toBe(true);
     }
+  });
+
+  it("offers nothing when the kept pieces already use the whole budget", () => {
+    const [top, trousers, shoes] = okLook("date-night", 5000).items.map((i) => i.product);
+    expect(swapOptions(PRODUCTS, "date-night", top.price + trousers.price, "shoes", shoes, [top, trousers])).toEqual([]);
   });
 });

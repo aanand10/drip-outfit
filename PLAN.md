@@ -82,7 +82,7 @@ Legend: ✅ done · 🟡 partial · ⬜ pending
 - [x] Compatibility rules, occasion profiles, budget split, scoring, reasons
 - [x] `recommend`, `swapOptions`, `cheapestLook` (true floor), no-fit suggestions
 - [x] `clashLook` + `explainClash` for "this, not that"
-- [x] Vitest: `domain/recommend.test.ts` (C1 look, date night ≠ office, clash rejected, swaps, C2 no-fit) and `lib/mock-service.test.ts` (no double add, sold-out retry, stock reserve + Reset)
+- [x] Vitest, 35 tests: `domain/rules` (pairing rules, scoring), `domain/recommend` (C1, C2, every budget × occasion, sold-out, swaps), `lib/mock-service` (no double add, stock, Reset), `lib/routes` (URL parsing, INR format), `look/useLookSelection` (swap and sold-out reducer)
 
 ### Phase 3: Server, API and state ⬜
 - [ ] Route handlers: `GET /api/occasions`, `POST /api/looks/recommend`, `POST /api/looks/swap-options`, `POST /api/looks/contrast`, `GET /api/availability`, `GET/POST/DELETE /api/cart`, `DELETE /api/cart/items/:variantId`, `POST /api/scenarios/reset`
