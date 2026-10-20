@@ -58,8 +58,8 @@ Legend: ✅ done · 🟡 partial · ⬜ pending
 |---|---|
 | Repo/ZIP with lockfile + install/run commands | ✅ github.com/aanand10/drip-outfit (private) |
 | README: assumptions, decisions, pairing rules, one look right + one wrong | ✅ |
-| Product write-up: each widget's why/what/design + competitor comparison | ⬜ |
-| Case notes: C1/C2 status, steps from Reset, where to see it | ⬜ Unblocked |
+| Product write-up: each widget's why/what/design + competitor comparison | ✅ `docs/PRODUCT.md` |
+| Case notes: C1/C2 status, steps from Reset, where to see it | ✅ `docs/CASES.md` |
 | Video ≤ 7 min: flow + both cases via the selector | ⬜ Recorded by the author, after the selector is back |
 | AI tools: which ones + one time output had to be fixed | ⬜ |
 
@@ -109,13 +109,14 @@ Legend: ✅ done · 🟡 partial · ⬜ pending
 
 ### Phase 6: Docs and submission ⬜
 - [x] README
-- [ ] Product write-up · Case notes · AI tools note
+- [x] Product write-up · Case notes
+- [ ] AI tools note
 - [x] Commit history and push / ZIP
 - [ ] Video (author)
 
 ---
 
 ## Pending, in priority order
-1. **Product write-up, case notes, AI tools note.**
+1. **AI tools note.**
 2. Record the video.
 3. Optional: real `/api/*` route handlers (backend is "good to have").

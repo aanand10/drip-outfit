@@ -2,6 +2,8 @@
 
 A mobile shopping flow: pick an occasion and a total budget in INR, get a top, trousers and shoes that go together, swap any one piece, choose in-stock sizes and add the whole look to the bag. The bag shows only what the service confirmed.
 
+More docs: [product write-up](docs/PRODUCT.md) · [case notes](docs/CASES.md)
+
 Built on 116 real products from 7 Indian brands (Snitch, Powerlook, Rare Rabbit, Bonkers Corner, Neeman's, Bacca Bucci, Comet).
 
 ---
