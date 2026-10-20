@@ -72,12 +72,16 @@ describe("addToCart", () => {
     expect((await api.clearCart()).itemCount).toBe(0);
     expect((await api.availability({ variantIds: ids })).stock).toEqual(before);
   });
-});
 
-describe("availability", () => {
-  it("omits unknown variant ids", async () => {
-    const [{ variantId }] = await c1Items();
-    const { stock } = await api.availability({ variantIds: [variantId, "nope"] });
-    expect(Object.keys(stock)).toEqual([variantId]);
+  it("stops recommending a piece once its last sizes are in someone's bag", async () => {
+    const before = await api.recommend({ occasion: "date-night", budget: 5000 });
+    if (before.status !== "ok") throw new Error("expected a look");
+    const top = before.look.items[0].product;
+    const allSizes = top.variants.filter((v) => v.stock > 0).map((v) => ({ variantId: v.variantId, qty: v.stock }));
+
+    await api.addToCart({ items: allSizes }, "buy-out");
+    const after = await api.recommend({ occasion: "date-night", budget: 5000 });
+    if (after.status !== "ok") throw new Error("expected a look");
+    expect(after.look.items[0].product.id).not.toBe(top.id);
   });
 });

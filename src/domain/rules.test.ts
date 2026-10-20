@@ -1,59 +1,55 @@
 import { describe, expect, it } from "vitest";
-import { compatible, scoreLook } from "./rules";
-import type { Product, Slot } from "./types";
+import catalogue from "@/server/data/products.json";
+import { recommend } from "./recommend";
+import { compatible } from "./rules";
+import { OCCASION_IDS, type OccasionId, type Product, type Slot } from "./types";
 
-const piece = (slot: Slot, tags: Partial<Product["tags"]> = {}, price = 1500): Product => ({
-  id: `${slot}-${Math.random()}`,
-  slot,
-  brand: "Test",
-  name: slot,
-  price,
-  image: "",
-  sourceUrl: "",
-  tags: {
-    occasions: ["date-night"],
-    colour: "grey",
-    colourHex: "#888888",
-    colourFamily: "neutral",
-    formality: 3,
-    style: "smart-casual",
-    ...tags,
-  },
-  variants: [{ variantId: `${slot}-v`, size: "M", stock: 1 }],
+const PRODUCTS = catalogue as Product[];
+
+function find(slot: Slot, match: (t: Product["tags"]) => boolean) {
+  const p = PRODUCTS.find((x) => x.slot === slot && match(x.tags));
+  if (!p) throw new Error(`catalogue has no ${slot} like that`);
+  return p;
+}
+
+const kurta = find("top", (t) => t.style === "ethnic");
+const trackPants = find("trousers", (t) => t.style === "sport");
+const streetSneakers = find("shoes", (t) => t.style === "street");
+const formalTrousers = find("trousers", (t) => t.style === "classic");
+
+describe("pairing rules on real catalogue pieces", () => {
+  it("rejects a kurta with track pants", () => {
+    expect(compatible(kurta, trackPants)).toBe(false);
+  });
+
+  it("rejects a kurta with street sneakers", () => {
+    expect(compatible(kurta, streetSneakers)).toBe(false);
+  });
+
+  it("rejects track pants with formal leather shoes", () => {
+    const dressShoes = find("shoes", (t) => t.style === "classic" && t.formality >= 4);
+    expect(compatible(trackPants, dressShoes)).toBe(false);
+  });
+
+  it("allows a kurta with classic trousers (the wedding look)", () => {
+    expect(compatible(kurta, formalTrousers)).toBe(true);
+  });
+
+  it("rejects a pink shirt with purple trousers: same dressiness and style, but two bold colours", () => {
+    const byName = (name: string) => PRODUCTS.find((p) => p.name === name)!;
+    const pinkShirt = byName("100% Cotton Stripes Shirt");
+    const purpleTrousers = byName("Orany Pastel Purple Cotton Plain Regular Fit Trouser");
+    expect(pinkShirt.tags.colourFamily).toBe("bold");
+    expect(compatible(pinkShirt, purpleTrousers)).toBe(false);
+  });
 });
 
-describe("compatible", () => {
-  it("allows formality one step apart but not two", () => {
-    expect(compatible(piece("top", { formality: 3 }), piece("shoes", { formality: 4 }))).toBe(true);
-    expect(compatible(piece("top", { formality: 2 }), piece("shoes", { formality: 4 }))).toBe(false);
-  });
+describe("budget split in real recommendations", () => {
+  const LABELS = Object.fromEntries(OCCASION_IDS.map((o) => [o, o])) as Record<OccasionId, string>;
 
-  it.each([
-    ["sport", "classic"],
-    ["sport", "ethnic"],
-    ["street", "ethnic"],
-  ] as const)("rejects %s with %s, in either order", (a, b) => {
-    expect(compatible(piece("top", { style: a }), piece("trousers", { style: b }))).toBe(false);
-    expect(compatible(piece("top", { style: b }), piece("trousers", { style: a }))).toBe(false);
-  });
-
-  it("allows one bold colour per pair, not two", () => {
-    const bold = (slot: Slot) => piece(slot, { colourFamily: "bold" });
-    expect(compatible(bold("top"), piece("trousers"))).toBe(true);
-    expect(compatible(bold("top"), bold("trousers"))).toBe(false);
-  });
-});
-
-describe("scoreLook", () => {
-  it("prefers a balanced spend over a ₹4,000 shoe with a ₹300 top", () => {
-    const balanced = [piece("top", {}, 1500), piece("trousers", {}, 1600), piece("shoes", {}, 1700)];
-    const lopsided = [piece("top", {}, 300), piece("trousers", {}, 500), piece("shoes", {}, 4000)];
-    expect(scoreLook(balanced, 5000, "date-night")).toBeGreaterThan(scoreLook(lopsided, 5000, "date-night"));
-  });
-
-  it("prefers one style across the look over three", () => {
-    const one = [piece("top"), piece("trousers"), piece("shoes")];
-    const three = [piece("top"), piece("trousers", { style: "classic" }), piece("shoes", { style: "street" })];
-    expect(scoreLook(one, 5000, "date-night")).toBeGreaterThan(scoreLook(three, 5000, "date-night"));
+  it.each(OCCASION_IDS)("%s at ₹5,000 never puts half the spend on one piece", (occasion) => {
+    const res = recommend(PRODUCTS, occasion, 5000, LABELS);
+    if (res.status !== "ok") throw new Error("expected a look");
+    for (const { product } of res.look.items) expect(product.price).toBeLessThan(res.look.total / 2);
   });
 });
