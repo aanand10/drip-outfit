@@ -60,8 +60,8 @@ Legend: ✅ done · 🟡 partial · ⬜ pending
 | README: assumptions, decisions, pairing rules, one look right + one wrong | ✅ |
 | Product write-up: each widget's why/what/design + competitor comparison | ✅ `docs/PRODUCT.md` |
 | Case notes: C1/C2 status, steps from Reset, where to see it | ✅ `docs/CASES.md` |
-| Video ≤ 7 min: flow + both cases via the selector | ⬜ Recorded by the author, after the selector is back |
-| AI tools: which ones + one time output had to be fixed | ⬜ |
+| Video ≤ 7 min: flow + both cases via the selector | ✅ 3:37 explainer, made with Remotion (separate `drip-video` project) |
+| AI tools: which ones + one time output had to be fixed | ✅ `docs/AI-TOOLS.md` |
 
 ---
 
@@ -110,13 +110,12 @@ Legend: ✅ done · 🟡 partial · ⬜ pending
 ### Phase 6: Docs and submission ⬜
 - [x] README
 - [x] Product write-up · Case notes
-- [ ] AI tools note
+- [x] AI tools note
 - [x] Commit history and push / ZIP
-- [ ] Video (author)
+- [x] Video
 
 ---
 
 ## Pending, in priority order
-1. **AI tools note.**
-2. Record the video.
-3. Optional: real `/api/*` route handlers (backend is "good to have").
+1. Upload the video and share repo access with reviewers.
+2. Optional: real `/api/*` route handlers (backend is "good to have").

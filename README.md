@@ -2,7 +2,7 @@
 
 A mobile shopping app. You pick an occasion and a budget in rupees. The app gives you a top, trousers and shoes that go together. You can swap any one piece, pick sizes that are in stock, and add the whole outfit to your bag. The bag only shows what the service actually saved.
 
-More docs: [product write-up](docs/PRODUCT.md) · [case notes](docs/CASES.md)
+More docs: [product write-up](docs/PRODUCT.md) · [case notes](docs/CASES.md) · [AI tools note](docs/AI-TOOLS.md)
 
 It uses 116 real products from 7 Indian brands: Snitch, Powerlook, Rare Rabbit, Bonkers Corner, Neeman's, Bacca Bucci and Comet.
 
