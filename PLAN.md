@@ -40,6 +40,7 @@ Legend: ✅ done · 🟡 partial · ⬜ pending
 | API/data layer: recommend, swap options, **availability**, add to cart with clear shapes | ✅ | Typed contract in `domain/types.ts`; in-browser mock (`lib/mock-service.ts`). `availability({variantIds})` feeds the size pickers live; sold-out on add clears that size |
 | Data and business logic kept out of UI components | ✅ | `domain/` (pure) + `lib/api.ts` |
 | Backend ("good to have") | ⬜ | No `/api/*` route handlers yet, so state resets on page reload |
+| Product analytics (beyond scope) | ✅ | Typed `track()` events with shared session context (`lib/analytics.ts`), page views, every API call timed; logged to the console |
 | **Visible C1/C2 selector + Reset button** (Reset clears cart and stock changes) | ✅ | "Cases" pill in the header → sheet with C1, C2, Reset (`components/ui/ScenarioSwitcher.tsx`) |
 
 ### Required cases (brief p.4)
@@ -107,7 +108,13 @@ Legend: ✅ done · 🟡 partial · ⬜ pending
 - [x] C1/C2 from the selector; Reset empties bag (12 → 0) and restores stock; live stock counts down to sold out
 - [x] `pnpm lint && pnpm test && pnpm build` with tests in place
 
-### Phase 6: Docs and submission ⬜
+### Phase 5b: Analytics ✅
+- [x] `track()` with typed events and shared context (session, page, device, app version)
+- [x] Page views, interactions, outcomes, and every API call (endpoint, outcome, duration)
+- [x] Verified in Chrome: correct order, no duplicates from React's dev double effects
+- [x] Merged via PR #1
+
+### Phase 6: Docs and submission ✅
 - [x] README
 - [x] Product write-up · Case notes
 - [x] AI tools note
@@ -117,5 +124,6 @@ Legend: ✅ done · 🟡 partial · ⬜ pending
 ---
 
 ## Pending, in priority order
-1. Upload the video and share repo access with reviewers.
-2. Optional: real `/api/*` route handlers (backend is "good to have").
+1. Upload the video (unlisted on YouTube) and paste the link into the README's "Submission docs" table.
+2. Share repo access with reviewers.
+3. Optional: real `/api/*` route handlers (backend is "good to have").

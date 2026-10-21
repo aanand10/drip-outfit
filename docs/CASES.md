@@ -54,6 +54,23 @@ There are two checks:
 
 A test fires three adds at the same time and checks that only one goes through. If I turn off the second check, the test fails.
 
+### See it in the analytics
+
+Open the browser console and filter by `[track]`. A C1 run logs, in order:
+
+```
+scenario_opened                 { scenario: "C1" }
+page_viewed                     { path: "/look" }
+look_shown                      { occasion: "date-night", budget: 5000, total: 4997, remaining: 3 }
+size_selected  ×3
+swap_opened → swap_option_picked
+add_to_bag_clicked              { total, missing_sizes: 0 }
+add_to_bag_repeat_tap_ignored   ← 2nd tap
+add_to_bag_repeat_tap_ignored   ← 3rd tap
+api_call_completed              { endpoint: "addToCart", outcome: "success" }   ← only one
+add_to_bag_succeeded            { item_count: 3 }
+```
+
 ### If a size sells out while you add
 
 The service refuses the whole look and nothing goes into the bag. The app clears only that size and says "A size you picked just sold out. Choose another."
@@ -90,6 +107,15 @@ The cheapest wedding outfit where all three pieces go together costs **₹3,447*
    - **"See it at ₹3,500":** opens the look at a budget that works.
    - **"Change occasion or budget":** goes back to the start with your choices filled in.
 4. Tap **See it at ₹3,500**. You get a full wedding outfit that you can add to the bag.
+
+### See it in the analytics
+
+```
+scenario_opened             { scenario: "C2" }
+no_fit_shown                { occasion: "wedding", budget: 3000, cheapest_total: 3447, short_by: 447 }
+no_fit_next_step_clicked    { action: "raise_budget" }   ← after tapping "See it at ₹3,500"
+look_shown                  { occasion: "wedding", budget: 3500, total: 3447 }
+```
 
 ### Also try
 

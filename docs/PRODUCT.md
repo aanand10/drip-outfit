@@ -224,10 +224,26 @@ These apps change often, so check the points below in the current apps before re
 
 ---
 
+## How we'll measure it
+
+The app already logs typed product events (see the README's Analytics section). They map straight to the questions a launch needs answered:
+
+| Question | Events |
+|---|---|
+| Do people buy the look they're shown? | `add_to_bag_succeeded` ÷ `look_shown` |
+| Is the first pick good enough? | `swap_option_picked` ÷ `look_shown`: some swapping is healthy, a lot means the first pick missed |
+| Which budgets and occasions need more products? | `no_fit_shown`, grouped by occasion and budget |
+| When nothing fits, what do people do next? | `no_fit_next_step_clicked` by action |
+| Is double-tapping a real problem? | `add_to_bag_repeat_tap_ignored` |
+| Is the service fast and healthy? | `api_call_completed`: duration and failures per endpoint |
+
+Today events go to the browser console. In production they'd go to GA4, with Clarity added after a consent prompt. Only one function changes.
+
 ## What I'd build next
 
 1. **Remember sizes.** Save your size for tops, trousers and shoes, and fill it in once you've confirmed it.
 2. **Fit tags.** Mark plus-size and slim-fit items, so the app doesn't suggest plus-size trousers to everyone (see "One look it gets wrong" in the README).
 3. **More ethnic wear,** like churidars and juttis, so wedding outfits can be fully traditional.
 4. **A real server,** so the bag stays after a page reload.
-5. **Photo try-on,** clearly marked as a preview, once the cost per image makes sense.
+5. **Send analytics to GA4,** and add Clarity behind a consent prompt.
+6. **Photo try-on,** clearly marked as a preview, once the cost per image makes sense.
