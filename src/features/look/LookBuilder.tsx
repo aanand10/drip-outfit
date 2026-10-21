@@ -8,6 +8,7 @@ import { Price, Tag } from "@/components/ui/Label";
 import { StepHeader } from "@/components/ui/StepHeader";
 import { StickyBar } from "@/components/ui/StickyBar";
 import { SLOT_LABEL, SLOTS, type Look, type OccasionId, type Slot } from "@/domain/types";
+import { track } from "@/lib/analytics";
 import { api, queryKeys } from "@/lib/api";
 import { formatINR } from "@/lib/format";
 import { AddToCartButton } from "./AddToCartButton";
@@ -81,8 +82,17 @@ export function LookBuilder({
               stock={availability?.stock}
               showKept={anySwapped}
               flash={flash?.slot === slot}
-              onSwap={() => setSwapping(slot)}
-              onSize={(variantId) => selectSize(slot, variantId)}
+              onSwap={() => {
+                setSwapping(slot);
+                track("swap_opened", { slot, product_id: pieces[slot].product.id });
+              }}
+              onSize={(variantId) => {
+                selectSize(slot, variantId);
+                const { product } = pieces[slot];
+                const variant = product.variants.find((v) => v.variantId === variantId)!;
+                const stock_left = availability?.stock[variantId] ?? variant.stock;
+                track("size_selected", { slot, product_id: product.id, size: variant.size, stock_left });
+              }}
             />
           ))}
         </div>
@@ -125,6 +135,7 @@ export function LookBuilder({
           </div>
           <AddToCartButton
             variantIds={SLOTS.flatMap((s) => pieces[s].variantId ?? [])}
+            total={total}
             missingSize={missingSize}
             onNeedSizes={focusPiece}
             onError={(message, soldOut) => {
@@ -152,6 +163,14 @@ export function LookBuilder({
         budget={look.budget}
         onClose={() => setSwapping(null)}
         onPick={(slot, product) => {
+          const from = pieces[slot].product;
+          track("swap_option_picked", {
+            slot,
+            from_product_id: from.id,
+            to_product_id: product.id,
+            price_delta: product.price - from.price,
+            new_total: total - from.price + product.price,
+          });
           swap(slot, product);
           setSwapping(null);
           notify(`${SLOT_LABEL[slot]} swapped. Pick your size`);

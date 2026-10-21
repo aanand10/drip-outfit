@@ -13,6 +13,7 @@ import { StepHeader } from "@/components/ui/StepHeader";
 import { StickyBar } from "@/components/ui/StickyBar";
 import { BUDGET_SPLIT } from "@/domain/rules";
 import { SLOT_LABEL, type LookItem, type Occasion, type OccasionId } from "@/domain/types";
+import { track } from "@/lib/analytics";
 import { api, queryKeys } from "@/lib/api";
 import { formatINR } from "@/lib/format";
 import { lookHref, parseLookParams } from "@/lib/routes";
@@ -46,6 +47,19 @@ function Home({ initial }: { initial: ReturnType<typeof parseLookParams> }) {
     return () => io.disconnect();
   }, []);
 
+  // Budget events use the settled value, not every step of a slider drag.
+  const budgetSeen = useRef(previewBudget);
+  useEffect(() => {
+    if (previewBudget === budgetSeen.current) return;
+    budgetSeen.current = previewBudget;
+    track("budget_changed", { budget: previewBudget });
+  }, [previewBudget]);
+
+  function selectOccasion(id: OccasionId, source: "tile" | "intro") {
+    setOccasion(id);
+    track("occasion_selected", { occasion: id, source });
+  }
+
   const { data: occasions } = useQuery({ queryKey: queryKeys.occasions, queryFn: api.getOccasions });
   const selected = occasions?.find((o) => o.id === occasion);
 
@@ -64,6 +78,7 @@ function Home({ initial }: { initial: ReturnType<typeof parseLookParams> }) {
   function submit(e: React.FormEvent) {
     e.preventDefault();
     if (budget <= 0) return;
+    track("look_requested", { occasion, budget });
     router.push(lookHref(occasion, budget));
   }
 
@@ -74,7 +89,7 @@ function Home({ initial }: { initial: ReturnType<typeof parseLookParams> }) {
         occasions={occasions ?? []}
         playing={onIntro}
         onStart={(id) => {
-          if (id) setOccasion(id);
+          if (id) selectOccasion(id, "intro");
           document.getElementById("step-occasion")?.scrollIntoView({ behavior: "smooth" });
         }}
       />
@@ -85,7 +100,7 @@ function Home({ initial }: { initial: ReturnType<typeof parseLookParams> }) {
         <StepHeader step={1} of={3} label="Occasion" title="Where are you headed?" />
         <div role="radiogroup" aria-label="Occasion" className="grid grid-cols-2 gap-x-3 gap-y-5">
           {(occasions ?? []).map((o, i) => (
-            <OccasionTile key={o.id} occasion={o} index={i} active={o.id === occasion} onSelect={() => setOccasion(o.id)} />
+            <OccasionTile key={o.id} occasion={o} index={i} active={o.id === occasion} onSelect={() => selectOccasion(o.id, "tile")} />
           ))}
           {!occasions &&
             Array.from({ length: 4 }, (_, i) => <div key={i} className="aspect-[3/4] animate-pulse bg-subtle" />)}

@@ -3,7 +3,9 @@
 import { useQuery } from "@tanstack/react-query";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
+import { useEffect, useRef } from "react";
 import { Button, buttonClass } from "@/components/ui/Button";
+import { track } from "@/lib/analytics";
 import { api, queryKeys } from "@/lib/api";
 import { parseLookParams } from "@/lib/routes";
 import { LookBuilder } from "./LookBuilder";
@@ -20,6 +22,20 @@ export function LookScreen() {
   });
   const occasions = useQuery({ queryKey: queryKeys.occasions, queryFn: api.getOccasions });
   const occasionLabel = occasions.data?.find((o) => o.id === occasion)?.label ?? "Your";
+
+  // One event per result, even though React runs effects twice in development.
+  const result = look.data;
+  const tracked = useRef<typeof result>(undefined);
+  useEffect(() => {
+    if (!result || !occasion || !budget || tracked.current === result) return;
+    tracked.current = result;
+    if (result.status === "ok") {
+      const { total, remaining, items } = result.look;
+      track("look_shown", { occasion, budget, total, remaining, product_ids: items.map((i) => i.product.id) });
+    } else {
+      track("no_fit_shown", { occasion, budget, cheapest_total: result.cheapestTotal, short_by: result.shortBy });
+    }
+  }, [result, occasion, budget]);
 
   if (!occasion || !budget) {
     return (

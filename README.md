@@ -100,6 +100,27 @@ There are two checks, because each one alone can miss a case:
 
 A test fires three adds at once and checks that only one goes through.
 
+### Analytics
+
+`src/lib/analytics.ts` records product events with `track(name, properties)`. Event names and their properties are typed, so a typo or a missing field fails the build. For now, events are logged to the browser console (look for `[track]`).
+
+**Every event carries the same context:** `session_id` (one per browser tab), `event_id`, `seq` (order within the session), `ts`, `path`, `viewport`, `user_agent`, `locale` and `app_version`.
+
+| Group | Events |
+|---|---|
+| Lifecycle | `session_started`, `page_viewed` |
+| What the user did | `occasion_selected`, `budget_changed`, `look_requested`, `swap_opened`, `swap_option_picked`, `size_selected`, `add_to_bag_clicked`, `add_to_bag_repeat_tap_ignored`, `cart_item_removed`, `cart_cleared`, `no_fit_next_step_clicked`, `scenario_opened`, `scenario_reset` |
+| What the user saw | `look_shown`, `no_fit_shown`, `add_to_bag_succeeded`, `add_to_bag_failed` |
+| System | `api_call_completed` (endpoint, success or failure, duration, error), recorded for every call in `lib/api.ts` |
+
+These events give the launch numbers directly:
+- **Looks added to bag:** `add_to_bag_succeeded` ÷ `look_shown`.
+- **Swaps per look:** `swap_option_picked` ÷ `look_shown`.
+- **"Nothing fits" rate:** `no_fit_shown` ÷ `look_requested`.
+- **Which way out people pick:** `no_fit_next_step_clicked`.
+
+**Adding GA4 or Clarity later:** change the `send` function in `analytics.ts`. Nothing else in the app changes. Clarity records sessions, so it would need a consent prompt and masking first.
+
 ---
 
 ## How pieces are matched

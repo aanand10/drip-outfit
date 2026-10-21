@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Geist, IBM_Plex_Mono, Instrument_Serif } from "next/font/google";
 import { Suspense } from "react";
 import { Providers } from "./providers";
+import { PageViewTracker } from "@/components/PageViewTracker";
 import { AppHeader } from "@/components/ui/AppHeader";
 import "./globals.css";
 
@@ -36,6 +37,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <div className="relative mx-auto flex min-h-dvh w-full max-w-[440px] flex-col bg-bg shadow-[0_0_30px_rgba(0,0,0,0.06)]">
             <Suspense fallback={<div className="h-14 border-b border-line/70" />}>
               <AppHeader />
+            </Suspense>
+            {/* Before the page, so page_viewed is logged ahead of anything the page tracks. */}
+            <Suspense>
+              <PageViewTracker />
             </Suspense>
             {children}
           </div>

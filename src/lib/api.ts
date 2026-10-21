@@ -1,8 +1,32 @@
 import type { QueryClient } from "@tanstack/react-query";
+import { track } from "./analytics";
 import { mockService } from "./mock-service";
 
+type Service = Record<string, (...args: never[]) => Promise<unknown>>;
+
+/** Wraps every service method so each call reports its endpoint, outcome and duration. */
+function instrument<T extends Service>(service: T): T {
+  const wrapped = Object.entries(service).map(([endpoint, fn]) => [
+    endpoint,
+    async (...args: never[]) => {
+      const start = performance.now();
+      const done = (outcome: "success" | "failure", error?: string) =>
+        track("api_call_completed", { endpoint, outcome, duration_ms: Math.round(performance.now() - start), error });
+      try {
+        const result = await fn(...args);
+        done("success");
+        return result;
+      } catch (err) {
+        done("failure", (err as Error).message);
+        throw err;
+      }
+    },
+  ]);
+  return Object.fromEntries(wrapped) as T;
+}
+
 // The UI's only way into the service. Swapping the mock for fetch() calls changes this file only.
-export const api = mockService;
+export const api = instrument(mockService);
 
 export const queryKeys = {
   occasions: ["occasions"] as const,
