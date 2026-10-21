@@ -38,10 +38,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <Suspense fallback={<div className="h-14 border-b border-line/70" />}>
               <AppHeader />
             </Suspense>
-            {children}
+            {/* Before the page, so page_viewed is logged ahead of anything the page tracks. */}
             <Suspense>
               <PageViewTracker />
             </Suspense>
+            {children}
           </div>
         </Providers>
       </body>
