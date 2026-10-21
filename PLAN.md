@@ -124,6 +124,5 @@ Legend: ✅ done · 🟡 partial · ⬜ pending
 ---
 
 ## Pending, in priority order
-1. Upload the video (unlisted on YouTube) and paste the link into the README's "Submission docs" table.
-2. Share repo access with reviewers.
-3. Optional: real `/api/*` route handlers (backend is "good to have").
+1. Share repo access with reviewers.
+2. Optional: real `/api/*` route handlers (backend is "good to have").
