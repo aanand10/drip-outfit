@@ -4,6 +4,7 @@ import { useQueryClient } from "@tanstack/react-query";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { SCENARIOS, type ScenarioId } from "@/domain/scenarios";
+import { track } from "@/lib/analytics";
 import { api } from "@/lib/api";
 import { formatINR } from "@/lib/format";
 import { lookHref } from "@/lib/routes";
@@ -40,6 +41,7 @@ export function ScenarioSwitcher({ tone }: { tone: "glass" | "light" }) {
 
   function run(id: ScenarioId) {
     const { occasion, budget } = SCENARIOS[id];
+    track("scenario_opened", { scenario: id });
     setOpen(false);
     router.push(lookHref(occasion, budget));
   }
@@ -47,6 +49,7 @@ export function ScenarioSwitcher({ tone }: { tone: "glass" | "light" }) {
   async function reset() {
     if (resetState === "busy") return;
     setResetState("busy");
+    track("scenario_reset", {});
     await api.reset();
     // Every cached response (looks, stock, cart) predates the reset, so drop them all.
     await queryClient.resetQueries();

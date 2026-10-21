@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Geist, IBM_Plex_Mono, Instrument_Serif } from "next/font/google";
 import { Suspense } from "react";
 import { Providers } from "./providers";
+import { PageViewTracker } from "@/components/PageViewTracker";
 import { AppHeader } from "@/components/ui/AppHeader";
 import "./globals.css";
 
@@ -38,6 +39,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               <AppHeader />
             </Suspense>
             {children}
+            <Suspense>
+              <PageViewTracker />
+            </Suspense>
           </div>
         </Providers>
       </body>

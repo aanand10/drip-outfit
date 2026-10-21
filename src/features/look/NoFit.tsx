@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { track } from "@/lib/analytics";
 import { LookGallery } from "@/components/outfit/LookGallery";
 import { buttonClass } from "@/components/ui/Button";
 import { Icon } from "@/components/ui/Icon";
@@ -14,6 +15,8 @@ type NoFitResult = Extract<RecommendResponse, { status: "no_fit" }>;
 export function NoFit({ result, occasionLabel }: { result: NoFitResult; occasionLabel: string }) {
   const raise = result.suggestions.find((s) => s.type === "raise_budget");
   const others = result.suggestions.filter((s) => s.type === "other_occasion");
+  const nextStep = (action: "raise_budget" | "other_occasion" | "change_inputs") => () =>
+    track("no_fit_next_step_clicked", { action, occasion: result.occasion, budget: result.budget });
 
   return (
     <>
@@ -47,7 +50,7 @@ export function NoFit({ result, occasionLabel }: { result: NoFitResult; occasion
 
         <div className="mt-6 flex flex-col gap-2.5">
           {raise && raise.type === "raise_budget" && (
-            <Link href={lookHref(result.occasion, raise.budget)} className={buttonClass("primary", "w-full")}>
+            <Link href={lookHref(result.occasion, raise.budget)} onClick={nextStep("raise_budget")} className={buttonClass("primary", "w-full")}>
               See it at {formatINR(raise.budget)} <Icon.Arrow width={18} height={18} />
             </Link>
           )}
@@ -57,6 +60,7 @@ export function NoFit({ result, occasionLabel }: { result: NoFitResult; occasion
                 <Link
                   key={s.occasion}
                   href={lookHref(s.occasion, result.budget)}
+                  onClick={nextStep("other_occasion")}
                   className="flex min-h-14 items-center justify-between rounded-full border border-line px-6 transition hover:border-fg"
                 >
                   <span className="text-[15px] font-semibold">
@@ -68,6 +72,7 @@ export function NoFit({ result, occasionLabel }: { result: NoFitResult; occasion
           )}
           <Link
             href={`/?occasion=${result.occasion}&budget=${result.budget}`}
+            onClick={nextStep("change_inputs")}
             className="mt-1 py-2 text-center text-[14px] text-muted underline underline-offset-4"
           >
             Change occasion or budget
