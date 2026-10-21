@@ -1,5 +1,7 @@
 # DRIP · Complete the Look
 
+**▶ [Watch the 3-minute walkthrough](https://www.youtube.com/watch?v=O2fsHD8kUPc)**
+
 A mobile shopping flow for DRIP. You pick an occasion and a budget in rupees, and the app gives you a top, trousers and shoes that go together. You can swap any one piece, pick sizes that are in stock, and add the whole outfit to your bag. The bag only shows what the service actually saved.
 
 | | |
@@ -53,7 +55,7 @@ pnpm dev          # http://localhost:3000
 | [Product write-up](docs/PRODUCT.md) | Why each part of the screen exists, and how this compares to other fashion apps |
 | [Case notes](docs/CASES.md) | C1 and C2: status, steps from Reset, where to see them |
 | [AI tools note](docs/AI-TOOLS.md) | Which AI tools were used, and what had to be fixed |
-| Video walkthrough | *Add the unlisted YouTube link here* |
+| [Video walkthrough](https://www.youtube.com/watch?v=O2fsHD8kUPc) | 3-minute tour of the flow, both cases, the UI changes, the tech and the launch plan |
 
 ---
 
